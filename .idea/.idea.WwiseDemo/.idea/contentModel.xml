@@ -36,6 +36,24 @@
                 <e p="PluginInfo.xml" t="Include" />
                 <e p="SoundbanksInfo.xml" t="Include" />
               </e>
+              <e p="iOS" t="Include">
+                <e p="CharacterBank.txt" t="Include" />
+                <e p="CharacterBank.xml" t="Include" />
+                <e p="Chinese" t="Include">
+                  <e p="MyVoiceBank.txt" t="Include" />
+                  <e p="MyVoiceBank.xml" t="Include" />
+                </e>
+                <e p="English(US)" t="Include">
+                  <e p="MyVoiceBank.txt" t="Include" />
+                  <e p="MyVoiceBank.xml" t="Include" />
+                </e>
+                <e p="Init.txt" t="Include" />
+                <e p="Init.xml" t="Include" />
+                <e p="MySoundBank.txt" t="Include" />
+                <e p="MySoundBank.xml" t="Include" />
+                <e p="PluginInfo.xml" t="Include" />
+                <e p="SoundbanksInfo.xml" t="Include" />
+              </e>
               <e p="Mac" t="Include">
                 <e p="CharacterBank.txt" t="Include" />
                 <e p="CharacterBank.xml" t="Include" />

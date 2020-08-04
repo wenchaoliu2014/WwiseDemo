@@ -100,15 +100,17 @@ public class AudioManager : MonoBehaviour
 
     private void AddBasePath()
     {
-#if UNITY_IPHONE || UNITY_ANDROID
-        string fileNameBase = Application.persistentDataPath + "/" + "Audio/GeneratedSoundBanks" + "/";
-        //#if UNITY_IPHONE
-        //        fileNameBase += "iOS";
-        //#elif UNITY_ANDROID
-        //        fileNameBase += "Android";
-        //#endif
+#if !UNITY_EDITOR && (UNITY_IPHONE || UNITY_ANDROID)
+        string fileNameBase = Application.streamingAssetsPath + "/" + "Audio/GeneratedSoundBanks" + "/";
+        #if UNITY_EDITOR_OSX
+            fileNameBase += "Mac";
+        #elif UNITY_IPHONE
+                fileNameBase += "iOS";
+        #elif UNITY_ANDROID
+                fileNameBase += "Android";
+        #endif
         var result = AkSoundEngine.AddBasePath(fileNameBase);
-        BDebug.Log($"添加WwiseBasePath:{fileNameBase}，添加结果:{result}");
+        Debug.Log($"添加WwiseBasePath:{fileNameBase}，添加结果:{result}");
 #endif
     }
 

@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: aff84207ce915f49abf9ff4cb0824e5a
     GuidInternal: 
-    m_lastTime: -8586407692960289978
+    m_lastTime: -8586050804464775808
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 382a27f8544c6a4bb28ef6c94fe25e84
     GuidInternal: 
-    m_lastTime: -8586360031096710395
+    m_lastTime: -8586050804464775808
     List: []
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f759046fc4f1494e893da7227d11fe9a
     GuidInternal: 
-    m_lastTime: -8586360098503644641
+    m_lastTime: -8586050804464775808
     List:
     - name: CharacterBank
       guid: a67a7401827c414a8b108d5391050d26
@@ -41,7 +41,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: CharacterBank
         ObjectType: 7
-      Path: Default Work Unit\CharacterBank
+      Path: Default Work Unit/CharacterBank
     - name: MySoundBank
       guid: 92f5a6e9d529a94dac1f7d1a310be5ff
       id: 3104675574
@@ -50,7 +50,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MySoundBank
         ObjectType: 7
-      Path: Default Work Unit\MySoundBank
+      Path: Default Work Unit/MySoundBank
     - name: MyVoiceBank
       guid: 2a0b058946ce0448b553f5dac66abb25
       id: 2057761113
@@ -59,13 +59,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MyVoiceBank
         ObjectType: 7
-      Path: Default Work Unit\MyVoiceBank
+      Path: Default Work Unit/MyVoiceBank
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c9d6b892f92cb64d98f056f29a6ae4ca
     GuidInternal: 
-    m_lastTime: -8586366137076720009
+    m_lastTime: -8586050804464775808
     List:
     - name: SFX_Button
       guid: 5c78e34b1c6f984896737ee4641dd63f
@@ -75,15 +75,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX_Button
         ObjectType: 3
-      Path: Default Work Unit\SFX_Button
+      Path: Default Work Unit/SFX_Button
       maxAttenuation: 0
       maxDuration: 0.235102
       minDuration: 0.235102
-  - PhysicalPath: Events\TPS.wwu
+  - PhysicalPath: Events/TPS.wwu
     ParentPhysicalPath: 
     guid: bfcdad6ba4b3da458e2d3f46a986828c
     GuidInternal: 
-    m_lastTime: -8586360021837451824
+    m_lastTime: -8586050804464775808
     List:
     - name: Player_FootSteps
       guid: db54484d01850f46908357d677ac3159
@@ -95,7 +95,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Player_FootSteps
         ObjectType: 3
-      Path: TPS\MainCharacter\Player_FootSteps
+      Path: TPS/MainCharacter/Player_FootSteps
       maxAttenuation: 0
       maxDuration: 0.491701
       minDuration: 0.226063
@@ -109,7 +109,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Player_HeartBeat
         ObjectType: 3
-      Path: TPS\MainCharacter\Player_HeartBeat
+      Path: TPS/MainCharacter/Player_HeartBeat
       maxAttenuation: 0
       maxDuration: 32.23526
       minDuration: 32.23526
@@ -121,7 +121,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX_Ambience
         ObjectType: 3
-      Path: TPS\SFX_Ambience
+      Path: TPS/SFX_Ambience
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX_BG
         ObjectType: 3
-      Path: TPS\SFX_BG
+      Path: TPS/SFX_BG
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -147,7 +147,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: SFX_Footsteps
         ObjectType: 3
-      Path: TPS\Foley\SFX_Footsteps
+      Path: TPS/Foley/SFX_Footsteps
       maxAttenuation: 0
       maxDuration: 0.571458
       minDuration: 0.401125
@@ -159,7 +159,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX_MixSound
         ObjectType: 3
-      Path: TPS\SFX_MixSound
+      Path: TPS/SFX_MixSound
       maxAttenuation: 0
       maxDuration: 1.409569
       minDuration: 1.409569
@@ -171,7 +171,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX_Shoot
         ObjectType: 3
-      Path: TPS\SFX_Shoot
+      Path: TPS/SFX_Shoot
       maxAttenuation: 0
       maxDuration: 1.409569
       minDuration: 1.409569
@@ -183,7 +183,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX_StopBG
         ObjectType: 3
-      Path: TPS\SFX_StopBG
+      Path: TPS/SFX_StopBG
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Stop_All_Sound
         ObjectType: 3
-      Path: TPS\Stop_All_Sound
+      Path: TPS/Stop_All_Sound
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -207,15 +207,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: VO_OYe
         ObjectType: 3
-      Path: TPS\VO_OYe
+      Path: TPS/VO_OYe
       maxAttenuation: 0
       maxDuration: 3.482993
       minDuration: 3.482993
-  - PhysicalPath: Events\UI.wwu
+  - PhysicalPath: Events/UI.wwu
     ParentPhysicalPath: 
     guid: 10011f0d985571408bb4dc345e6af28e
     GuidInternal: 
-    m_lastTime: -8586407693031474777
+    m_lastTime: -8586050804464775808
     List:
     - name: SFX_UI_Button_Down
       guid: 576bfb87b5ed604296575341dcafb3c3
@@ -227,16 +227,16 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: SFX_UI_Button_Down
         ObjectType: 3
-      Path: UI\Generic\SFX_UI_Button_Down
+      Path: UI/Generic/SFX_UI_Button_Down
       maxAttenuation: 0
-      maxDuration: 1.798771
-      minDuration: 0.235102
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 81bd9c0e5a335b429f9d8ed0d95f3978
     GuidInternal: 
-    m_lastTime: -8586360302758935946
+    m_lastTime: -8586050804464775808
     List:
     - name: PlayerHealth
       guid: 1ffe28fc2579ac44a36e873507f370c6
@@ -246,13 +246,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: PlayerHealth
         ObjectType: 13
-      Path: Default Work Unit\PlayerHealth
+      Path: Default Work Unit/PlayerHealth
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a6ebf4cf2b6dc34e882084600d668d3e
     GuidInternal: 
-    m_lastTime: -8586360104584951304
+    m_lastTime: -8586050804464775808
     List:
     - name: PlayerLife
       guid: 7fc9bc8eb4cd9f49988a34980154df86
@@ -262,7 +262,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: PlayerLife
         ObjectType: 9
-      Path: Default Work Unit\PlayerLife
+      Path: Default Work Unit/PlayerLife
       values:
       - name: Alive
         guid: 3bfa1d5a06681c4abd842d2327bac91f
@@ -286,11 +286,11 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e292609b22a56348a926c3ca697d0dbd
     GuidInternal: 
-    m_lastTime: -8586360299109103774
+    m_lastTime: -8586050804464775808
     List:
     - name: Material
       guid: 273f3c9ac15b8d47973c517d8c43cd5e
@@ -300,7 +300,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Material
         ObjectType: 11
-      Path: Default Work Unit\Material
+      Path: Default Work Unit/Material
       values:
       - name: Dirt
         guid: d3c6e6dc91591e46b28f5af925233dff
@@ -330,11 +330,11 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 6c28dd5f4c3a9e439a74174f01c9fa67
     GuidInternal: 
-    m_lastTime: -8586407692960320875
+    m_lastTime: -8586050804464775808
     List: []
   ExpandedItems:
   - /Work_WwiseProject

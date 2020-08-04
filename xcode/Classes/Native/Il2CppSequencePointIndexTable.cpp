@@ -53752,6 +53752,8 @@ extern const Il2CppSequencePointIndex g_sequencePointIndexes[] = {
 { 1, 23728 }, //53728
 { 1, 23729 }, //53729
 { 1, 23730 }, //53730
+{ 1, 23731 }, //53731
+{ 1, 23732 }, //53732
 };
 #else
 extern const Il2CppSequencePointIndex g_sequencePointIndexes[1] = { };

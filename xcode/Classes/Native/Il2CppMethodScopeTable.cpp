@@ -2060,7 +2060,7 @@ extern const Il2CppMethodScope g_methodScopes[] = {
 { 57, 185 },
 { 106, 133 },
 { 0, 68 },
-{ 0, 48 },
+{ 0, 60 },
 { 0, 77 },
 { 25, 76 },
 { 33, 49 },
