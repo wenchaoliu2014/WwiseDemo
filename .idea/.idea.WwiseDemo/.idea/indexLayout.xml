@@ -20,7 +20,6 @@
       <Path>Temp</Path>
       <Path>Work_WwiseProject</Path>
       <Path>obj</Path>
-      <Path>xcode</Path>
     </explicitExcludes>
   </component>
 </project>

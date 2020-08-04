@@ -108,7 +108,7 @@ public class AudioManager : MonoBehaviour
         //        fileNameBase += "Android";
         //#endif
         var result = AkSoundEngine.AddBasePath(fileNameBase);
-        BDebug.Log($"添加WwiseBasePath:{fileNameBase}，添加结果:{result}");
+        Debug.Log($"添加WwiseBasePath:{fileNameBase}，添加结果:{result}");
 #endif
     }
 

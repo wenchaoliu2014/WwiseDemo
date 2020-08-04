@@ -77,10 +77,7 @@ public class AkPlatformInitSettings : global::System.IDisposable {
     } 
   }
 
-  public float fLEngineDefaultPoolRatioThreshold { set { AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_fLEngineDefaultPoolRatioThreshold_set(swigCPtr, value); }  get { return AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_fLEngineDefaultPoolRatioThreshold_get(swigCPtr); } 
-  }
-
-  public uint uLEngineDefaultPoolSize { set { AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_uLEngineDefaultPoolSize_set(swigCPtr, value); }  get { return AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_uLEngineDefaultPoolSize_get(swigCPtr); } 
+  public AkAudioAPI eAudioAPI { set { AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_eAudioAPI_set(swigCPtr, (int)value); }  get { return (AkAudioAPI)AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_eAudioAPI_get(swigCPtr); } 
   }
 
   public uint uSampleRate { set { AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_uSampleRate_set(swigCPtr, value); }  get { return AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_uSampleRate_get(swigCPtr); } 
@@ -93,9 +90,6 @@ public class AkPlatformInitSettings : global::System.IDisposable {
   }
 
   public bool bRoundFrameSizeToHWSize { set { AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_bRoundFrameSizeToHWSize_set(swigCPtr, value); }  get { return AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_bRoundFrameSizeToHWSize_get(swigCPtr); } 
-  }
-
-  public AkPlatformInitSettings() : this(AkSoundEnginePINVOKE.CSharp_new_AkPlatformInitSettings(), true) {
   }
 
 }

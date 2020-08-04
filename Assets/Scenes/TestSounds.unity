@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44631976, g: 0.49611664, b: 0.5744803, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2988,7 +2988,6 @@ MonoBehaviour:
   defaultPoolSize: 0
   lowerPoolSize: 0
   streamingPoolSize: 0
-  preparePoolSize: 0
   memoryCutoffThreshold: 0
   monitorPoolSize: 0
   monitorQueuePoolSize: 0
@@ -4453,7 +4452,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1669956843
 GameObject:
   m_ObjectHideFlags: 0

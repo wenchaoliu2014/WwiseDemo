@@ -2,8 +2,8 @@ State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 
 State	ID	Name	State Group			Notes
-	0	None	PlayerLife			
 	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
 	2044049779	Dead	PlayerLife			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
