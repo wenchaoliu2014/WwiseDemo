@@ -100,6 +100,7 @@
               <e p="Generated" t="Include">
                 <e p="Android" t="Include">
                   <e p="AkCommunicationSettings_Android.cs" t="Include" />
+                  <e p="AkMemPoolAttributes_Android.cs" t="Include" />
                   <e p="AkPlatformInitSettings_Android.cs" t="Include" />
                   <e p="AkSoundEngine_Android.cs" t="Include" />
                   <e p="AkSoundEnginePINVOKE_Android.cs" t="Include" />
@@ -107,6 +108,9 @@
                   <e p="AkUnityPlatformSpecificSettings_Android.cs" t="Include" />
                 </e>
                 <e p="Common" t="Include">
+                  <e p="_ArrayPoolDefault.cs" t="Include" />
+                  <e p="_ArrayPoolLEngineDefault.cs" t="Include" />
+                  <e p="_ArrayPoolSpatialAudio.cs" t="Include" />
                   <e p="Ak3DPositionType.cs" t="Include" />
                   <e p="Ak3DSpatializationMode.cs" t="Include" />
                   <e p="AkAcousticSurface.cs" t="Include" />
@@ -135,6 +139,7 @@
                   <e p="AkDurationCallbackInfo.cs" t="Include" />
                   <e p="AkDynamicSequenceItemCallbackInfo.cs" t="Include" />
                   <e p="AkDynamicSequenceType.cs" t="Include" />
+                  <e p="AkEmitterSettings.cs" t="Include" />
                   <e p="AkEventCallbackInfo.cs" t="Include" />
                   <e p="AkExternalSourceInfo.cs" t="Include" />
                   <e p="AkFloorPlane.cs" t="Include" />
@@ -146,6 +151,7 @@
                   <e p="AkInitSettings.cs" t="Include" />
                   <e p="AkIterator.cs" t="Include" />
                   <e p="AkMarkerCallbackInfo.cs" t="Include" />
+                  <e p="AkMemSettings.cs" t="Include" />
                   <e p="AkMeteringFlags.cs" t="Include" />
                   <e p="AkMIDICcTypes.cs" t="Include" />
                   <e p="AkMIDIEvent.cs" t="Include" />
@@ -163,6 +169,7 @@
                   <e p="AkObstructionOcclusionValues.cs" t="Include" />
                   <e p="AkOutputSettings.cs" t="Include" />
                   <e p="AkPanningRule.cs" t="Include" />
+                  <e p="AkPathParams.cs" t="Include" />
                   <e p="AkPlaylist.cs" t="Include" />
                   <e p="AkPlaylistArray.cs" t="Include" />
                   <e p="AkPlaylistItem.cs" t="Include" />
@@ -184,9 +191,26 @@
                   <e p="AkTaskContext.cs" t="Include" />
                   <e p="AkTransform.cs" t="Include" />
                   <e p="AkTriangle.cs" t="Include" />
+                  <e p="AkVector.cs" t="Include" />
+                  <e p="AkVertex.cs" t="Include" />
+                </e>
+                <e p="iOS" t="Include">
+                  <e p="AkAudioSessionCategory_iOS.cs" t="Include" />
+                  <e p="AkAudioSessionCategoryOptions_iOS.cs" t="Include" />
+                  <e p="AkAudioSessionMode_iOS.cs" t="Include" />
+                  <e p="AkAudioSessionProperties_iOS.cs" t="Include" />
+                  <e p="AkAudioSessionSetActiveOptions_iOS.cs" t="Include" />
+                  <e p="AkCommunicationSettings_iOS.cs" t="Include" />
+                  <e p="AkMemPoolAttributes_iOS.cs" t="Include" />
+                  <e p="AkPlatformInitSettings_iOS.cs" t="Include" />
+                  <e p="AkSoundEngine_iOS.cs" t="Include" />
+                  <e p="AkSoundEnginePINVOKE_iOS.cs" t="Include" />
+                  <e p="AkThreadProperties_iOS.cs" t="Include" />
+                  <e p="AkUnityPlatformSpecificSettings_iOS.cs" t="Include" />
                 </e>
                 <e p="Mac" t="Include">
                   <e p="AkCommunicationSettings_Mac.cs" t="Include" />
+                  <e p="AkMemPoolAttributes_Mac.cs" t="Include" />
                   <e p="AkPlatformInitSettings_Mac.cs" t="Include" />
                   <e p="AkSoundEngine_Mac.cs" t="Include" />
                   <e p="AkSoundEnginePINVOKE_Mac.cs" t="Include" />
@@ -196,11 +220,23 @@
                 <e p="Windows" t="Include">
                   <e p="AkAudioAPI_Windows.cs" t="Include" />
                   <e p="AkCommunicationSettings_Windows.cs" t="Include" />
+                  <e p="AkMemPoolAttributes_Windows.cs" t="Include" />
                   <e p="AkPlatformInitSettings_Windows.cs" t="Include" />
                   <e p="AkSoundEngine_Windows.cs" t="Include" />
                   <e p="AkSoundEnginePINVOKE_Windows.cs" t="Include" />
                   <e p="AkThreadProperties_Windows.cs" t="Include" />
                   <e p="AkUnityPlatformSpecificSettings_Windows.cs" t="Include" />
+                </e>
+                <e p="WSA" t="Include">
+                  <e p="AkAudioAPI_WSA.cs" t="Include" />
+                  <e p="AkCommunicationSettings_WSA.cs" t="Include" />
+                  <e p="AkMemPoolAttributes_WSA.cs" t="Include" />
+                  <e p="AkPlatformInitSettings_WSA.cs" t="Include" />
+                  <e p="AkSoundEngine_WSA.cs" t="Include" />
+                  <e p="AkSoundEnginePINVOKE_WSA.cs" t="Include" />
+                  <e p="AkThreadProperties_WSA.cs" t="Include" />
+                  <e p="AkUnityPlatformSpecificSettings_WSA.cs" t="Include" />
+                  <e p="PROCESSOR_NUMBER_WSA.cs" t="Include" />
                 </e>
               </e>
               <e p="Handwritten" t="Include">
@@ -215,6 +251,7 @@
                   <e p="AkCommonPlatformSettings.cs" t="Include" />
                   <e p="AkEnumFlagAttribute.cs" t="Include" />
                   <e p="AkLogger.cs" t="Include" />
+                  <e p="AkRoomPortalManager.cs" t="Include" />
                   <e p="AkShowOnlyAttribute.cs" t="Include" />
                   <e p="AkSoundEngine.cs" t="Include" />
                   <e p="AkUtilities.cs" t="Include" />
@@ -234,6 +271,7 @@
                     <e p="AkReflectionPathInfoArray.cs" t="Include" />
                     <e p="AkSourceSettingsArray.cs" t="Include" />
                     <e p="AkTriangleArray.cs" t="Include" />
+                    <e p="AkVertexArray.cs" t="Include" />
                   </e>
                   <e p="WwiseObjects" t="Include">
                     <e p="WwiseAcousticTextureReference.cs" t="Include" />
@@ -263,6 +301,9 @@
                     <e p="AkWwiseTrigger.cs" t="Include" />
                     <e p="AkWwiseTypeMigration.cs" t="Include" />
                   </e>
+                </e>
+                <e p="iOS" t="Include">
+                  <e p="AkiOSSettings.cs" t="Include" />
                 </e>
                 <e p="Mac" t="Include">
                   <e p="AkMacSettings.cs" t="Include" />
@@ -304,6 +345,7 @@
               <e p="AkRTPCPlayable.cs" t="Include" />
               <e p="AkRTPCTrack.cs" t="Include" />
               <e p="AkSoundEngineController.cs" t="Include" />
+              <e p="AkSpatialAudioBase.cs" t="Include" />
               <e p="AkSpatialAudioEmitter.cs" t="Include" />
               <e p="AkSpatialAudioListener.cs" t="Include" />
               <e p="AkState.cs" t="Include" />
@@ -355,11 +397,17 @@
                 <e p="AkUnityPluginInstallerBase.cs" t="Include" />
                 <e p="AkWwiseIdConverter.cs" t="Include" />
               </e>
+              <e p="iOS" t="Include">
+                <e p="AkWwiseMenu_iOS.cs" t="Include" />
+              </e>
               <e p="Mac" t="Include">
                 <e p="AkWwiseMenu_Mac.cs" t="Include" />
               </e>
               <e p="Windows" t="Include">
                 <e p="AkWwiseMenu_Windows.cs" t="Include" />
+              </e>
+              <e p="WSA" t="Include">
+                <e p="AkWwiseMenu_Metro.cs" t="Include" />
               </e>
             </e>
             <e p="WwiseSetupWizard" t="Include">
@@ -368,6 +416,7 @@
               <e p="AkUnitySettingsParser.cs" t="Include" />
               <e p="AkWSAUtils.cs" t="Include" />
               <e p="AkWwisePostImportCallbackSetup.cs" t="Include" />
+              <e p="AkWwiseSettingsWindow.cs" t="Include" />
               <e p="AkWwiseSetupWizard.cs" t="Include" />
               <e p="AkXboxOneUtils.cs" t="Include" />
             </e>
@@ -398,6 +447,14 @@
           </e>
           <e p="Extensions" t="Include">
             <e p="AkSoundEngine.extensions.cs" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Soundbank" t="Include">
+              <e p="Init.txt" t="Include" />
+              <e p="MainSoundBank.txt" t="Include" />
+              <e p="PluginInfo.xml" t="Include" />
+              <e p="SoundbanksInfo.xml" t="Include" />
+            </e>
           </e>
           <e p="Version.txt" t="Include" />
         </e>
