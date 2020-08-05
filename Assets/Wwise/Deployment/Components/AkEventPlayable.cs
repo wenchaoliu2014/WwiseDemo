@@ -1,4 +1,5 @@
 #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#if !AK_DISABLE_TIMELINE
 //////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2017 Audiokinetic Inc. / All Rights Reserved
@@ -12,7 +13,7 @@
 /// \sa
 /// - \ref AkEventTrack
 /// - \ref AkEventPlayableBehavior
-//[System.Serializable]
+[System.Obsolete(AkSoundEngine.Deprecation_2019_1_8)]
 public class AkEventPlayable : UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
 {
 	public AK.Wwise.Event akEvent = new AK.Wwise.Event();
@@ -81,4 +82,5 @@ public class AkEventPlayable : UnityEngine.Playables.PlayableAsset, UnityEngine.
 }
 
 #endif //UNITY_2017_1_OR_NEWER
+#endif // !AK_DISABLE_TIMELINE
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

@@ -15,90 +15,12 @@
           <e p="UIEventSounds.cs" t="Include" />
           <e p="UISoundTest.cs" t="Include" />
         </e>
-        <e p="StreamingAssets" t="Include">
-          <e p="Audio" t="Include">
-            <e p="GeneratedSoundBanks" t="Include">
-              <e p="Android" t="Include">
-                <e p="CharacterBank.txt" t="Include" />
-                <e p="CharacterBank.xml" t="Include" />
-                <e p="Chinese" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="English(US)" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="Init.txt" t="Include" />
-                <e p="Init.xml" t="Include" />
-                <e p="MySoundBank.txt" t="Include" />
-                <e p="MySoundBank.xml" t="Include" />
-                <e p="PluginInfo.xml" t="Include" />
-                <e p="SoundbanksInfo.xml" t="Include" />
-              </e>
-              <e p="iOS" t="Include">
-                <e p="CharacterBank.txt" t="Include" />
-                <e p="CharacterBank.xml" t="Include" />
-                <e p="Chinese" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="English(US)" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="Init.txt" t="Include" />
-                <e p="Init.xml" t="Include" />
-                <e p="MySoundBank.txt" t="Include" />
-                <e p="MySoundBank.xml" t="Include" />
-                <e p="PluginInfo.xml" t="Include" />
-                <e p="SoundbanksInfo.xml" t="Include" />
-              </e>
-              <e p="Mac" t="Include">
-                <e p="CharacterBank.txt" t="Include" />
-                <e p="CharacterBank.xml" t="Include" />
-                <e p="Chinese" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="English(US)" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="Init.txt" t="Include" />
-                <e p="Init.xml" t="Include" />
-                <e p="MySoundBank.txt" t="Include" />
-                <e p="MySoundBank.xml" t="Include" />
-                <e p="PluginInfo.xml" t="Include" />
-                <e p="SoundbanksInfo.xml" t="Include" />
-              </e>
-              <e p="Windows" t="Include">
-                <e p="CharacterBank.txt" t="Include" />
-                <e p="CharacterBank.xml" t="Include" />
-                <e p="Chinese" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="English(US)" t="Include">
-                  <e p="MyVoiceBank.txt" t="Include" />
-                  <e p="MyVoiceBank.xml" t="Include" />
-                </e>
-                <e p="Init.txt" t="Include" />
-                <e p="Init.xml" t="Include" />
-                <e p="MySoundBank.txt" t="Include" />
-                <e p="MySoundBank.xml" t="Include" />
-                <e p="PluginInfo.xml" t="Include" />
-                <e p="SoundbanksInfo.xml" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="desc.txt" t="Include" />
-        </e>
         <e p="Wwise" t="Include">
           <e p="Deployment" t="Include">
             <e p="API" t="Include">
               <e p="Generated" t="Include">
                 <e p="Android" t="Include">
+                  <e p="AkAudioAPI_Android.cs" t="Include" />
                   <e p="AkCommunicationSettings_Android.cs" t="Include" />
                   <e p="AkMemPoolAttributes_Android.cs" t="Include" />
                   <e p="AkPlatformInitSettings_Android.cs" t="Include" />
@@ -227,17 +149,6 @@
                   <e p="AkThreadProperties_Windows.cs" t="Include" />
                   <e p="AkUnityPlatformSpecificSettings_Windows.cs" t="Include" />
                 </e>
-                <e p="WSA" t="Include">
-                  <e p="AkAudioAPI_WSA.cs" t="Include" />
-                  <e p="AkCommunicationSettings_WSA.cs" t="Include" />
-                  <e p="AkMemPoolAttributes_WSA.cs" t="Include" />
-                  <e p="AkPlatformInitSettings_WSA.cs" t="Include" />
-                  <e p="AkSoundEngine_WSA.cs" t="Include" />
-                  <e p="AkSoundEnginePINVOKE_WSA.cs" t="Include" />
-                  <e p="AkThreadProperties_WSA.cs" t="Include" />
-                  <e p="AkUnityPlatformSpecificSettings_WSA.cs" t="Include" />
-                  <e p="PROCESSOR_NUMBER_WSA.cs" t="Include" />
-                </e>
               </e>
               <e p="Handwritten" t="Include">
                 <e p="Android" t="Include">
@@ -272,6 +183,12 @@
                     <e p="AkSourceSettingsArray.cs" t="Include" />
                     <e p="AkTriangleArray.cs" t="Include" />
                     <e p="AkVertexArray.cs" t="Include" />
+                  </e>
+                  <e p="Timeline" t="Include">
+                    <e p="AkTimelineEventPlayable.cs" t="Include" />
+                    <e p="AkTimelineEventTrack.cs" t="Include" />
+                    <e p="AkTimelineRtpcPlayable.cs" t="Include" />
+                    <e p="AkTimelineRtpcTrack.cs" t="Include" />
                   </e>
                   <e p="WwiseObjects" t="Include">
                     <e p="WwiseAcousticTextureReference.cs" t="Include" />
@@ -382,7 +299,6 @@
               <e p="AkRoomInspector.cs" t="Include" />
               <e p="AkRoomPortalInspector.cs" t="Include" />
               <e p="AkRTPCPlayableInspector.cs" t="Include" />
-              <e p="AkRTPCTrackInspector.cs" t="Include" />
               <e p="AkSpatialAudioListenerInspector.cs" t="Include" />
               <e p="AkStateInspector.cs" t="Include" />
               <e p="AkSwitchInspector.cs" t="Include" />
@@ -405,9 +321,6 @@
               </e>
               <e p="Windows" t="Include">
                 <e p="AkWwiseMenu_Windows.cs" t="Include" />
-              </e>
-              <e p="WSA" t="Include">
-                <e p="AkWwiseMenu_Metro.cs" t="Include" />
               </e>
             </e>
             <e p="WwiseSetupWizard" t="Include">

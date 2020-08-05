@@ -34609,11 +34609,11 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetClass_TisRuntimeObject_
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27429);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27430);
+	CHECK_SEQ_POINT(methodExecutionContext, 29013);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29014);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27431);
-		CHECK_SEQ_POINT(methodExecutionContext, 27432);
+		CHECK_SEQ_POINT(methodExecutionContext, 29015);
+		CHECK_SEQ_POINT(methodExecutionContext, 29016);
 		RuntimeObject ** L_0 = ___currentValue0;
 		if ((*(RuntimeObject **)L_0))
 		{
@@ -34639,11 +34639,11 @@ IL_001c:
 	{
 		RuntimeObject ** L_3 = ___currentValue0;
 		RuntimeObject * L_4 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27433);
-		STORE_SEQ_POINT(methodExecutionContext, 27438);
-		NullCheck((RuntimeObject *)(*L_3), il2cpp_codegen_get_sequence_point(27433));
+		CHECK_SEQ_POINT(methodExecutionContext, 29017);
+		STORE_SEQ_POINT(methodExecutionContext, 29022);
+		NullCheck((RuntimeObject *)(*L_3), il2cpp_codegen_get_sequence_point(29017));
 		bool L_5 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (RuntimeObject *)(*L_3), (RuntimeObject *)L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, 27438);
+		CHECK_SEQ_POINT(methodExecutionContext, 29022);
 		if (!L_5)
 		{
 			goto IL_004a;
@@ -34652,26 +34652,26 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27434);
+		CHECK_SEQ_POINT(methodExecutionContext, 29018);
 		V_0 = (bool)0;
 		goto IL_0058;
 	}
 
 IL_004a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27435);
+		CHECK_SEQ_POINT(methodExecutionContext, 29019);
 		RuntimeObject ** L_6 = ___currentValue0;
 		RuntimeObject * L_7 = ___newValue1;
 		*(RuntimeObject **)L_6 = L_7;
 		Il2CppCodeGenWriteBarrier((RuntimeObject **)L_6, L_7);
-		CHECK_SEQ_POINT(methodExecutionContext, 27436);
+		CHECK_SEQ_POINT(methodExecutionContext, 29020);
 		V_0 = (bool)1;
 		goto IL_0058;
 	}
 
 IL_0058:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27437);
+		CHECK_SEQ_POINT(methodExecutionContext, 29021);
 		bool L_8 = V_0;
 		return L_8;
 	}
@@ -34688,46 +34688,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisBoolean_tB53F
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_t4BC4DA1CF8E14DAF2B2BBD7734D235D4977B91D8 * L_0 = ((  EqualityComparer_1_t4BC4DA1CF8E14DAF2B2BBD7734D235D4977B91D8 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		bool* L_1 = ___currentValue0;
 		bool L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_t4BC4DA1CF8E14DAF2B2BBD7734D235D4977B91D8 *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_t4BC4DA1CF8E14DAF2B2BBD7734D235D4977B91D8 *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, bool, bool >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Boolean>::Equals(!0,!0) */, (EqualityComparer_1_t4BC4DA1CF8E14DAF2B2BBD7734D235D4977B91D8 *)L_0, (bool)(*(bool*)L_1), (bool)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		bool* L_4 = ___currentValue0;
 		bool L_5 = ___newValue1;
 		*(bool*)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -34744,46 +34744,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisChar_tBF22D9F
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_tBE2E709137078E491F7B38EA3C218A7A347DD68F * L_0 = ((  EqualityComparer_1_tBE2E709137078E491F7B38EA3C218A7A347DD68F * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		Il2CppChar* L_1 = ___currentValue0;
 		Il2CppChar L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_tBE2E709137078E491F7B38EA3C218A7A347DD68F *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_tBE2E709137078E491F7B38EA3C218A7A347DD68F *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, Il2CppChar, Il2CppChar >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Char>::Equals(!0,!0) */, (EqualityComparer_1_tBE2E709137078E491F7B38EA3C218A7A347DD68F *)L_0, (Il2CppChar)(*(Il2CppChar*)L_1), (Il2CppChar)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		Il2CppChar* L_4 = ___currentValue0;
 		Il2CppChar L_5 = ___newValue1;
 		*(Il2CppChar*)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -34800,46 +34800,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32_t585191
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_tB4B7A6BE74484499A34574C8A7FE8E72455B8CF3 * L_0 = ((  EqualityComparer_1_tB4B7A6BE74484499A34574C8A7FE8E72455B8CF3 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		int32_t* L_1 = ___currentValue0;
 		int32_t L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_tB4B7A6BE74484499A34574C8A7FE8E72455B8CF3 *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_tB4B7A6BE74484499A34574C8A7FE8E72455B8CF3 *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(!0,!0) */, (EqualityComparer_1_tB4B7A6BE74484499A34574C8A7FE8E72455B8CF3 *)L_0, (int32_t)(*(int32_t*)L_1), (int32_t)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		int32_t* L_4 = ___currentValue0;
 		int32_t L_5 = ___newValue1;
 		*(int32_t*)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -34856,46 +34856,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32Enum_t63
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_t1C2A0392A1283327989CBB7C784638BDDB3805BB * L_0 = ((  EqualityComparer_1_t1C2A0392A1283327989CBB7C784638BDDB3805BB * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		int32_t* L_1 = ___currentValue0;
 		int32_t L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_t1C2A0392A1283327989CBB7C784638BDDB3805BB *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_t1C2A0392A1283327989CBB7C784638BDDB3805BB *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32Enum>::Equals(!0,!0) */, (EqualityComparer_1_t1C2A0392A1283327989CBB7C784638BDDB3805BB *)L_0, (int32_t)(*(int32_t*)L_1), (int32_t)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		int32_t* L_4 = ___currentValue0;
 		int32_t L_5 = ___newValue1;
 		*(int32_t*)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -34912,46 +34912,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSingle_tDDDA9
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_t8178EEF96EC6C78CF54DB604583390D6DF0EFFD0 * L_0 = ((  EqualityComparer_1_t8178EEF96EC6C78CF54DB604583390D6DF0EFFD0 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		float* L_1 = ___currentValue0;
 		float L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_t8178EEF96EC6C78CF54DB604583390D6DF0EFFD0 *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_t8178EEF96EC6C78CF54DB604583390D6DF0EFFD0 *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, float, float >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Single>::Equals(!0,!0) */, (EqualityComparer_1_t8178EEF96EC6C78CF54DB604583390D6DF0EFFD0 *)L_0, (float)(*(float*)L_1), (float)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		float* L_4 = ___currentValue0;
 		float L_5 = ___newValue1;
 		*(float*)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -34968,46 +34968,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisColorBlock_t9
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_t453E91867D00556A18859D15438A53BF618735B8 * L_0 = ((  EqualityComparer_1_t453E91867D00556A18859D15438A53BF618735B8 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA * L_1 = ___currentValue0;
 		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_t453E91867D00556A18859D15438A53BF618735B8 *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_t453E91867D00556A18859D15438A53BF618735B8 *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA , ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::Equals(!0,!0) */, (EqualityComparer_1_t453E91867D00556A18859D15438A53BF618735B8 *)L_0, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )(*(ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)L_1), (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA * L_4 = ___currentValue0;
 		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  L_5 = ___newValue1;
 		*(ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -35024,46 +35024,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisNavigation_t7
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_tD38609B11526E41C1F90EDDFF1374A78903B5919 * L_0 = ((  EqualityComparer_1_tD38609B11526E41C1F90EDDFF1374A78903B5919 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 * L_1 = ___currentValue0;
 		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_tD38609B11526E41C1F90EDDFF1374A78903B5919 *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_tD38609B11526E41C1F90EDDFF1374A78903B5919 *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 , Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::Equals(!0,!0) */, (EqualityComparer_1_tD38609B11526E41C1F90EDDFF1374A78903B5919 *)L_0, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )(*(Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)L_1), (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 * L_4 = ___currentValue0;
 		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  L_5 = ___newValue1;
 		*(Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -35080,46 +35080,46 @@ extern "C" IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSpriteState_t
 	bool V_0 = false;
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 27418);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 27419);
+	CHECK_SEQ_POINT(methodExecutionContext, 29002);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 29003);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27420);
-		CHECK_SEQ_POINT(methodExecutionContext, 27421);
-		STORE_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29004);
+		CHECK_SEQ_POINT(methodExecutionContext, 29005);
+		STORE_SEQ_POINT(methodExecutionContext, 29011);
 		EqualityComparer_1_t8BDB0EAEF431FC474DD94C0218FCDC4241AF434F * L_0 = ((  EqualityComparer_1_t8BDB0EAEF431FC474DD94C0218FCDC4241AF434F * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 27427);
+		CHECK_SEQ_POINT(methodExecutionContext, 29011);
 		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A * L_1 = ___currentValue0;
 		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  L_2 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 27422);
-		STORE_SEQ_POINT(methodExecutionContext, 27428);
-		NullCheck((EqualityComparer_1_t8BDB0EAEF431FC474DD94C0218FCDC4241AF434F *)L_0, il2cpp_codegen_get_sequence_point(27422));
+		CHECK_SEQ_POINT(methodExecutionContext, 29006);
+		STORE_SEQ_POINT(methodExecutionContext, 29012);
+		NullCheck((EqualityComparer_1_t8BDB0EAEF431FC474DD94C0218FCDC4241AF434F *)L_0, il2cpp_codegen_get_sequence_point(29006));
 		bool L_3 = VirtFuncInvoker2< bool, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A , SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::Equals(!0,!0) */, (EqualityComparer_1_t8BDB0EAEF431FC474DD94C0218FCDC4241AF434F *)L_0, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )(*(SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)L_1), (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 27428);
+		CHECK_SEQ_POINT(methodExecutionContext, 29012);
 		if (!L_3)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27423);
+		CHECK_SEQ_POINT(methodExecutionContext, 29007);
 		V_0 = (bool)0;
 		goto IL_002c;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27424);
+		CHECK_SEQ_POINT(methodExecutionContext, 29008);
 		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A * L_4 = ___currentValue0;
 		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  L_5 = ___newValue1;
 		*(SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)L_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, 27425);
+		CHECK_SEQ_POINT(methodExecutionContext, 29009);
 		V_0 = (bool)1;
 		goto IL_002c;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 27426);
+		CHECK_SEQ_POINT(methodExecutionContext, 29010);
 		bool L_6 = V_0;
 		return L_6;
 	}

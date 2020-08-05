@@ -4,8 +4,8 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="CharacterBank" Hash="3103605940" Timestamp="1596533075"/>
-				<File Name="Init" Hash="4001860839" Timestamp="1596533075"/>
-				<File Name="MySoundBank" Hash="2713111790" Timestamp="1596533075"/>
+				<File Name="Init" Hash="4001860839" Timestamp="1596609903"/>
+				<File Name="MySoundBank" Hash="2713111790" Timestamp="1596609903"/>
 			</Language>
 			<Language ID="684519430">
 				<File Name="MySoundBank" Hash="4109705592" Timestamp="1565173701"/>
@@ -31,7 +31,7 @@
 				<File Name="MyVoiceBank" Hash="1576249953" Timestamp="1568638676"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3748751187" Timestamp="1596533075"/>
+				<File Name="" Hash="3748751187" Timestamp="1596609903"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
@@ -163,8 +163,8 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="CharacterBank" Hash="3103605940" Timestamp="1596533105"/>
-				<File Name="Init" Hash="2083789435" Timestamp="1596533105"/>
-				<File Name="MySoundBank" Hash="2713111790" Timestamp="1596533105"/>
+				<File Name="Init" Hash="2083789435" Timestamp="1596609903"/>
+				<File Name="MySoundBank" Hash="2713111790" Timestamp="1596609903"/>
 			</Language>
 			<Language ID="684519430">
 				<File Name="MySoundBank" Hash="4109705592" Timestamp="1565173701"/>
@@ -190,7 +190,7 @@
 				<File Name="MyVoiceBank" Hash="62462159" Timestamp="1568638677"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="466529109" Timestamp="1596533105"/>
+				<File Name="" Hash="466529109" Timestamp="1596609903"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>

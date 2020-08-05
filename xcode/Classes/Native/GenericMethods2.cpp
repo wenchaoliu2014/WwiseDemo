@@ -32367,11 +32367,11 @@ extern "C" IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisBoolean_tB53F6830F
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32013);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32014);
+	CHECK_SEQ_POINT(methodExecutionContext, 33638);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 33639);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32015);
-		CHECK_SEQ_POINT(methodExecutionContext, 32016);
+		CHECK_SEQ_POINT(methodExecutionContext, 33640);
+		CHECK_SEQ_POINT(methodExecutionContext, 33641);
 		goto IL_001c;
 	}
 	{
@@ -32385,10 +32385,10 @@ IL_001c:
 		bool L_4 = ___newValue1;
 		bool L_5 = L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, 32017);
-		STORE_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33642);
+		STORE_SEQ_POINT(methodExecutionContext, 33648);
 		bool L_7 = Boolean_Equals_mB97E1CE732F7A08D8F45C86B8994FB67222C99E7((bool*)(bool*)L_3, (RuntimeObject *)L_6, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33648);
 		if (!L_7)
 		{
 			goto IL_0048;
@@ -32397,27 +32397,27 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32018);
+		CHECK_SEQ_POINT(methodExecutionContext, 33643);
 		goto IL_0055;
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32019);
+		CHECK_SEQ_POINT(methodExecutionContext, 33644);
 		bool* L_8 = ___currentValue0;
 		bool L_9 = ___newValue1;
 		*(bool*)L_8 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, 32020);
-		CHECK_SEQ_POINT(methodExecutionContext, 32021);
-		STORE_SEQ_POINT(methodExecutionContext, 32024);
-		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(32021));
+		CHECK_SEQ_POINT(methodExecutionContext, 33645);
+		CHECK_SEQ_POINT(methodExecutionContext, 33646);
+		STORE_SEQ_POINT(methodExecutionContext, 33649);
+		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(33646));
 		LayoutGroup_SetDirty_m2B0A4797C6B8E9DCD0F3B2899D4E7EA266EED1C3((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32024);
+		CHECK_SEQ_POINT(methodExecutionContext, 33649);
 	}
 
 IL_0055:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32022);
+		CHECK_SEQ_POINT(methodExecutionContext, 33647);
 		return;
 	}
 }
@@ -32433,11 +32433,11 @@ extern "C" IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisInt32_t585191389E0
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32013);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32014);
+	CHECK_SEQ_POINT(methodExecutionContext, 33638);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 33639);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32015);
-		CHECK_SEQ_POINT(methodExecutionContext, 32016);
+		CHECK_SEQ_POINT(methodExecutionContext, 33640);
+		CHECK_SEQ_POINT(methodExecutionContext, 33641);
 		goto IL_001c;
 	}
 	{
@@ -32451,10 +32451,10 @@ IL_001c:
 		int32_t L_4 = ___newValue1;
 		int32_t L_5 = L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, 32017);
-		STORE_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33642);
+		STORE_SEQ_POINT(methodExecutionContext, 33648);
 		bool L_7 = Int32_Equals_mBE9097707986D98549AC11E94FB986DA1AB3E16C((int32_t*)(int32_t*)L_3, (RuntimeObject *)L_6, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33648);
 		if (!L_7)
 		{
 			goto IL_0048;
@@ -32463,27 +32463,27 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32018);
+		CHECK_SEQ_POINT(methodExecutionContext, 33643);
 		goto IL_0055;
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32019);
+		CHECK_SEQ_POINT(methodExecutionContext, 33644);
 		int32_t* L_8 = ___currentValue0;
 		int32_t L_9 = ___newValue1;
 		*(int32_t*)L_8 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, 32020);
-		CHECK_SEQ_POINT(methodExecutionContext, 32021);
-		STORE_SEQ_POINT(methodExecutionContext, 32024);
-		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(32021));
+		CHECK_SEQ_POINT(methodExecutionContext, 33645);
+		CHECK_SEQ_POINT(methodExecutionContext, 33646);
+		STORE_SEQ_POINT(methodExecutionContext, 33649);
+		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(33646));
 		LayoutGroup_SetDirty_m2B0A4797C6B8E9DCD0F3B2899D4E7EA266EED1C3((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32024);
+		CHECK_SEQ_POINT(methodExecutionContext, 33649);
 	}
 
 IL_0055:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32022);
+		CHECK_SEQ_POINT(methodExecutionContext, 33647);
 		return;
 	}
 }
@@ -32499,11 +32499,11 @@ extern "C" IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisInt32Enum_t6312CE4
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32013);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32014);
+	CHECK_SEQ_POINT(methodExecutionContext, 33638);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 33639);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32015);
-		CHECK_SEQ_POINT(methodExecutionContext, 32016);
+		CHECK_SEQ_POINT(methodExecutionContext, 33640);
+		CHECK_SEQ_POINT(methodExecutionContext, 33641);
 		goto IL_001c;
 	}
 	{
@@ -32517,11 +32517,11 @@ IL_001c:
 		int32_t L_4 = ___newValue1;
 		int32_t L_5 = L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, 32017);
-		STORE_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33642);
+		STORE_SEQ_POINT(methodExecutionContext, 33648);
 		Il2CppFakeBox<int32_t> L_7(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3);
 		bool L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (RuntimeObject *)(&L_7), (RuntimeObject *)L_6);
-		CHECK_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33648);
 		if (!L_8)
 		{
 			goto IL_0048;
@@ -32530,27 +32530,27 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32018);
+		CHECK_SEQ_POINT(methodExecutionContext, 33643);
 		goto IL_0055;
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32019);
+		CHECK_SEQ_POINT(methodExecutionContext, 33644);
 		int32_t* L_9 = ___currentValue0;
 		int32_t L_10 = ___newValue1;
 		*(int32_t*)L_9 = L_10;
-		CHECK_SEQ_POINT(methodExecutionContext, 32020);
-		CHECK_SEQ_POINT(methodExecutionContext, 32021);
-		STORE_SEQ_POINT(methodExecutionContext, 32024);
-		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(32021));
+		CHECK_SEQ_POINT(methodExecutionContext, 33645);
+		CHECK_SEQ_POINT(methodExecutionContext, 33646);
+		STORE_SEQ_POINT(methodExecutionContext, 33649);
+		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(33646));
 		LayoutGroup_SetDirty_m2B0A4797C6B8E9DCD0F3B2899D4E7EA266EED1C3((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32024);
+		CHECK_SEQ_POINT(methodExecutionContext, 33649);
 	}
 
 IL_0055:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32022);
+		CHECK_SEQ_POINT(methodExecutionContext, 33647);
 		return;
 	}
 }
@@ -32566,11 +32566,11 @@ extern "C" IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisRuntimeObject_m05D
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32013);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32014);
+	CHECK_SEQ_POINT(methodExecutionContext, 33638);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 33639);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32015);
-		CHECK_SEQ_POINT(methodExecutionContext, 32016);
+		CHECK_SEQ_POINT(methodExecutionContext, 33640);
+		CHECK_SEQ_POINT(methodExecutionContext, 33641);
 		RuntimeObject ** L_0 = ___currentValue0;
 		if ((*(RuntimeObject **)L_0))
 		{
@@ -32596,11 +32596,11 @@ IL_001c:
 	{
 		RuntimeObject ** L_3 = ___currentValue0;
 		RuntimeObject * L_4 = ___newValue1;
-		CHECK_SEQ_POINT(methodExecutionContext, 32017);
-		STORE_SEQ_POINT(methodExecutionContext, 32023);
-		NullCheck((RuntimeObject *)(*L_3), il2cpp_codegen_get_sequence_point(32017));
+		CHECK_SEQ_POINT(methodExecutionContext, 33642);
+		STORE_SEQ_POINT(methodExecutionContext, 33648);
+		NullCheck((RuntimeObject *)(*L_3), il2cpp_codegen_get_sequence_point(33642));
 		bool L_5 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (RuntimeObject *)(*L_3), (RuntimeObject *)L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33648);
 		if (!L_5)
 		{
 			goto IL_0048;
@@ -32609,28 +32609,28 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32018);
+		CHECK_SEQ_POINT(methodExecutionContext, 33643);
 		goto IL_0055;
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32019);
+		CHECK_SEQ_POINT(methodExecutionContext, 33644);
 		RuntimeObject ** L_6 = ___currentValue0;
 		RuntimeObject * L_7 = ___newValue1;
 		*(RuntimeObject **)L_6 = L_7;
 		Il2CppCodeGenWriteBarrier((RuntimeObject **)L_6, L_7);
-		CHECK_SEQ_POINT(methodExecutionContext, 32020);
-		CHECK_SEQ_POINT(methodExecutionContext, 32021);
-		STORE_SEQ_POINT(methodExecutionContext, 32024);
-		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(32021));
+		CHECK_SEQ_POINT(methodExecutionContext, 33645);
+		CHECK_SEQ_POINT(methodExecutionContext, 33646);
+		STORE_SEQ_POINT(methodExecutionContext, 33649);
+		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(33646));
 		LayoutGroup_SetDirty_m2B0A4797C6B8E9DCD0F3B2899D4E7EA266EED1C3((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32024);
+		CHECK_SEQ_POINT(methodExecutionContext, 33649);
 	}
 
 IL_0055:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32022);
+		CHECK_SEQ_POINT(methodExecutionContext, 33647);
 		return;
 	}
 }
@@ -32646,11 +32646,11 @@ extern "C" IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisSingle_tDDDA9169C4
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32013);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32014);
+	CHECK_SEQ_POINT(methodExecutionContext, 33638);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 33639);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32015);
-		CHECK_SEQ_POINT(methodExecutionContext, 32016);
+		CHECK_SEQ_POINT(methodExecutionContext, 33640);
+		CHECK_SEQ_POINT(methodExecutionContext, 33641);
 		goto IL_001c;
 	}
 	{
@@ -32664,10 +32664,10 @@ IL_001c:
 		float L_4 = ___newValue1;
 		float L_5 = L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, 32017);
-		STORE_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33642);
+		STORE_SEQ_POINT(methodExecutionContext, 33648);
 		bool L_7 = Single_Equals_mF4C7AEA9D216B3C9CB735BF327D07BF50F101A16((float*)(float*)L_3, (RuntimeObject *)L_6, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33648);
 		if (!L_7)
 		{
 			goto IL_0048;
@@ -32676,27 +32676,27 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32018);
+		CHECK_SEQ_POINT(methodExecutionContext, 33643);
 		goto IL_0055;
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32019);
+		CHECK_SEQ_POINT(methodExecutionContext, 33644);
 		float* L_8 = ___currentValue0;
 		float L_9 = ___newValue1;
 		*(float*)L_8 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, 32020);
-		CHECK_SEQ_POINT(methodExecutionContext, 32021);
-		STORE_SEQ_POINT(methodExecutionContext, 32024);
-		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(32021));
+		CHECK_SEQ_POINT(methodExecutionContext, 33645);
+		CHECK_SEQ_POINT(methodExecutionContext, 33646);
+		STORE_SEQ_POINT(methodExecutionContext, 33649);
+		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(33646));
 		LayoutGroup_SetDirty_m2B0A4797C6B8E9DCD0F3B2899D4E7EA266EED1C3((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32024);
+		CHECK_SEQ_POINT(methodExecutionContext, 33649);
 	}
 
 IL_0055:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32022);
+		CHECK_SEQ_POINT(methodExecutionContext, 33647);
 		return;
 	}
 }
@@ -32712,11 +32712,11 @@ extern "C" IL2CPP_METHOD_ATTR void LayoutGroup_SetProperty_TisVector2_tA85D2DD88
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___currentValue0), (&___newValue1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32013);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32014);
+	CHECK_SEQ_POINT(methodExecutionContext, 33638);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 33639);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32015);
-		CHECK_SEQ_POINT(methodExecutionContext, 32016);
+		CHECK_SEQ_POINT(methodExecutionContext, 33640);
+		CHECK_SEQ_POINT(methodExecutionContext, 33641);
 		goto IL_001c;
 	}
 	{
@@ -32730,10 +32730,10 @@ IL_001c:
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_4 = ___newValue1;
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_5 = L_4;
 		RuntimeObject * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, 32017);
-		STORE_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33642);
+		STORE_SEQ_POINT(methodExecutionContext, 33648);
 		bool L_7 = Vector2_Equals_m4A2A75BC3D09933321220BCEF21219B38AF643AE((Vector2_tA85D2DD88578276CA8A8796756458277E72D073D *)(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D *)L_3, (RuntimeObject *)L_6, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32023);
+		CHECK_SEQ_POINT(methodExecutionContext, 33648);
 		if (!L_7)
 		{
 			goto IL_0048;
@@ -32742,27 +32742,27 @@ IL_001c:
 
 IL_0043:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32018);
+		CHECK_SEQ_POINT(methodExecutionContext, 33643);
 		goto IL_0055;
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32019);
+		CHECK_SEQ_POINT(methodExecutionContext, 33644);
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * L_8 = ___currentValue0;
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_9 = ___newValue1;
 		*(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D *)L_8 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, 32020);
-		CHECK_SEQ_POINT(methodExecutionContext, 32021);
-		STORE_SEQ_POINT(methodExecutionContext, 32024);
-		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(32021));
+		CHECK_SEQ_POINT(methodExecutionContext, 33645);
+		CHECK_SEQ_POINT(methodExecutionContext, 33646);
+		STORE_SEQ_POINT(methodExecutionContext, 33649);
+		NullCheck((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, il2cpp_codegen_get_sequence_point(33646));
 		LayoutGroup_SetDirty_m2B0A4797C6B8E9DCD0F3B2899D4E7EA266EED1C3((LayoutGroup_t9E072B95DA6476C487C0B07A815291249025C0E4 *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32024);
+		CHECK_SEQ_POINT(methodExecutionContext, 33649);
 	}
 
 IL_0055:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32022);
+		CHECK_SEQ_POINT(methodExecutionContext, 33647);
 		return;
 	}
 }

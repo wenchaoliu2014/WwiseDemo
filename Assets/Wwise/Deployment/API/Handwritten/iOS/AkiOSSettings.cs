@@ -14,6 +14,7 @@
 		SetUseGlobalPropertyValue("UserSettings.m_MainOutputSettings.m_PanningRule", false);
 		SetUseGlobalPropertyValue("UserSettings.m_MainOutputSettings.m_ChannelConfig.m_ChannelConfigType", false);
 		SetUseGlobalPropertyValue("UserSettings.m_MainOutputSettings.m_ChannelConfig.m_ChannelMask", false);
+		IgnorePropertyValue("AdvancedSettings.m_RenderDuringFocusLoss");
 	}
 
 	protected override AkCommonUserSettings GetUserSettings()

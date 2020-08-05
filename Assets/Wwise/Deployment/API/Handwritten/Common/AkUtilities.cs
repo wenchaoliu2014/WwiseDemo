@@ -302,6 +302,9 @@ public partial class AkUtilities
 		return s_ProjectBankPaths;
 	}
 
+	public delegate void GetEventDurationsFunc(uint eventID, ref float maximum, ref float minimum);
+	public static GetEventDurationsFunc GetEventDurations = (uint eventID, ref float maximum, ref float minimum) => { maximum = minimum = -1.0f; };
+
 	private static void UpdateSoundbanksDestinationFolders(string WwiseProjectPath)
 	{
 		try

@@ -16448,36 +16448,36 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1__ctor_mCF4A3276EA413E1C9616B7A9
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___capacity0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 48488);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48489);
+	CHECK_SEQ_POINT(methodExecutionContext, 50275);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50276);
 	{
 		// public AkBaseArray(int capacity)
-		CHECK_SEQ_POINT(methodExecutionContext, 48490);
-		STORE_SEQ_POINT(methodExecutionContext, 48505);
-		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(48490));
+		CHECK_SEQ_POINT(methodExecutionContext, 50277);
+		STORE_SEQ_POINT(methodExecutionContext, 50292);
+		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(50277));
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48505);
-		CHECK_SEQ_POINT(methodExecutionContext, 48491);
+		CHECK_SEQ_POINT(methodExecutionContext, 50292);
+		CHECK_SEQ_POINT(methodExecutionContext, 50278);
 		// m_Buffer = System.Runtime.InteropServices.Marshal.AllocHGlobal(capacity * StructureSize);
-		CHECK_SEQ_POINT(methodExecutionContext, 48492);
+		CHECK_SEQ_POINT(methodExecutionContext, 50279);
 		int32_t L_0 = ___capacity0;
-		STORE_SEQ_POINT(methodExecutionContext, 48506);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48492));
+		STORE_SEQ_POINT(methodExecutionContext, 50293);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50279));
 		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 AkBaseArray`1<System.Object>::get_StructureSize() */, (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this);
-		CHECK_SEQ_POINT(methodExecutionContext, 48506);
-		STORE_SEQ_POINT(methodExecutionContext, 48507);
+		CHECK_SEQ_POINT(methodExecutionContext, 50293);
+		STORE_SEQ_POINT(methodExecutionContext, 50294);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		intptr_t L_2 = Marshal_AllocHGlobal_m3BFCB876D7469108C8676D6DD90D943806C13A58((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_0, (int32_t)L_1)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48507);
+		CHECK_SEQ_POINT(methodExecutionContext, 50294);
 		__this->set_m_Buffer_1((intptr_t)L_2);
 		// if (m_Buffer != System.IntPtr.Zero)
-		CHECK_SEQ_POINT(methodExecutionContext, 48493);
+		CHECK_SEQ_POINT(methodExecutionContext, 50280);
 		intptr_t L_3 = (intptr_t)__this->get_m_Buffer_1();
-		STORE_SEQ_POINT(methodExecutionContext, 48508);
+		STORE_SEQ_POINT(methodExecutionContext, 50295);
 		bool L_4 = IntPtr_op_Inequality_mB4886A806009EA825EFCC60CD2A7F6EB8E273A61((intptr_t)L_3, (intptr_t)(0), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48508);
+		CHECK_SEQ_POINT(methodExecutionContext, 50295);
 		V_0 = (bool)L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, 48494);
+		CHECK_SEQ_POINT(methodExecutionContext, 50281);
 		bool L_5 = V_0;
 		if (!L_5)
 		{
@@ -16485,36 +16485,36 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1__ctor_mCF4A3276EA413E1C9616B7A9
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48495);
+		CHECK_SEQ_POINT(methodExecutionContext, 50282);
 		// Capacity = capacity;
-		CHECK_SEQ_POINT(methodExecutionContext, 48496);
+		CHECK_SEQ_POINT(methodExecutionContext, 50283);
 		int32_t L_6 = ___capacity0;
-		STORE_SEQ_POINT(methodExecutionContext, 48509);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48496));
+		STORE_SEQ_POINT(methodExecutionContext, 50296);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50283));
 		((  void (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (int32_t)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, 48509);
+		CHECK_SEQ_POINT(methodExecutionContext, 50296);
 		// for (var index = 0; index < capacity; ++index)
-		CHECK_SEQ_POINT(methodExecutionContext, 48497);
+		CHECK_SEQ_POINT(methodExecutionContext, 50284);
 		V_1 = (int32_t)0;
-		CHECK_SEQ_POINT(methodExecutionContext, 48498);
+		CHECK_SEQ_POINT(methodExecutionContext, 50285);
 		goto IL_004e;
 	}
 
 IL_003c:
 	{
 		// DefaultConstructAtIntPtr(GetObjectPtr(index));
-		CHECK_SEQ_POINT(methodExecutionContext, 48499);
+		CHECK_SEQ_POINT(methodExecutionContext, 50286);
 		int32_t L_7 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, 48510);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48499));
+		STORE_SEQ_POINT(methodExecutionContext, 50297);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50286));
 		intptr_t L_8 = ((  intptr_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (int32_t)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, 48510);
-		STORE_SEQ_POINT(methodExecutionContext, 48511);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48499));
+		CHECK_SEQ_POINT(methodExecutionContext, 50297);
+		STORE_SEQ_POINT(methodExecutionContext, 50298);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50286));
 		VirtActionInvoker1< intptr_t >::Invoke(7 /* System.Void AkBaseArray`1<System.Object>::DefaultConstructAtIntPtr(System.IntPtr) */, (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (intptr_t)L_8);
-		CHECK_SEQ_POINT(methodExecutionContext, 48511);
+		CHECK_SEQ_POINT(methodExecutionContext, 50298);
 		// for (var index = 0; index < capacity; ++index)
-		CHECK_SEQ_POINT(methodExecutionContext, 48500);
+		CHECK_SEQ_POINT(methodExecutionContext, 50287);
 		int32_t L_9 = V_1;
 		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)1));
 	}
@@ -16522,11 +16522,11 @@ IL_003c:
 IL_004e:
 	{
 		// for (var index = 0; index < capacity; ++index)
-		CHECK_SEQ_POINT(methodExecutionContext, 48501);
+		CHECK_SEQ_POINT(methodExecutionContext, 50288);
 		int32_t L_10 = V_1;
 		int32_t L_11 = ___capacity0;
 		V_2 = (bool)((((int32_t)L_10) < ((int32_t)L_11))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 48502);
+		CHECK_SEQ_POINT(methodExecutionContext, 50289);
 		bool L_12 = V_2;
 		if (L_12)
 		{
@@ -16534,13 +16534,13 @@ IL_004e:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48503);
+		CHECK_SEQ_POINT(methodExecutionContext, 50290);
 	}
 
 IL_0057:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 48504);
+		CHECK_SEQ_POINT(methodExecutionContext, 50291);
 		return;
 	}
 }
@@ -16559,18 +16559,18 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_Dispose_mF6573E8ADBA3B9EE4A8EF8
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 48512);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48513);
+	CHECK_SEQ_POINT(methodExecutionContext, 50299);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50300);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48514);
+		CHECK_SEQ_POINT(methodExecutionContext, 50301);
 		// if (m_Buffer != System.IntPtr.Zero)
-		CHECK_SEQ_POINT(methodExecutionContext, 48515);
+		CHECK_SEQ_POINT(methodExecutionContext, 50302);
 		intptr_t L_0 = (intptr_t)__this->get_m_Buffer_1();
-		STORE_SEQ_POINT(methodExecutionContext, 48529);
+		STORE_SEQ_POINT(methodExecutionContext, 50316);
 		bool L_1 = IntPtr_op_Inequality_mB4886A806009EA825EFCC60CD2A7F6EB8E273A61((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48529);
+		CHECK_SEQ_POINT(methodExecutionContext, 50316);
 		V_0 = (bool)L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 48516);
+		CHECK_SEQ_POINT(methodExecutionContext, 50303);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -16578,29 +16578,29 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_Dispose_mF6573E8ADBA3B9EE4A8EF8
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48517);
+		CHECK_SEQ_POINT(methodExecutionContext, 50304);
 		// for (var index = 0; index < Capacity; ++index)
-		CHECK_SEQ_POINT(methodExecutionContext, 48518);
+		CHECK_SEQ_POINT(methodExecutionContext, 50305);
 		V_1 = (int32_t)0;
-		CHECK_SEQ_POINT(methodExecutionContext, 48519);
+		CHECK_SEQ_POINT(methodExecutionContext, 50306);
 		goto IL_002c;
 	}
 
 IL_001a:
 	{
 		// ReleaseAllocatedMemoryFromReferenceAtIntPtr(GetObjectPtr(index));
-		CHECK_SEQ_POINT(methodExecutionContext, 48520);
+		CHECK_SEQ_POINT(methodExecutionContext, 50307);
 		int32_t L_3 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, 48530);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48520));
+		STORE_SEQ_POINT(methodExecutionContext, 50317);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50307));
 		intptr_t L_4 = ((  intptr_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, 48530);
-		STORE_SEQ_POINT(methodExecutionContext, 48531);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48520));
+		CHECK_SEQ_POINT(methodExecutionContext, 50317);
+		STORE_SEQ_POINT(methodExecutionContext, 50318);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50307));
 		VirtActionInvoker1< intptr_t >::Invoke(8 /* System.Void AkBaseArray`1<System.Object>::ReleaseAllocatedMemoryFromReferenceAtIntPtr(System.IntPtr) */, (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (intptr_t)L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, 48531);
+		CHECK_SEQ_POINT(methodExecutionContext, 50318);
 		// for (var index = 0; index < Capacity; ++index)
-		CHECK_SEQ_POINT(methodExecutionContext, 48521);
+		CHECK_SEQ_POINT(methodExecutionContext, 50308);
 		int32_t L_5 = V_1;
 		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)1));
 	}
@@ -16608,14 +16608,14 @@ IL_001a:
 IL_002c:
 	{
 		// for (var index = 0; index < Capacity; ++index)
-		CHECK_SEQ_POINT(methodExecutionContext, 48522);
+		CHECK_SEQ_POINT(methodExecutionContext, 50309);
 		int32_t L_6 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, 48532);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48522));
+		STORE_SEQ_POINT(methodExecutionContext, 50319);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50309));
 		int32_t L_7 = ((  int32_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 48532);
+		CHECK_SEQ_POINT(methodExecutionContext, 50319);
 		V_2 = (bool)((((int32_t)L_6) < ((int32_t)L_7))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 48523);
+		CHECK_SEQ_POINT(methodExecutionContext, 50310);
 		bool L_8 = V_2;
 		if (L_8)
 		{
@@ -16624,28 +16624,28 @@ IL_002c:
 	}
 	{
 		// System.Runtime.InteropServices.Marshal.FreeHGlobal(m_Buffer);
-		CHECK_SEQ_POINT(methodExecutionContext, 48524);
+		CHECK_SEQ_POINT(methodExecutionContext, 50311);
 		intptr_t L_9 = (intptr_t)__this->get_m_Buffer_1();
-		STORE_SEQ_POINT(methodExecutionContext, 48533);
+		STORE_SEQ_POINT(methodExecutionContext, 50320);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48533);
+		CHECK_SEQ_POINT(methodExecutionContext, 50320);
 		// m_Buffer = System.IntPtr.Zero;
-		CHECK_SEQ_POINT(methodExecutionContext, 48525);
+		CHECK_SEQ_POINT(methodExecutionContext, 50312);
 		__this->set_m_Buffer_1((intptr_t)(0));
 		// Capacity = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, 48526);
-		STORE_SEQ_POINT(methodExecutionContext, 48534);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48526));
+		CHECK_SEQ_POINT(methodExecutionContext, 50313);
+		STORE_SEQ_POINT(methodExecutionContext, 50321);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50313));
 		((  void (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (int32_t)0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, 48534);
-		CHECK_SEQ_POINT(methodExecutionContext, 48527);
+		CHECK_SEQ_POINT(methodExecutionContext, 50321);
+		CHECK_SEQ_POINT(methodExecutionContext, 50314);
 	}
 
 IL_0059:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 48528);
+		CHECK_SEQ_POINT(methodExecutionContext, 50315);
 		return;
 	}
 }
@@ -16660,8 +16660,8 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_Finalize_mE27D6BA8CE0B90C9A2886
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48535);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48536);
+	CHECK_SEQ_POINT(methodExecutionContext, 50322);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50323);
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -16669,19 +16669,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_Finalize_mE27D6BA8CE0B90C9A2886
 	int32_t __leave_target = -1;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48537);
+		CHECK_SEQ_POINT(methodExecutionContext, 50324);
 	}
 
 IL_0001:
 	try
 	{ // begin try (depth: 1)
-		CHECK_SEQ_POINT(methodExecutionContext, 48538);
+		CHECK_SEQ_POINT(methodExecutionContext, 50325);
 		// ~AkBaseArray() { Dispose(); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48539);
-		STORE_SEQ_POINT(methodExecutionContext, 48542);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48539));
+		CHECK_SEQ_POINT(methodExecutionContext, 50326);
+		STORE_SEQ_POINT(methodExecutionContext, 50329);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50326));
 		((  void (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6));
-		CHECK_SEQ_POINT(methodExecutionContext, 48542);
+		CHECK_SEQ_POINT(methodExecutionContext, 50329);
 		IL2CPP_LEAVE(0x13, FINALLY_000b);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -16693,11 +16693,11 @@ IL_0001:
 FINALLY_000b:
 	{ // begin finally (depth: 1)
 		// ~AkBaseArray() { Dispose(); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48540);
-		STORE_SEQ_POINT(methodExecutionContext, 48543);
-		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(48540));
+		CHECK_SEQ_POINT(methodExecutionContext, 50327);
+		STORE_SEQ_POINT(methodExecutionContext, 50330);
+		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(50327));
 		Object_Finalize_m4015B7D3A44DE125C5FE34D7276CD4697C06F380((RuntimeObject *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48543);
+		CHECK_SEQ_POINT(methodExecutionContext, 50330);
 		IL2CPP_RESET_LEAVE(0x13);
 		IL2CPP_END_FINALLY(11)
 	} // end finally (depth: 1)
@@ -16710,7 +16710,7 @@ FINALLY_000b:
 IL_0013:
 	{
 		// ~AkBaseArray() { Dispose(); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48541);
+		CHECK_SEQ_POINT(methodExecutionContext, 50328);
 		return;
 	}
 }
@@ -16725,11 +16725,11 @@ extern "C" IL2CPP_METHOD_ATTR int32_t AkBaseArray_1_get_Capacity_m25A2E06BDA0A64
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48544);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48545);
+	CHECK_SEQ_POINT(methodExecutionContext, 50331);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50332);
 	{
 		// public int Capacity { get; private set; }
-		CHECK_SEQ_POINT(methodExecutionContext, 48546);
+		CHECK_SEQ_POINT(methodExecutionContext, 50333);
 		int32_t L_0 = (int32_t)__this->get_U3CCapacityU3Ek__BackingField_0();
 		return L_0;
 	}
@@ -16746,11 +16746,11 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_set_Capacity_mE1F2B181BA8903FD1
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48547);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48548);
+	CHECK_SEQ_POINT(methodExecutionContext, 50334);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50335);
 	{
 		// public int Capacity { get; private set; }
-		CHECK_SEQ_POINT(methodExecutionContext, 48549);
+		CHECK_SEQ_POINT(methodExecutionContext, 50336);
 		int32_t L_0 = ___value0;
 		__this->set_U3CCapacityU3Ek__BackingField_0(L_0);
 		return;
@@ -16768,16 +16768,16 @@ extern "C" IL2CPP_METHOD_ATTR int32_t AkBaseArray_1_Count_m5F30EB240ABBE4AD71FCB
 	int32_t V_0 = 0;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48550);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48551);
+	CHECK_SEQ_POINT(methodExecutionContext, 50337);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50338);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48552);
+		CHECK_SEQ_POINT(methodExecutionContext, 50339);
 		// public virtual int Count() { return Capacity; }
-		CHECK_SEQ_POINT(methodExecutionContext, 48553);
-		STORE_SEQ_POINT(methodExecutionContext, 48555);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48553));
+		CHECK_SEQ_POINT(methodExecutionContext, 50340);
+		STORE_SEQ_POINT(methodExecutionContext, 50342);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50340));
 		int32_t L_0 = ((  int32_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 48555);
+		CHECK_SEQ_POINT(methodExecutionContext, 50342);
 		V_0 = (int32_t)L_0;
 		goto IL_000a;
 	}
@@ -16785,7 +16785,7 @@ extern "C" IL2CPP_METHOD_ATTR int32_t AkBaseArray_1_Count_m5F30EB240ABBE4AD71FCB
 IL_000a:
 	{
 		// public virtual int Count() { return Capacity; }
-		CHECK_SEQ_POINT(methodExecutionContext, 48554);
+		CHECK_SEQ_POINT(methodExecutionContext, 50341);
 		int32_t L_1 = V_0;
 		return L_1;
 	}
@@ -16802,12 +16802,12 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_DefaultConstructAtIntPtr_m769E4
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___address0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48556);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48557);
+	CHECK_SEQ_POINT(methodExecutionContext, 50343);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50344);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48558);
+		CHECK_SEQ_POINT(methodExecutionContext, 50345);
 		// protected virtual void DefaultConstructAtIntPtr(System.IntPtr address) { }
-		CHECK_SEQ_POINT(methodExecutionContext, 48559);
+		CHECK_SEQ_POINT(methodExecutionContext, 50346);
 		return;
 	}
 }
@@ -16823,12 +16823,12 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_ReleaseAllocatedMemoryFromRefer
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___address0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48560);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48561);
+	CHECK_SEQ_POINT(methodExecutionContext, 50347);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50348);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48562);
+		CHECK_SEQ_POINT(methodExecutionContext, 50349);
 		// protected virtual void ReleaseAllocatedMemoryFromReferenceAtIntPtr(System.IntPtr address) { }
-		CHECK_SEQ_POINT(methodExecutionContext, 48563);
+		CHECK_SEQ_POINT(methodExecutionContext, 50350);
 		return;
 	}
 }
@@ -16845,21 +16845,21 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * AkBaseArray_1_get_Item_mC650159A32
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48564);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48565);
+	CHECK_SEQ_POINT(methodExecutionContext, 50351);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50352);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48566);
+		CHECK_SEQ_POINT(methodExecutionContext, 50353);
 		// get { return CreateNewReferenceFromIntPtr(GetObjectPtr(index)); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48567);
+		CHECK_SEQ_POINT(methodExecutionContext, 50354);
 		int32_t L_0 = ___index0;
-		STORE_SEQ_POINT(methodExecutionContext, 48569);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48567));
+		STORE_SEQ_POINT(methodExecutionContext, 50356);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50354));
 		intptr_t L_1 = ((  intptr_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, 48569);
-		STORE_SEQ_POINT(methodExecutionContext, 48570);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48567));
+		CHECK_SEQ_POINT(methodExecutionContext, 50356);
+		STORE_SEQ_POINT(methodExecutionContext, 50357);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50354));
 		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, intptr_t >::Invoke(9 /* T AkBaseArray`1<System.Object>::CreateNewReferenceFromIntPtr(System.IntPtr) */, (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (intptr_t)L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, 48570);
+		CHECK_SEQ_POINT(methodExecutionContext, 50357);
 		V_0 = (RuntimeObject *)L_2;
 		goto IL_0011;
 	}
@@ -16867,7 +16867,7 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * AkBaseArray_1_get_Item_mC650159A32
 IL_0011:
 	{
 		// get { return CreateNewReferenceFromIntPtr(GetObjectPtr(index)); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48568);
+		CHECK_SEQ_POINT(methodExecutionContext, 50355);
 		RuntimeObject * L_3 = V_0;
 		return L_3;
 	}
@@ -16884,24 +16884,24 @@ extern "C" IL2CPP_METHOD_ATTR void AkBaseArray_1_set_Item_mC3C619431F6D80F3AF24F
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0), (&___value1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48571);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48572);
+	CHECK_SEQ_POINT(methodExecutionContext, 50358);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50359);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48573);
+		CHECK_SEQ_POINT(methodExecutionContext, 50360);
 		// set { CloneIntoReferenceFromIntPtr(GetObjectPtr(index), value); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48574);
+		CHECK_SEQ_POINT(methodExecutionContext, 50361);
 		int32_t L_0 = ___index0;
-		STORE_SEQ_POINT(methodExecutionContext, 48576);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48574));
+		STORE_SEQ_POINT(methodExecutionContext, 50363);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50361));
 		intptr_t L_1 = ((  intptr_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, 48576);
+		CHECK_SEQ_POINT(methodExecutionContext, 50363);
 		RuntimeObject * L_2 = ___value1;
-		STORE_SEQ_POINT(methodExecutionContext, 48577);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48574));
+		STORE_SEQ_POINT(methodExecutionContext, 50364);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50361));
 		VirtActionInvoker2< intptr_t, RuntimeObject * >::Invoke(10 /* System.Void AkBaseArray`1<System.Object>::CloneIntoReferenceFromIntPtr(System.IntPtr,T) */, (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, (intptr_t)L_1, (RuntimeObject *)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, 48577);
+		CHECK_SEQ_POINT(methodExecutionContext, 50364);
 		// set { CloneIntoReferenceFromIntPtr(GetObjectPtr(index), value); }
-		CHECK_SEQ_POINT(methodExecutionContext, 48575);
+		CHECK_SEQ_POINT(methodExecutionContext, 50362);
 		return;
 	}
 }
@@ -16918,12 +16918,12 @@ extern "C" IL2CPP_METHOD_ATTR intptr_t AkBaseArray_1_GetBuffer_m9A2A94F69ACAD5EC
 	memset(&V_0, 0, sizeof(V_0));
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48578);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48579);
+	CHECK_SEQ_POINT(methodExecutionContext, 50365);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50366);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48580);
+		CHECK_SEQ_POINT(methodExecutionContext, 50367);
 		// public System.IntPtr GetBuffer() { return m_Buffer; }
-		CHECK_SEQ_POINT(methodExecutionContext, 48581);
+		CHECK_SEQ_POINT(methodExecutionContext, 50368);
 		intptr_t L_0 = (intptr_t)__this->get_m_Buffer_1();
 		V_0 = (intptr_t)L_0;
 		goto IL_000a;
@@ -16932,7 +16932,7 @@ extern "C" IL2CPP_METHOD_ATTR intptr_t AkBaseArray_1_GetBuffer_m9A2A94F69ACAD5EC
 IL_000a:
 	{
 		// public System.IntPtr GetBuffer() { return m_Buffer; }
-		CHECK_SEQ_POINT(methodExecutionContext, 48582);
+		CHECK_SEQ_POINT(methodExecutionContext, 50369);
 		intptr_t L_1 = V_0;
 		return (intptr_t)L_1;
 	}
@@ -16952,19 +16952,19 @@ extern "C" IL2CPP_METHOD_ATTR intptr_t AkBaseArray_1_GetObjectPtr_mE83992E227636
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 48583);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 48584);
+	CHECK_SEQ_POINT(methodExecutionContext, 50370);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 50371);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 48585);
+		CHECK_SEQ_POINT(methodExecutionContext, 50372);
 		// if (index >= Capacity)
-		CHECK_SEQ_POINT(methodExecutionContext, 48586);
+		CHECK_SEQ_POINT(methodExecutionContext, 50373);
 		int32_t L_0 = ___index0;
-		STORE_SEQ_POINT(methodExecutionContext, 48591);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48586));
+		STORE_SEQ_POINT(methodExecutionContext, 50378);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50373));
 		int32_t L_1 = ((  int32_t (*) (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 48591);
+		CHECK_SEQ_POINT(methodExecutionContext, 50378);
 		V_0 = (bool)((((int32_t)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 48587);
+		CHECK_SEQ_POINT(methodExecutionContext, 50374);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -16973,41 +16973,41 @@ extern "C" IL2CPP_METHOD_ATTR intptr_t AkBaseArray_1_GetObjectPtr_mE83992E227636
 	}
 	{
 		// throw new System.IndexOutOfRangeException("Out of range access in " + GetType().Name);
-		CHECK_SEQ_POINT(methodExecutionContext, 48588);
-		STORE_SEQ_POINT(methodExecutionContext, 48592);
-		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(48588));
+		CHECK_SEQ_POINT(methodExecutionContext, 50375);
+		STORE_SEQ_POINT(methodExecutionContext, 50379);
+		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(50375));
 		Type_t * L_3 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60((RuntimeObject *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48592);
-		STORE_SEQ_POINT(methodExecutionContext, 48593);
-		NullCheck((MemberInfo_t *)L_3, il2cpp_codegen_get_sequence_point(48588));
+		CHECK_SEQ_POINT(methodExecutionContext, 50379);
+		STORE_SEQ_POINT(methodExecutionContext, 50380);
+		NullCheck((MemberInfo_t *)L_3, il2cpp_codegen_get_sequence_point(50375));
 		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t *)L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, 48593);
-		STORE_SEQ_POINT(methodExecutionContext, 48594);
+		CHECK_SEQ_POINT(methodExecutionContext, 50380);
+		STORE_SEQ_POINT(methodExecutionContext, 50381);
 		String_t* L_5 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE((String_t*)_stringLiteral1ECE049AE963EE6DE11826A00196DBD0C40143A5, (String_t*)L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48594);
-		STORE_SEQ_POINT(methodExecutionContext, 48595);
+		CHECK_SEQ_POINT(methodExecutionContext, 50381);
+		STORE_SEQ_POINT(methodExecutionContext, 50382);
 		IndexOutOfRangeException_tEC7665FC66525AB6A6916A7EB505E5591683F0CF * L_6 = (IndexOutOfRangeException_tEC7665FC66525AB6A6916A7EB505E5591683F0CF *)il2cpp_codegen_object_new(IndexOutOfRangeException_tEC7665FC66525AB6A6916A7EB505E5591683F0CF_il2cpp_TypeInfo_var);
 		IndexOutOfRangeException__ctor_mCCE2EFF47A0ACB4B2636F63140F94FCEA71A9BCA(L_6, (String_t*)L_5, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48595);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, il2cpp_codegen_get_sequence_point(48588), AkBaseArray_1_GetObjectPtr_mE83992E227636F6842934792D63D3F791B6B6BB7_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, 50382);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, il2cpp_codegen_get_sequence_point(50375), AkBaseArray_1_GetObjectPtr_mE83992E227636F6842934792D63D3F791B6B6BB7_RuntimeMethod_var);
 	}
 
 IL_002c:
 	{
 		// return (System.IntPtr)(m_Buffer.ToInt64() + StructureSize * index);
-		CHECK_SEQ_POINT(methodExecutionContext, 48589);
+		CHECK_SEQ_POINT(methodExecutionContext, 50376);
 		intptr_t* L_7 = (intptr_t*)__this->get_address_of_m_Buffer_1();
-		STORE_SEQ_POINT(methodExecutionContext, 48596);
+		STORE_SEQ_POINT(methodExecutionContext, 50383);
 		int64_t L_8 = IntPtr_ToInt64_mDD00D5F4AD380F40D31B60E9C57843CC3C12BD6B((intptr_t*)(intptr_t*)L_7, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48596);
-		STORE_SEQ_POINT(methodExecutionContext, 48597);
-		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(48589));
+		CHECK_SEQ_POINT(methodExecutionContext, 50383);
+		STORE_SEQ_POINT(methodExecutionContext, 50384);
+		NullCheck((AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this, il2cpp_codegen_get_sequence_point(50376));
 		int32_t L_9 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 AkBaseArray`1<System.Object>::get_StructureSize() */, (AkBaseArray_1_t53BD1A0FCDF1723ADA10FEBF0A3A78F389A378BF *)__this);
-		CHECK_SEQ_POINT(methodExecutionContext, 48597);
+		CHECK_SEQ_POINT(methodExecutionContext, 50384);
 		int32_t L_10 = ___index0;
-		STORE_SEQ_POINT(methodExecutionContext, 48598);
+		STORE_SEQ_POINT(methodExecutionContext, 50385);
 		intptr_t L_11 = IntPtr_op_Explicit_m534152049CE3084CEFA1CD8B1BA74F3C085A2ABF((int64_t)((int64_t)il2cpp_codegen_add((int64_t)L_8, (int64_t)(((int64_t)((int64_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)L_10))))))), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 48598);
+		CHECK_SEQ_POINT(methodExecutionContext, 50385);
 		V_1 = (intptr_t)L_11;
 		goto IL_0049;
 	}
@@ -17015,7 +17015,7 @@ IL_002c:
 IL_0049:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 48590);
+		CHECK_SEQ_POINT(methodExecutionContext, 50377);
 		intptr_t L_12 = V_1;
 		return (intptr_t)L_12;
 	}

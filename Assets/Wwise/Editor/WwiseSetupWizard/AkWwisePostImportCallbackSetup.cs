@@ -10,11 +10,22 @@ public class AkWwisePostImportCallbackSetup
 	static AkWwisePostImportCallbackSetup()
 	{
 		var arguments = System.Environment.GetCommandLineArgs();
-		if (System.Array.IndexOf(arguments, "-nographics") != -1 &&
+		if ((System.Array.IndexOf(arguments, "-nographics") != -1 ||
+			System.Array.IndexOf(arguments, "-batchmode") != -1) &&
 		    System.Array.IndexOf(arguments, "-wwiseEnableWithNoGraphics") == -1)
 			return;
 
 		UnityEditor.EditorApplication.delayCall += CheckMigrationStatus;
+
+		AkUtilities.GetEventDurations = (uint eventID, ref float maximum, ref float minimum) =>
+		{
+			var eventInfo = AkWwiseProjectInfo.GetData().GetEventInfo(eventID);
+			if (eventInfo != null)
+			{
+				minimum = eventInfo.minDuration;
+				maximum = eventInfo.maxDuration;
+			}
+		};
 	}
 
 	private static void CheckMigrationStatus()

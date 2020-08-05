@@ -799,6 +799,7 @@ extern const uint32_t IndexedSet_1_CopyTo_m6D6DDEFA60C24E6FDE7F623056962571404EE
 extern const uint32_t IndexedSet_1_GetEnumerator_mF4C9F11991CEDD2323438C82F6EA51984A818B86_MetadataUsageId;
 extern const uint32_t IndexedSet_1_IndexOf_mA96032B59D36E8E466F5835BD779A45E51060B3E_MetadataUsageId;
 extern const uint32_t IndexedSet_1_Insert_m81066D7E0A93E43F2CA764C332EA1D424D2A5BBB_MetadataUsageId;
+extern const uint32_t IndexedSet_1_RemoveAll_mAE4ADE1DF64CADF07B55057DC73FB3506D955A68_MetadataUsageId;
 extern const uint32_t IndexedSet_1_RemoveAt_m0016F09042F2FE56FA1D2D2355832BB16E96D445_MetadataUsageId;
 extern const uint32_t IndexedSet_1_Remove_mA046116692D1086C5D4D27B22D62E4B873BFEC72_MetadataUsageId;
 extern const uint32_t IndexedSet_1_Sort_m57091341D45A2A66567F0AD15AA31A06094F4F92_MetadataUsageId;
@@ -8470,6 +8471,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // FUNC_3_T6A1C1E9DB0DAD7550969DDCAECE2AAF2309BE389_H
+#ifndef PREDICATE_1_T4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979_H
+#define PREDICATE_1_T4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Predicate`1<System.Object>
+struct  Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PREDICATE_1_T4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979_H
 #ifndef EVENTFUNCTION_1_TC8BA6CC6AE9BBB9A4F9703E7EA47532F813105B0_H
 #define EVENTFUNCTION_1_TC8BA6CC6AE9BBB9A4F9703E7EA47532F813105B0_H
 #ifdef __clang__
@@ -27126,25 +27147,25 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1__ctor_m33E5E40D7589452C6622EA42A
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32675);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32676);
+	CHECK_SEQ_POINT(methodExecutionContext, 34300);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34301);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32677);
-		STORE_SEQ_POINT(methodExecutionContext, 32679);
+		CHECK_SEQ_POINT(methodExecutionContext, 34302);
+		STORE_SEQ_POINT(methodExecutionContext, 34304);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1)->methodPointer)(L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, 32679);
+		CHECK_SEQ_POINT(methodExecutionContext, 34304);
 		__this->set_m_List_0(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, 32678);
-		STORE_SEQ_POINT(methodExecutionContext, 32680);
+		CHECK_SEQ_POINT(methodExecutionContext, 34303);
+		STORE_SEQ_POINT(methodExecutionContext, 34305);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_1 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 2));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3)->methodPointer)(L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, 32680);
+		CHECK_SEQ_POINT(methodExecutionContext, 34305);
 		__this->set_m_Dictionary_1(L_1);
-		STORE_SEQ_POINT(methodExecutionContext, 32681);
-		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(32678));
+		STORE_SEQ_POINT(methodExecutionContext, 34306);
+		NullCheck((RuntimeObject *)__this, il2cpp_codegen_get_sequence_point(34303));
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32681);
+		CHECK_SEQ_POINT(methodExecutionContext, 34306);
 		return;
 	}
 }
@@ -27160,33 +27181,33 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_Add_mE6FB99A734735AF9DCDA7D0434A
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___item0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32682);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32683);
+	CHECK_SEQ_POINT(methodExecutionContext, 34307);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34308);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32684);
-		CHECK_SEQ_POINT(methodExecutionContext, 32685);
+		CHECK_SEQ_POINT(methodExecutionContext, 34309);
+		CHECK_SEQ_POINT(methodExecutionContext, 34310);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		RuntimeObject * L_1 = ___item0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32686);
-		STORE_SEQ_POINT(methodExecutionContext, 32691);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32686));
+		CHECK_SEQ_POINT(methodExecutionContext, 34311);
+		STORE_SEQ_POINT(methodExecutionContext, 34316);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34311));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 4)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (RuntimeObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, 32691);
-		CHECK_SEQ_POINT(methodExecutionContext, 32687);
+		CHECK_SEQ_POINT(methodExecutionContext, 34316);
+		CHECK_SEQ_POINT(methodExecutionContext, 34312);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_2 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_3 = ___item0;
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_4 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32688);
-		STORE_SEQ_POINT(methodExecutionContext, 32692);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_4, il2cpp_codegen_get_sequence_point(32688));
+		CHECK_SEQ_POINT(methodExecutionContext, 34313);
+		STORE_SEQ_POINT(methodExecutionContext, 34317);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_4, il2cpp_codegen_get_sequence_point(34313));
 		int32_t L_5 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 32692);
-		CHECK_SEQ_POINT(methodExecutionContext, 32689);
-		STORE_SEQ_POINT(methodExecutionContext, 32693);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_2, il2cpp_codegen_get_sequence_point(32689));
+		CHECK_SEQ_POINT(methodExecutionContext, 34317);
+		CHECK_SEQ_POINT(methodExecutionContext, 34314);
+		STORE_SEQ_POINT(methodExecutionContext, 34318);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_2, il2cpp_codegen_get_sequence_point(34314));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_2, (RuntimeObject *)L_3, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6));
-		CHECK_SEQ_POINT(methodExecutionContext, 32693);
-		CHECK_SEQ_POINT(methodExecutionContext, 32690);
+		CHECK_SEQ_POINT(methodExecutionContext, 34318);
+		CHECK_SEQ_POINT(methodExecutionContext, 34315);
 		return;
 	}
 }
@@ -27203,61 +27224,61 @@ extern "C" IL2CPP_METHOD_ATTR bool IndexedSet_1_AddUnique_m2B371DACC4401E3CD2A8C
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___item0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32694);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32695);
+	CHECK_SEQ_POINT(methodExecutionContext, 34319);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34320);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32696);
-		CHECK_SEQ_POINT(methodExecutionContext, 32697);
+		CHECK_SEQ_POINT(methodExecutionContext, 34321);
+		CHECK_SEQ_POINT(methodExecutionContext, 34322);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_0 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_1 = ___item0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32698);
-		STORE_SEQ_POINT(methodExecutionContext, 32707);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(32698));
+		CHECK_SEQ_POINT(methodExecutionContext, 34323);
+		STORE_SEQ_POINT(methodExecutionContext, 34332);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(34323));
 		bool L_2 = ((  bool (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 7)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, (RuntimeObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 7));
-		CHECK_SEQ_POINT(methodExecutionContext, 32707);
+		CHECK_SEQ_POINT(methodExecutionContext, 34332);
 		if (!L_2)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32699);
+		CHECK_SEQ_POINT(methodExecutionContext, 34324);
 		V_0 = (bool)0;
 		goto IL_0045;
 	}
 
 IL_0019:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32700);
+		CHECK_SEQ_POINT(methodExecutionContext, 34325);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_3 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		RuntimeObject * L_4 = ___item0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32701);
-		STORE_SEQ_POINT(methodExecutionContext, 32708);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_3, il2cpp_codegen_get_sequence_point(32701));
+		CHECK_SEQ_POINT(methodExecutionContext, 34326);
+		STORE_SEQ_POINT(methodExecutionContext, 34333);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_3, il2cpp_codegen_get_sequence_point(34326));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 4)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_3, (RuntimeObject *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, 32708);
-		CHECK_SEQ_POINT(methodExecutionContext, 32702);
+		CHECK_SEQ_POINT(methodExecutionContext, 34333);
+		CHECK_SEQ_POINT(methodExecutionContext, 34327);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_5 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_6 = ___item0;
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_7 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32703);
-		STORE_SEQ_POINT(methodExecutionContext, 32709);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_7, il2cpp_codegen_get_sequence_point(32703));
+		CHECK_SEQ_POINT(methodExecutionContext, 34328);
+		STORE_SEQ_POINT(methodExecutionContext, 34334);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_7, il2cpp_codegen_get_sequence_point(34328));
 		int32_t L_8 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 32709);
-		CHECK_SEQ_POINT(methodExecutionContext, 32704);
-		STORE_SEQ_POINT(methodExecutionContext, 32710);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_5, il2cpp_codegen_get_sequence_point(32704));
+		CHECK_SEQ_POINT(methodExecutionContext, 34334);
+		CHECK_SEQ_POINT(methodExecutionContext, 34329);
+		STORE_SEQ_POINT(methodExecutionContext, 34335);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_5, il2cpp_codegen_get_sequence_point(34329));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_5, (RuntimeObject *)L_6, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6));
-		CHECK_SEQ_POINT(methodExecutionContext, 32710);
-		CHECK_SEQ_POINT(methodExecutionContext, 32705);
+		CHECK_SEQ_POINT(methodExecutionContext, 34335);
+		CHECK_SEQ_POINT(methodExecutionContext, 34330);
 		V_0 = (bool)1;
 		goto IL_0045;
 	}
 
 IL_0045:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32706);
+		CHECK_SEQ_POINT(methodExecutionContext, 34331);
 		bool L_9 = V_0;
 		return L_9;
 	}
@@ -27277,48 +27298,48 @@ extern "C" IL2CPP_METHOD_ATTR bool IndexedSet_1_Remove_mA046116692D1086C5D4D27B2
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___item0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 32711);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32712);
+	CHECK_SEQ_POINT(methodExecutionContext, 34336);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34337);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32713);
-		CHECK_SEQ_POINT(methodExecutionContext, 32714);
+		CHECK_SEQ_POINT(methodExecutionContext, 34338);
+		CHECK_SEQ_POINT(methodExecutionContext, 34339);
 		V_0 = (int32_t)(-1);
-		CHECK_SEQ_POINT(methodExecutionContext, 32715);
+		CHECK_SEQ_POINT(methodExecutionContext, 34340);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_0 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_1 = ___item0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32716);
-		STORE_SEQ_POINT(methodExecutionContext, 32722);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(32716));
+		CHECK_SEQ_POINT(methodExecutionContext, 34341);
+		STORE_SEQ_POINT(methodExecutionContext, 34347);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(34341));
 		bool L_2 = ((  bool (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 8)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, (RuntimeObject *)L_1, (int32_t*)(int32_t*)(&V_0), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 8));
-		CHECK_SEQ_POINT(methodExecutionContext, 32722);
+		CHECK_SEQ_POINT(methodExecutionContext, 34347);
 		if (L_2)
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32717);
+		CHECK_SEQ_POINT(methodExecutionContext, 34342);
 		V_1 = (bool)0;
 		goto IL_002b;
 	}
 
 IL_001d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32718);
+		CHECK_SEQ_POINT(methodExecutionContext, 34343);
 		int32_t L_3 = V_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32719);
-		STORE_SEQ_POINT(methodExecutionContext, 32723);
-		NullCheck((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, il2cpp_codegen_get_sequence_point(32719));
+		CHECK_SEQ_POINT(methodExecutionContext, 34344);
+		STORE_SEQ_POINT(methodExecutionContext, 34348);
+		NullCheck((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, il2cpp_codegen_get_sequence_point(34344));
 		((  void (*) (IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 9)->methodPointer)((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 9));
-		CHECK_SEQ_POINT(methodExecutionContext, 32723);
-		CHECK_SEQ_POINT(methodExecutionContext, 32720);
+		CHECK_SEQ_POINT(methodExecutionContext, 34348);
+		CHECK_SEQ_POINT(methodExecutionContext, 34345);
 		V_1 = (bool)1;
 		goto IL_002b;
 	}
 
 IL_002b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32721);
+		CHECK_SEQ_POINT(methodExecutionContext, 34346);
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -27334,16 +27355,16 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* IndexedSet_1_GetEnumerator_mF4C9F11
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32724);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32725);
+	CHECK_SEQ_POINT(methodExecutionContext, 34349);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34350);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32726);
-		CHECK_SEQ_POINT(methodExecutionContext, 32727);
-		STORE_SEQ_POINT(methodExecutionContext, 32728);
+		CHECK_SEQ_POINT(methodExecutionContext, 34351);
+		CHECK_SEQ_POINT(methodExecutionContext, 34352);
+		STORE_SEQ_POINT(methodExecutionContext, 34353);
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32728);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, il2cpp_codegen_get_sequence_point(32727), IndexedSet_1_GetEnumerator_mF4C9F11991CEDD2323438C82F6EA51984A818B86_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, 34353);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, il2cpp_codegen_get_sequence_point(34352), IndexedSet_1_GetEnumerator_mF4C9F11991CEDD2323438C82F6EA51984A818B86_RuntimeMethod_var);
 	}
 }
 // System.Collections.IEnumerator UnityEngine.UI.Collections.IndexedSet`1<System.Object>::System.Collections.IEnumerable.GetEnumerator()
@@ -27358,23 +27379,23 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* IndexedSet_1_System_Collections_IEn
 	RuntimeObject* V_0 = NULL;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32729);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32730);
+	CHECK_SEQ_POINT(methodExecutionContext, 34354);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34355);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32731);
-		CHECK_SEQ_POINT(methodExecutionContext, 32732);
-		CHECK_SEQ_POINT(methodExecutionContext, 32733);
-		STORE_SEQ_POINT(methodExecutionContext, 32735);
-		NullCheck((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, il2cpp_codegen_get_sequence_point(32733));
+		CHECK_SEQ_POINT(methodExecutionContext, 34356);
+		CHECK_SEQ_POINT(methodExecutionContext, 34357);
+		CHECK_SEQ_POINT(methodExecutionContext, 34358);
+		STORE_SEQ_POINT(methodExecutionContext, 34360);
+		NullCheck((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, il2cpp_codegen_get_sequence_point(34358));
 		RuntimeObject* L_0 = ((  RuntimeObject* (*) (IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 10)->methodPointer)((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 10));
-		CHECK_SEQ_POINT(methodExecutionContext, 32735);
+		CHECK_SEQ_POINT(methodExecutionContext, 34360);
 		V_0 = (RuntimeObject*)L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32734);
+		CHECK_SEQ_POINT(methodExecutionContext, 34359);
 		RuntimeObject* L_1 = V_0;
 		return L_1;
 	}
@@ -27390,25 +27411,25 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_Clear_m5B4F2E776B9F4FA13EC83D6F2
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32736);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32737);
+	CHECK_SEQ_POINT(methodExecutionContext, 34361);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34362);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32738);
-		CHECK_SEQ_POINT(methodExecutionContext, 32739);
+		CHECK_SEQ_POINT(methodExecutionContext, 34363);
+		CHECK_SEQ_POINT(methodExecutionContext, 34364);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32740);
-		STORE_SEQ_POINT(methodExecutionContext, 32744);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32740));
+		CHECK_SEQ_POINT(methodExecutionContext, 34365);
+		STORE_SEQ_POINT(methodExecutionContext, 34369);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34365));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 11)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 11));
-		CHECK_SEQ_POINT(methodExecutionContext, 32744);
-		CHECK_SEQ_POINT(methodExecutionContext, 32741);
+		CHECK_SEQ_POINT(methodExecutionContext, 34369);
+		CHECK_SEQ_POINT(methodExecutionContext, 34366);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_1 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
-		CHECK_SEQ_POINT(methodExecutionContext, 32742);
-		STORE_SEQ_POINT(methodExecutionContext, 32745);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_1, il2cpp_codegen_get_sequence_point(32742));
+		CHECK_SEQ_POINT(methodExecutionContext, 34367);
+		STORE_SEQ_POINT(methodExecutionContext, 34370);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_1, il2cpp_codegen_get_sequence_point(34367));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 12)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 12));
-		CHECK_SEQ_POINT(methodExecutionContext, 32745);
-		CHECK_SEQ_POINT(methodExecutionContext, 32743);
+		CHECK_SEQ_POINT(methodExecutionContext, 34370);
+		CHECK_SEQ_POINT(methodExecutionContext, 34368);
 		return;
 	}
 }
@@ -27425,25 +27446,25 @@ extern "C" IL2CPP_METHOD_ATTR bool IndexedSet_1_Contains_m817CE7F84886FC85A53177
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___item0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32746);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32747);
+	CHECK_SEQ_POINT(methodExecutionContext, 34371);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34372);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32748);
-		CHECK_SEQ_POINT(methodExecutionContext, 32749);
+		CHECK_SEQ_POINT(methodExecutionContext, 34373);
+		CHECK_SEQ_POINT(methodExecutionContext, 34374);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_0 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_1 = ___item0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32750);
-		STORE_SEQ_POINT(methodExecutionContext, 32752);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(32750));
+		CHECK_SEQ_POINT(methodExecutionContext, 34375);
+		STORE_SEQ_POINT(methodExecutionContext, 34377);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(34375));
 		bool L_2 = ((  bool (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 7)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, (RuntimeObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 7));
-		CHECK_SEQ_POINT(methodExecutionContext, 32752);
+		CHECK_SEQ_POINT(methodExecutionContext, 34377);
 		V_0 = (bool)L_2;
 		goto IL_0013;
 	}
 
 IL_0013:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32751);
+		CHECK_SEQ_POINT(methodExecutionContext, 34376);
 		bool L_3 = V_0;
 		return L_3;
 	}
@@ -27460,20 +27481,20 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_CopyTo_m6D6DDEFA60C24E6FDE7F6230
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___array0), (&___arrayIndex1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32753);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32754);
+	CHECK_SEQ_POINT(methodExecutionContext, 34378);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34379);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32755);
-		CHECK_SEQ_POINT(methodExecutionContext, 32756);
+		CHECK_SEQ_POINT(methodExecutionContext, 34380);
+		CHECK_SEQ_POINT(methodExecutionContext, 34381);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_1 = ___array0;
 		int32_t L_2 = ___arrayIndex1;
-		CHECK_SEQ_POINT(methodExecutionContext, 32757);
-		STORE_SEQ_POINT(methodExecutionContext, 32759);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32757));
+		CHECK_SEQ_POINT(methodExecutionContext, 34382);
+		STORE_SEQ_POINT(methodExecutionContext, 34384);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34382));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 13)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)L_1, (int32_t)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 13));
-		CHECK_SEQ_POINT(methodExecutionContext, 32759);
-		CHECK_SEQ_POINT(methodExecutionContext, 32758);
+		CHECK_SEQ_POINT(methodExecutionContext, 34384);
+		CHECK_SEQ_POINT(methodExecutionContext, 34383);
 		return;
 	}
 }
@@ -27489,24 +27510,24 @@ extern "C" IL2CPP_METHOD_ATTR int32_t IndexedSet_1_get_Count_m6DE3F4B2BFAF739DBC
 	int32_t V_0 = 0;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32760);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32761);
+	CHECK_SEQ_POINT(methodExecutionContext, 34385);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34386);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32762);
-		CHECK_SEQ_POINT(methodExecutionContext, 32763);
+		CHECK_SEQ_POINT(methodExecutionContext, 34387);
+		CHECK_SEQ_POINT(methodExecutionContext, 34388);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32764);
-		STORE_SEQ_POINT(methodExecutionContext, 32766);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32764));
+		CHECK_SEQ_POINT(methodExecutionContext, 34389);
+		STORE_SEQ_POINT(methodExecutionContext, 34391);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34389));
 		int32_t L_1 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 32766);
+		CHECK_SEQ_POINT(methodExecutionContext, 34391);
 		V_0 = (int32_t)L_1;
 		goto IL_0012;
 	}
 
 IL_0012:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32765);
+		CHECK_SEQ_POINT(methodExecutionContext, 34390);
 		int32_t L_2 = V_0;
 		return L_2;
 	}
@@ -27523,18 +27544,18 @@ extern "C" IL2CPP_METHOD_ATTR bool IndexedSet_1_get_IsReadOnly_mF101420B30D2359D
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32767);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32768);
+	CHECK_SEQ_POINT(methodExecutionContext, 34392);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34393);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32769);
-		CHECK_SEQ_POINT(methodExecutionContext, 32770);
+		CHECK_SEQ_POINT(methodExecutionContext, 34394);
+		CHECK_SEQ_POINT(methodExecutionContext, 34395);
 		V_0 = (bool)0;
 		goto IL_0008;
 	}
 
 IL_0008:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32771);
+		CHECK_SEQ_POINT(methodExecutionContext, 34396);
 		bool L_0 = V_0;
 		return L_0;
 	}
@@ -27554,21 +27575,21 @@ extern "C" IL2CPP_METHOD_ATTR int32_t IndexedSet_1_IndexOf_mA96032B59D36E8E466F5
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___item0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 32772);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32773);
+	CHECK_SEQ_POINT(methodExecutionContext, 34397);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34398);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32774);
-		CHECK_SEQ_POINT(methodExecutionContext, 32775);
+		CHECK_SEQ_POINT(methodExecutionContext, 34399);
+		CHECK_SEQ_POINT(methodExecutionContext, 34400);
 		V_0 = (int32_t)(-1);
-		CHECK_SEQ_POINT(methodExecutionContext, 32776);
+		CHECK_SEQ_POINT(methodExecutionContext, 34401);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_0 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_1 = ___item0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32777);
-		STORE_SEQ_POINT(methodExecutionContext, 32780);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(32777));
+		CHECK_SEQ_POINT(methodExecutionContext, 34402);
+		STORE_SEQ_POINT(methodExecutionContext, 34405);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, il2cpp_codegen_get_sequence_point(34402));
 		((  bool (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 8)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_0, (RuntimeObject *)L_1, (int32_t*)(int32_t*)(&V_0), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 8));
-		CHECK_SEQ_POINT(methodExecutionContext, 32780);
-		CHECK_SEQ_POINT(methodExecutionContext, 32778);
+		CHECK_SEQ_POINT(methodExecutionContext, 34405);
+		CHECK_SEQ_POINT(methodExecutionContext, 34403);
 		int32_t L_2 = V_0;
 		V_1 = (int32_t)L_2;
 		goto IL_0019;
@@ -27576,7 +27597,7 @@ extern "C" IL2CPP_METHOD_ATTR int32_t IndexedSet_1_IndexOf_mA96032B59D36E8E466F5
 
 IL_0019:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32779);
+		CHECK_SEQ_POINT(methodExecutionContext, 34404);
 		int32_t L_3 = V_1;
 		return L_3;
 	}
@@ -27593,17 +27614,17 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_Insert_m81066D7E0A93E43F2CA764C3
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0), (&___item1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32781);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32782);
+	CHECK_SEQ_POINT(methodExecutionContext, 34406);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34407);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32783);
-		CHECK_SEQ_POINT(methodExecutionContext, 32784);
-		CHECK_SEQ_POINT(methodExecutionContext, 32785);
-		STORE_SEQ_POINT(methodExecutionContext, 32786);
+		CHECK_SEQ_POINT(methodExecutionContext, 34408);
+		CHECK_SEQ_POINT(methodExecutionContext, 34409);
+		CHECK_SEQ_POINT(methodExecutionContext, 34410);
+		STORE_SEQ_POINT(methodExecutionContext, 34411);
 		NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * L_0 = (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 *)il2cpp_codegen_object_new(NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_mD023A89A5C1F740F43F0A9CD6C49DC21230B3CEE(L_0, (String_t*)_stringLiteralDFADDFA065E9D92CFE8B8F06444DD5652DFC1D58, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 32786);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, il2cpp_codegen_get_sequence_point(32785), IndexedSet_1_Insert_m81066D7E0A93E43F2CA764C332EA1D424D2A5BBB_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, 34411);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, il2cpp_codegen_get_sequence_point(34410), IndexedSet_1_Insert_m81066D7E0A93E43F2CA764C332EA1D424D2A5BBB_RuntimeMethod_var);
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::RemoveAt(System.Int32)
@@ -27622,104 +27643,104 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_RemoveAt_m0016F09042F2FE56FA1D2D
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 32787);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32788);
+	CHECK_SEQ_POINT(methodExecutionContext, 34412);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34413);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32789);
-		CHECK_SEQ_POINT(methodExecutionContext, 32790);
+		CHECK_SEQ_POINT(methodExecutionContext, 34414);
+		CHECK_SEQ_POINT(methodExecutionContext, 34415);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_1 = ___index0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32791);
-		STORE_SEQ_POINT(methodExecutionContext, 32811);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32791));
+		CHECK_SEQ_POINT(methodExecutionContext, 34416);
+		STORE_SEQ_POINT(methodExecutionContext, 34436);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34416));
 		RuntimeObject * L_2 = ((  RuntimeObject * (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (int32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14));
-		CHECK_SEQ_POINT(methodExecutionContext, 32811);
+		CHECK_SEQ_POINT(methodExecutionContext, 34436);
 		V_0 = (RuntimeObject *)L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, 32792);
+		CHECK_SEQ_POINT(methodExecutionContext, 34417);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_3 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_4 = V_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32793);
-		STORE_SEQ_POINT(methodExecutionContext, 32812);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_3, il2cpp_codegen_get_sequence_point(32793));
+		CHECK_SEQ_POINT(methodExecutionContext, 34418);
+		STORE_SEQ_POINT(methodExecutionContext, 34437);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_3, il2cpp_codegen_get_sequence_point(34418));
 		((  bool (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 15)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_3, (RuntimeObject *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 15));
-		CHECK_SEQ_POINT(methodExecutionContext, 32812);
-		CHECK_SEQ_POINT(methodExecutionContext, 32794);
+		CHECK_SEQ_POINT(methodExecutionContext, 34437);
+		CHECK_SEQ_POINT(methodExecutionContext, 34419);
 		int32_t L_5 = ___index0;
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_6 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32795);
-		STORE_SEQ_POINT(methodExecutionContext, 32813);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_6, il2cpp_codegen_get_sequence_point(32795));
+		CHECK_SEQ_POINT(methodExecutionContext, 34420);
+		STORE_SEQ_POINT(methodExecutionContext, 34438);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_6, il2cpp_codegen_get_sequence_point(34420));
 		int32_t L_7 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 32813);
+		CHECK_SEQ_POINT(methodExecutionContext, 34438);
 		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_7, (int32_t)1))))))
 		{
 			goto IL_003f;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32796);
+		CHECK_SEQ_POINT(methodExecutionContext, 34421);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_8 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_9 = ___index0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32797);
-		STORE_SEQ_POINT(methodExecutionContext, 32814);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_8, il2cpp_codegen_get_sequence_point(32797));
+		CHECK_SEQ_POINT(methodExecutionContext, 34422);
+		STORE_SEQ_POINT(methodExecutionContext, 34439);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_8, il2cpp_codegen_get_sequence_point(34422));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 16)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_8, (int32_t)L_9, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 16));
-		CHECK_SEQ_POINT(methodExecutionContext, 32814);
+		CHECK_SEQ_POINT(methodExecutionContext, 34439);
 		goto IL_0082;
 	}
 
 IL_003f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32798);
-		CHECK_SEQ_POINT(methodExecutionContext, 32799);
+		CHECK_SEQ_POINT(methodExecutionContext, 34423);
+		CHECK_SEQ_POINT(methodExecutionContext, 34424);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_10 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32800);
-		STORE_SEQ_POINT(methodExecutionContext, 32815);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_10, il2cpp_codegen_get_sequence_point(32800));
+		CHECK_SEQ_POINT(methodExecutionContext, 34425);
+		STORE_SEQ_POINT(methodExecutionContext, 34440);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_10, il2cpp_codegen_get_sequence_point(34425));
 		int32_t L_11 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 32815);
+		CHECK_SEQ_POINT(methodExecutionContext, 34440);
 		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_11, (int32_t)1));
-		CHECK_SEQ_POINT(methodExecutionContext, 32801);
+		CHECK_SEQ_POINT(methodExecutionContext, 34426);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_12 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_13 = V_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 32802);
-		STORE_SEQ_POINT(methodExecutionContext, 32816);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_12, il2cpp_codegen_get_sequence_point(32802));
+		CHECK_SEQ_POINT(methodExecutionContext, 34427);
+		STORE_SEQ_POINT(methodExecutionContext, 34441);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_12, il2cpp_codegen_get_sequence_point(34427));
 		RuntimeObject * L_14 = ((  RuntimeObject * (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_12, (int32_t)L_13, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14));
-		CHECK_SEQ_POINT(methodExecutionContext, 32816);
+		CHECK_SEQ_POINT(methodExecutionContext, 34441);
 		V_2 = (RuntimeObject *)L_14;
-		CHECK_SEQ_POINT(methodExecutionContext, 32803);
+		CHECK_SEQ_POINT(methodExecutionContext, 34428);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_15 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_16 = ___index0;
 		RuntimeObject * L_17 = V_2;
-		CHECK_SEQ_POINT(methodExecutionContext, 32804);
-		STORE_SEQ_POINT(methodExecutionContext, 32817);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_15, il2cpp_codegen_get_sequence_point(32804));
+		CHECK_SEQ_POINT(methodExecutionContext, 34429);
+		STORE_SEQ_POINT(methodExecutionContext, 34442);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_15, il2cpp_codegen_get_sequence_point(34429));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_15, (int32_t)L_16, (RuntimeObject *)L_17, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
-		CHECK_SEQ_POINT(methodExecutionContext, 32817);
-		CHECK_SEQ_POINT(methodExecutionContext, 32805);
+		CHECK_SEQ_POINT(methodExecutionContext, 34442);
+		CHECK_SEQ_POINT(methodExecutionContext, 34430);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_18 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_19 = V_2;
 		int32_t L_20 = ___index0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32806);
-		STORE_SEQ_POINT(methodExecutionContext, 32818);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_18, il2cpp_codegen_get_sequence_point(32806));
+		CHECK_SEQ_POINT(methodExecutionContext, 34431);
+		STORE_SEQ_POINT(methodExecutionContext, 34443);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_18, il2cpp_codegen_get_sequence_point(34431));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 18)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_18, (RuntimeObject *)L_19, (int32_t)L_20, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 18));
-		CHECK_SEQ_POINT(methodExecutionContext, 32818);
-		CHECK_SEQ_POINT(methodExecutionContext, 32807);
+		CHECK_SEQ_POINT(methodExecutionContext, 34443);
+		CHECK_SEQ_POINT(methodExecutionContext, 34432);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_21 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_22 = V_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 32808);
-		STORE_SEQ_POINT(methodExecutionContext, 32819);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_21, il2cpp_codegen_get_sequence_point(32808));
+		CHECK_SEQ_POINT(methodExecutionContext, 34433);
+		STORE_SEQ_POINT(methodExecutionContext, 34444);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_21, il2cpp_codegen_get_sequence_point(34433));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 16)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_21, (int32_t)L_22, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 16));
-		CHECK_SEQ_POINT(methodExecutionContext, 32819);
-		CHECK_SEQ_POINT(methodExecutionContext, 32809);
+		CHECK_SEQ_POINT(methodExecutionContext, 34444);
+		CHECK_SEQ_POINT(methodExecutionContext, 34434);
 	}
 
 IL_0082:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32810);
+		CHECK_SEQ_POINT(methodExecutionContext, 34435);
 		return;
 	}
 }
@@ -27736,25 +27757,25 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * IndexedSet_1_get_Item_m991C6F46119
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 32820);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32821);
+	CHECK_SEQ_POINT(methodExecutionContext, 34445);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34446);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32822);
-		CHECK_SEQ_POINT(methodExecutionContext, 32823);
+		CHECK_SEQ_POINT(methodExecutionContext, 34447);
+		CHECK_SEQ_POINT(methodExecutionContext, 34448);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_1 = ___index0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32824);
-		STORE_SEQ_POINT(methodExecutionContext, 32826);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32824));
+		CHECK_SEQ_POINT(methodExecutionContext, 34449);
+		STORE_SEQ_POINT(methodExecutionContext, 34451);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34449));
 		RuntimeObject * L_2 = ((  RuntimeObject * (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (int32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14));
-		CHECK_SEQ_POINT(methodExecutionContext, 32826);
+		CHECK_SEQ_POINT(methodExecutionContext, 34451);
 		V_0 = (RuntimeObject *)L_2;
 		goto IL_0013;
 	}
 
 IL_0013:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32825);
+		CHECK_SEQ_POINT(methodExecutionContext, 34450);
 		RuntimeObject * L_3 = V_0;
 		return L_3;
 	}
@@ -27773,46 +27794,139 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_set_Item_mB1E26F0231DAEC2791CD36
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0), (&___value1));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 32827);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32828);
+	CHECK_SEQ_POINT(methodExecutionContext, 34452);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34453);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32829);
-		CHECK_SEQ_POINT(methodExecutionContext, 32830);
+		CHECK_SEQ_POINT(methodExecutionContext, 34454);
+		CHECK_SEQ_POINT(methodExecutionContext, 34455);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_1 = ___index0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32831);
-		STORE_SEQ_POINT(methodExecutionContext, 32839);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32831));
+		CHECK_SEQ_POINT(methodExecutionContext, 34456);
+		STORE_SEQ_POINT(methodExecutionContext, 34464);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34456));
 		RuntimeObject * L_2 = ((  RuntimeObject * (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (int32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14));
-		CHECK_SEQ_POINT(methodExecutionContext, 32839);
+		CHECK_SEQ_POINT(methodExecutionContext, 34464);
 		V_0 = (RuntimeObject *)L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, 32832);
+		CHECK_SEQ_POINT(methodExecutionContext, 34457);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_3 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_4 = V_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32833);
-		STORE_SEQ_POINT(methodExecutionContext, 32840);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_3, il2cpp_codegen_get_sequence_point(32833));
+		CHECK_SEQ_POINT(methodExecutionContext, 34458);
+		STORE_SEQ_POINT(methodExecutionContext, 34465);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_3, il2cpp_codegen_get_sequence_point(34458));
 		((  bool (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 15)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_3, (RuntimeObject *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 15));
-		CHECK_SEQ_POINT(methodExecutionContext, 32840);
-		CHECK_SEQ_POINT(methodExecutionContext, 32834);
+		CHECK_SEQ_POINT(methodExecutionContext, 34465);
+		CHECK_SEQ_POINT(methodExecutionContext, 34459);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_5 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_6 = ___index0;
 		RuntimeObject * L_7 = ___value1;
-		CHECK_SEQ_POINT(methodExecutionContext, 32835);
-		STORE_SEQ_POINT(methodExecutionContext, 32841);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_5, il2cpp_codegen_get_sequence_point(32835));
+		CHECK_SEQ_POINT(methodExecutionContext, 34460);
+		STORE_SEQ_POINT(methodExecutionContext, 34466);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_5, il2cpp_codegen_get_sequence_point(34460));
 		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_5, (int32_t)L_6, (RuntimeObject *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
-		CHECK_SEQ_POINT(methodExecutionContext, 32841);
-		CHECK_SEQ_POINT(methodExecutionContext, 32836);
+		CHECK_SEQ_POINT(methodExecutionContext, 34466);
+		CHECK_SEQ_POINT(methodExecutionContext, 34461);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_8 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_9 = V_0;
 		int32_t L_10 = ___index0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32837);
-		STORE_SEQ_POINT(methodExecutionContext, 32842);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_8, il2cpp_codegen_get_sequence_point(32837));
+		CHECK_SEQ_POINT(methodExecutionContext, 34462);
+		STORE_SEQ_POINT(methodExecutionContext, 34467);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_8, il2cpp_codegen_get_sequence_point(34462));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_8, (RuntimeObject *)L_9, (int32_t)L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 6));
-		CHECK_SEQ_POINT(methodExecutionContext, 32842);
-		CHECK_SEQ_POINT(methodExecutionContext, 32838);
+		CHECK_SEQ_POINT(methodExecutionContext, 34467);
+		CHECK_SEQ_POINT(methodExecutionContext, 34463);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::RemoveAll(System.Predicate`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_RemoveAll_mAE4ADE1DF64CADF07B55057DC73FB3506D955A68_gshared (IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 * __this, Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * ___match0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IndexedSet_1_RemoveAll_mAE4ADE1DF64CADF07B55057DC73FB3506D955A68_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RuntimeObject * V_1 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___match0));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_SEQ_POINT(methodExecutionContext, 34468);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34469);
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34470);
+		CHECK_SEQ_POINT(methodExecutionContext, 34471);
+		V_0 = (int32_t)0;
+		CHECK_SEQ_POINT(methodExecutionContext, 34472);
+		goto IL_0034;
+	}
+
+IL_0008:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34473);
+		CHECK_SEQ_POINT(methodExecutionContext, 34474);
+		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
+		int32_t L_1 = V_0;
+		CHECK_SEQ_POINT(methodExecutionContext, 34475);
+		STORE_SEQ_POINT(methodExecutionContext, 34485);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34475));
+		RuntimeObject * L_2 = ((  RuntimeObject * (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (int32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14));
+		CHECK_SEQ_POINT(methodExecutionContext, 34485);
+		V_1 = (RuntimeObject *)L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, 34476);
+		Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * L_3 = ___match0;
+		RuntimeObject * L_4 = V_1;
+		CHECK_SEQ_POINT(methodExecutionContext, 34477);
+		STORE_SEQ_POINT(methodExecutionContext, 34486);
+		NullCheck((Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 *)L_3, il2cpp_codegen_get_sequence_point(34477));
+		bool L_5 = ((  bool (*) (Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 19)->methodPointer)((Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 *)L_3, (RuntimeObject *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 19));
+		CHECK_SEQ_POINT(methodExecutionContext, 34486);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34478);
+		RuntimeObject * L_6 = V_1;
+		CHECK_SEQ_POINT(methodExecutionContext, 34479);
+		STORE_SEQ_POINT(methodExecutionContext, 34487);
+		NullCheck((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, il2cpp_codegen_get_sequence_point(34479));
+		((  bool (*) (IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 20)->methodPointer)((IndexedSet_1_t2CE060D26DA6E479DAB6AC2BD97AD3A7065B65F5 *)__this, (RuntimeObject *)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 20));
+		CHECK_SEQ_POINT(methodExecutionContext, 34487);
+		goto IL_0033;
+	}
+
+IL_002f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34480);
+		int32_t L_7 = V_0;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1));
+	}
+
+IL_0033:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34481);
+	}
+
+IL_0034:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34482);
+		int32_t L_8 = V_0;
+		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_9 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
+		CHECK_SEQ_POINT(methodExecutionContext, 34483);
+		STORE_SEQ_POINT(methodExecutionContext, 34488);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_9, il2cpp_codegen_get_sequence_point(34483));
+		int32_t L_10 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_9, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
+		CHECK_SEQ_POINT(methodExecutionContext, 34488);
+		if ((((int32_t)L_8) < ((int32_t)L_10)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, 34484);
 		return;
 	}
 }
@@ -27831,67 +27945,67 @@ extern "C" IL2CPP_METHOD_ATTR void IndexedSet_1_Sort_m57091341D45A2A66567F0AD15A
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___sortLayoutFunction0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 32843);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 32844);
+	CHECK_SEQ_POINT(methodExecutionContext, 34489);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 34490);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32845);
-		CHECK_SEQ_POINT(methodExecutionContext, 32846);
+		CHECK_SEQ_POINT(methodExecutionContext, 34491);
+		CHECK_SEQ_POINT(methodExecutionContext, 34492);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		Comparison_1_tD9DBDF7B2E4774B4D35E113A76D75828A24641F4 * L_1 = ___sortLayoutFunction0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32847);
-		STORE_SEQ_POINT(methodExecutionContext, 32859);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(32847));
-		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, Comparison_1_tD9DBDF7B2E4774B4D35E113A76D75828A24641F4 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 19)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (Comparison_1_tD9DBDF7B2E4774B4D35E113A76D75828A24641F4 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 19));
-		CHECK_SEQ_POINT(methodExecutionContext, 32859);
-		CHECK_SEQ_POINT(methodExecutionContext, 32848);
+		CHECK_SEQ_POINT(methodExecutionContext, 34493);
+		STORE_SEQ_POINT(methodExecutionContext, 34505);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, il2cpp_codegen_get_sequence_point(34493));
+		((  void (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, Comparison_1_tD9DBDF7B2E4774B4D35E113A76D75828A24641F4 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 21)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_0, (Comparison_1_tD9DBDF7B2E4774B4D35E113A76D75828A24641F4 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 21));
+		CHECK_SEQ_POINT(methodExecutionContext, 34505);
+		CHECK_SEQ_POINT(methodExecutionContext, 34494);
 		V_0 = (int32_t)0;
 		goto IL_0034;
 	}
 
 IL_0014:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32849);
-		CHECK_SEQ_POINT(methodExecutionContext, 32850);
+		CHECK_SEQ_POINT(methodExecutionContext, 34495);
+		CHECK_SEQ_POINT(methodExecutionContext, 34496);
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_2 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
 		int32_t L_3 = V_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32851);
-		STORE_SEQ_POINT(methodExecutionContext, 32860);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_2, il2cpp_codegen_get_sequence_point(32851));
+		CHECK_SEQ_POINT(methodExecutionContext, 34497);
+		STORE_SEQ_POINT(methodExecutionContext, 34506);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_2, il2cpp_codegen_get_sequence_point(34497));
 		RuntimeObject * L_4 = ((  RuntimeObject * (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_2, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 14));
-		CHECK_SEQ_POINT(methodExecutionContext, 32860);
+		CHECK_SEQ_POINT(methodExecutionContext, 34506);
 		V_1 = (RuntimeObject *)L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, 32852);
+		CHECK_SEQ_POINT(methodExecutionContext, 34498);
 		Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A * L_5 = (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)__this->get_m_Dictionary_1();
 		RuntimeObject * L_6 = V_1;
 		int32_t L_7 = V_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 32853);
-		STORE_SEQ_POINT(methodExecutionContext, 32861);
-		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_5, il2cpp_codegen_get_sequence_point(32853));
+		CHECK_SEQ_POINT(methodExecutionContext, 34499);
+		STORE_SEQ_POINT(methodExecutionContext, 34507);
+		NullCheck((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_5, il2cpp_codegen_get_sequence_point(34499));
 		((  void (*) (Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *, RuntimeObject *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 18)->methodPointer)((Dictionary_2_t81923CE2A312318AE13F58085CCF7FA8D879B77A *)L_5, (RuntimeObject *)L_6, (int32_t)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 18));
-		CHECK_SEQ_POINT(methodExecutionContext, 32861);
-		CHECK_SEQ_POINT(methodExecutionContext, 32854);
-		CHECK_SEQ_POINT(methodExecutionContext, 32855);
+		CHECK_SEQ_POINT(methodExecutionContext, 34507);
+		CHECK_SEQ_POINT(methodExecutionContext, 34500);
+		CHECK_SEQ_POINT(methodExecutionContext, 34501);
 		int32_t L_8 = V_0;
 		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_8, (int32_t)1));
 	}
 
 IL_0034:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32856);
+		CHECK_SEQ_POINT(methodExecutionContext, 34502);
 		int32_t L_9 = V_0;
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_10 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)__this->get_m_List_0();
-		CHECK_SEQ_POINT(methodExecutionContext, 32857);
-		STORE_SEQ_POINT(methodExecutionContext, 32862);
-		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_10, il2cpp_codegen_get_sequence_point(32857));
+		CHECK_SEQ_POINT(methodExecutionContext, 34503);
+		STORE_SEQ_POINT(methodExecutionContext, 34508);
+		NullCheck((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_10, il2cpp_codegen_get_sequence_point(34503));
 		int32_t L_11 = ((  int32_t (*) (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5)->methodPointer)((List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 5));
-		CHECK_SEQ_POINT(methodExecutionContext, 32862);
+		CHECK_SEQ_POINT(methodExecutionContext, 34508);
 		if ((((int32_t)L_9) < ((int32_t)L_11)))
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 32858);
+		CHECK_SEQ_POINT(methodExecutionContext, 34504);
 		return;
 	}
 }

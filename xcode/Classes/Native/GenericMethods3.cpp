@@ -19544,44 +19544,44 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Dropdown_GetOrAddComponent_TisRunt
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___go0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 13236);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 13237);
+	CHECK_SEQ_POINT(methodExecutionContext, 14780);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 14781);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 13238);
-		CHECK_SEQ_POINT(methodExecutionContext, 13239);
+		CHECK_SEQ_POINT(methodExecutionContext, 14782);
+		CHECK_SEQ_POINT(methodExecutionContext, 14783);
 		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = ___go0;
-		CHECK_SEQ_POINT(methodExecutionContext, 13240);
-		STORE_SEQ_POINT(methodExecutionContext, 13247);
-		NullCheck((GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *)L_0, il2cpp_codegen_get_sequence_point(13240));
+		CHECK_SEQ_POINT(methodExecutionContext, 14784);
+		STORE_SEQ_POINT(methodExecutionContext, 14791);
+		NullCheck((GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *)L_0, il2cpp_codegen_get_sequence_point(14784));
 		RuntimeObject * L_1 = ((  RuntimeObject * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, 13247);
+		CHECK_SEQ_POINT(methodExecutionContext, 14791);
 		V_0 = (RuntimeObject *)L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 13241);
+		CHECK_SEQ_POINT(methodExecutionContext, 14785);
 		RuntimeObject * L_2 = V_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 13242);
-		STORE_SEQ_POINT(methodExecutionContext, 13248);
+		CHECK_SEQ_POINT(methodExecutionContext, 14786);
+		STORE_SEQ_POINT(methodExecutionContext, 14792);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_3 = Object_op_Implicit_m8B2A44B4B1406ED346D1AE6D962294FD58D0D534((Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 *)L_2, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 13248);
+		CHECK_SEQ_POINT(methodExecutionContext, 14792);
 		if (L_3)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 13243);
+		CHECK_SEQ_POINT(methodExecutionContext, 14787);
 		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_4 = ___go0;
-		CHECK_SEQ_POINT(methodExecutionContext, 13244);
-		STORE_SEQ_POINT(methodExecutionContext, 13249);
-		NullCheck((GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *)L_4, il2cpp_codegen_get_sequence_point(13244));
+		CHECK_SEQ_POINT(methodExecutionContext, 14788);
+		STORE_SEQ_POINT(methodExecutionContext, 14793);
+		NullCheck((GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *)L_4, il2cpp_codegen_get_sequence_point(14788));
 		RuntimeObject * L_5 = ((  RuntimeObject * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)((GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, 13249);
+		CHECK_SEQ_POINT(methodExecutionContext, 14793);
 		V_0 = (RuntimeObject *)L_5;
 	}
 
 IL_001f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 13245);
+		CHECK_SEQ_POINT(methodExecutionContext, 14789);
 		RuntimeObject * L_6 = V_0;
 		V_1 = (RuntimeObject *)L_6;
 		goto IL_0026;
@@ -19589,7 +19589,7 @@ IL_001f:
 
 IL_0026:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 13246);
+		CHECK_SEQ_POINT(methodExecutionContext, 14790);
 		RuntimeObject * L_7 = V_1;
 		return L_7;
 	}

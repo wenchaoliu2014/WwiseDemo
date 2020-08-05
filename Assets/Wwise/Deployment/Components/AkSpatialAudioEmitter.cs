@@ -58,7 +58,12 @@ public class AkSpatialAudioEmitter : AkSpatialAudioBase
 		emitterSettings.diffractionMaxPathLength = diffractionMaxPathLength;
 
 		if (AkSoundEngine.RegisterEmitter(gameObject, emitterSettings) == AKRESULT.AK_Success)
+		{
 			SetGameObjectInRoom();
+			var akGameObj = GetComponent<AkGameObj>();
+			if (akGameObj)
+				akGameObj.SetPosition(true);
+		}
 	}
 
 	private void OnDisable()
