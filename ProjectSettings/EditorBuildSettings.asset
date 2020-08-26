@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TestSounds.unity
+    guid: 2f0b3b7ee2c523a46ba9a3a4104bbff6
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: c922955b05c13174e9570d5a28ff6f91
   m_configObjects: {}

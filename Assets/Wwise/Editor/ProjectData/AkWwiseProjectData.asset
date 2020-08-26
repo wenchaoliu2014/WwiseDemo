@@ -338,16 +338,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Work_WwiseProject
-  - /Work_WwiseProject/Events
-  - /Work_WwiseProject/Events/Default Work Unit
-  - /Work_WwiseProject/Events/TPS
-  - /Work_WwiseProject/Events/UI
-  - /Work_WwiseProject/Events/UI/Generic
-  - /Work_WwiseProject/SoundBanks
-  - /Work_WwiseProject/SoundBanks/Default Work Unit
-  - /Work_WwiseProject/States
-  - /Work_WwiseProject/States/Default Work Unit
-  - /Work_WwiseProject/Switches
-  - /Work_WwiseProject/Switches/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

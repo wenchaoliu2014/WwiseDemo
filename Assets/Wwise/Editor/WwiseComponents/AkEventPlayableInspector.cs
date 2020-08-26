@@ -1,4 +1,5 @@
 ﻿#if UNITY_EDITOR && UNITY_2017_1_OR_NEWER
+#if !AK_DISABLE_TIMELINE
 
 //////////////////////////////////////////////////////////////////////
 //
@@ -6,6 +7,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
+[System.Obsolete(AkSoundEngine.Deprecation_2019_1_8)]
 [UnityEditor.CustomEditor(typeof(AkEventPlayable))]
 public class AkEventPlayableInspector : UnityEditor.Editor
 {
@@ -32,6 +34,8 @@ public class AkEventPlayableInspector : UnityEditor.Editor
 
 	public override void OnInspectorGUI()
 	{
+		UnityEditor.EditorGUILayout.HelpBox(AkSoundEngine.Deprecation_2019_1_8, UnityEditor.MessageType.Warning);
+
 		serializedObject.Update();
 
 		UnityEngine.GUILayout.Space(UnityEditor.EditorGUIUtility.standardVerticalSpacing);
@@ -81,16 +85,6 @@ public class AkEventPlayableInspector : UnityEditor.Editor
 		UnityEditor.EditorUtility.DisplayProgressBar("Wwise Integration", "Fixing clip durations of AkEventPlayables...", progress);
 	}
 
-	[UnityEditor.InitializeOnLoadMethod]
-	public static void SetupSoundbankSetting()
-	{
-		var WprojPath = AkUtilities.GetFullPath(UnityEngine.Application.dataPath, WwiseSettings.LoadSettings().WwiseProjectPath);
-		AkUtilities.EnableBoolSoundbankSettingInWproj("SoundBankGenerateEstimatedDuration", WprojPath);
-
-		UnityEditor.EditorApplication.update += RunOnce;
-		AkWwiseXMLWatcher.Instance.XMLUpdated += UpdateAllClips;
-	}
-
 	private static void RunOnce()
 	{
 		UpdateAllClips();
@@ -99,7 +93,7 @@ public class AkEventPlayableInspector : UnityEditor.Editor
 
 	private static void UpdateAllClips()
 	{
-		var guids = UnityEditor.AssetDatabase.FindAssets("t:UnityEngine.Playables.PlayableAsset", new[] { "Assets" });
+		var guids = UnityEditor.AssetDatabase.FindAssets("t:AkEventPlayable", new[] { "Assets" });
 		if (guids.Length < 1)
 			return;
 
@@ -188,4 +182,5 @@ public class AkEventPlayableInspector : UnityEditor.Editor
 	}
 }
 
+#endif // !AK_DISABLE_TIMELINE
 #endif //#if UNITY_EDITOR && UNITY_2017_1_OR_NEWER

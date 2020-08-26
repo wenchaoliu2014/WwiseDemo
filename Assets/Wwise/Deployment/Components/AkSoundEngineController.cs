@@ -89,7 +89,8 @@ public class AkSoundEngineController
 		}
 
 		var arguments = System.Environment.GetCommandLineArgs();
-		if (System.Array.IndexOf(arguments, "-nographics") >= 0 &&
+		if ((System.Array.IndexOf(arguments, "-nographics") >= 0 ||
+			System.Array.IndexOf(arguments, "-batchmode") >= 0) &&
 			System.Array.IndexOf(arguments, "-wwiseEnableWithNoGraphics") < 0)
 			return;
 
@@ -183,7 +184,9 @@ public class AkSoundEngineController
 
 	public void OnApplicationFocus(bool focus)
 	{
-		ActivateAudio(focus);
+#if !UNITY_ANDROID
+		ActivateAudio(focus, AkWwiseInitializationSettings.ActivePlatformSettings.RenderDuringFocusLoss);
+#endif
 	}
 #endif
 
@@ -208,14 +211,14 @@ public class AkSoundEngineController
 #endif
 
 #if UNITY_EDITOR || !UNITY_IOS
-	private void ActivateAudio(bool activate)
+	private void ActivateAudio(bool activate, bool renderAnyway = false)
 	{
 		if (AkSoundEngine.IsInitialized())
 		{
 			if (activate)
 				AkSoundEngine.WakeupFromSuspend();
 			else
-				AkSoundEngine.Suspend();
+				AkSoundEngine.Suspend(renderAnyway);
 
 			AkSoundEngine.RenderAudio();
 		}
