@@ -7625,19 +7625,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_Awake_m4B39B458096AA74293AE84D2
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_Awake_m4B39B458096AA74293AE84D2AF5044FCBEA25447_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53568);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53569);
+	CHECK_SEQ_POINT(methodExecutionContext, 53056);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53057);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53570);
+		CHECK_SEQ_POINT(methodExecutionContext, 53058);
 		// if (ms_Instance)
-		CHECK_SEQ_POINT(methodExecutionContext, 53571);
+		CHECK_SEQ_POINT(methodExecutionContext, 53059);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53579);
+		STORE_SEQ_POINT(methodExecutionContext, 53067);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Implicit_m8B2A44B4B1406ED346D1AE6D962294FD58D0D534(L_0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53579);
+		CHECK_SEQ_POINT(methodExecutionContext, 53067);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53572);
+		CHECK_SEQ_POINT(methodExecutionContext, 53060);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7645,35 +7645,35 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_Awake_m4B39B458096AA74293AE84D2
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53573);
+		CHECK_SEQ_POINT(methodExecutionContext, 53061);
 		// DestroyImmediate(this);
-		CHECK_SEQ_POINT(methodExecutionContext, 53574);
-		STORE_SEQ_POINT(methodExecutionContext, 53580);
+		CHECK_SEQ_POINT(methodExecutionContext, 53062);
+		STORE_SEQ_POINT(methodExecutionContext, 53068);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_mF6F4415EF22249D6E650FAA40E403283F19B7446(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53580);
+		CHECK_SEQ_POINT(methodExecutionContext, 53068);
 		// return;
-		CHECK_SEQ_POINT(methodExecutionContext, 53575);
+		CHECK_SEQ_POINT(methodExecutionContext, 53063);
 		goto IL_0026;
 	}
 
 IL_0019:
 	{
 		// ms_Instance = this;
-		CHECK_SEQ_POINT(methodExecutionContext, 53576);
+		CHECK_SEQ_POINT(methodExecutionContext, 53064);
 		((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->set_ms_Instance_4(__this);
 		// DontDestroyOnLoad(this);
-		CHECK_SEQ_POINT(methodExecutionContext, 53577);
-		STORE_SEQ_POINT(methodExecutionContext, 53581);
+		CHECK_SEQ_POINT(methodExecutionContext, 53065);
+		STORE_SEQ_POINT(methodExecutionContext, 53069);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4DC90770AD6084E4B1B8489C6B41205DC020C207(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53581);
+		CHECK_SEQ_POINT(methodExecutionContext, 53069);
 	}
 
 IL_0026:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53578);
+		CHECK_SEQ_POINT(methodExecutionContext, 53066);
 		return;
 	}
 }
@@ -7689,26 +7689,26 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnEnable_m630844AB46DAC06C99118
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_OnEnable_m630844AB46DAC06C99118908FBA84CBC4FE2621E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53582);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53583);
+	CHECK_SEQ_POINT(methodExecutionContext, 53070);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53071);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53584);
+		CHECK_SEQ_POINT(methodExecutionContext, 53072);
 		// InitializationSettings = AkWwiseInitializationSettings.Instance;
-		CHECK_SEQ_POINT(methodExecutionContext, 53585);
-		STORE_SEQ_POINT(methodExecutionContext, 53590);
+		CHECK_SEQ_POINT(methodExecutionContext, 53073);
+		STORE_SEQ_POINT(methodExecutionContext, 53078);
 		IL2CPP_RUNTIME_CLASS_INIT(AkWwiseInitializationSettings_tB56333104F819B032BB277B04D29128C28406818_il2cpp_TypeInfo_var);
 		AkWwiseInitializationSettings_tB56333104F819B032BB277B04D29128C28406818 * L_0 = AkWwiseInitializationSettings_get_Instance_mB18F3B1834F0B91F4A099A006E64374C11E616DF(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53590);
+		CHECK_SEQ_POINT(methodExecutionContext, 53078);
 		__this->set_InitializationSettings_5(L_0);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53586);
+		CHECK_SEQ_POINT(methodExecutionContext, 53074);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_1 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53591);
+		STORE_SEQ_POINT(methodExecutionContext, 53079);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_2 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_1, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53591);
+		CHECK_SEQ_POINT(methodExecutionContext, 53079);
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, 53587);
+		CHECK_SEQ_POINT(methodExecutionContext, 53075);
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -7717,20 +7717,20 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnEnable_m630844AB46DAC06C99118
 	}
 	{
 		// AkSoundEngineController.Instance.Init(this);
-		CHECK_SEQ_POINT(methodExecutionContext, 53588);
-		STORE_SEQ_POINT(methodExecutionContext, 53592);
+		CHECK_SEQ_POINT(methodExecutionContext, 53076);
+		STORE_SEQ_POINT(methodExecutionContext, 53080);
 		AkSoundEngineController_tDA6E71F8F2EE2F0842435381D67AA57A0B20F8A1 * L_4 = AkSoundEngineController_get_Instance_m552075CCC3E52A7D13DF8AA7E44B08299715F609(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53592);
-		STORE_SEQ_POINT(methodExecutionContext, 53593);
-		NullCheck(L_4, il2cpp_codegen_get_sequence_point(53588));
+		CHECK_SEQ_POINT(methodExecutionContext, 53080);
+		STORE_SEQ_POINT(methodExecutionContext, 53081);
+		NullCheck(L_4, il2cpp_codegen_get_sequence_point(53076));
 		AkSoundEngineController_Init_m0580FF4B198FFFA5389B247DF4967487E0F12BD7(L_4, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53593);
+		CHECK_SEQ_POINT(methodExecutionContext, 53081);
 	}
 
 IL_0027:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53589);
+		CHECK_SEQ_POINT(methodExecutionContext, 53077);
 		return;
 	}
 }
@@ -7746,19 +7746,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnDisable_m2A649678643A6D288F93
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_OnDisable_m2A649678643A6D288F936A380DF601C78E37725A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53594);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53595);
+	CHECK_SEQ_POINT(methodExecutionContext, 53082);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53083);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53596);
+		CHECK_SEQ_POINT(methodExecutionContext, 53084);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53597);
+		CHECK_SEQ_POINT(methodExecutionContext, 53085);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53601);
+		STORE_SEQ_POINT(methodExecutionContext, 53089);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_0, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53601);
+		CHECK_SEQ_POINT(methodExecutionContext, 53089);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53598);
+		CHECK_SEQ_POINT(methodExecutionContext, 53086);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7767,20 +7767,20 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnDisable_m2A649678643A6D288F93
 	}
 	{
 		// AkSoundEngineController.Instance.OnDisable();
-		CHECK_SEQ_POINT(methodExecutionContext, 53599);
-		STORE_SEQ_POINT(methodExecutionContext, 53602);
+		CHECK_SEQ_POINT(methodExecutionContext, 53087);
+		STORE_SEQ_POINT(methodExecutionContext, 53090);
 		AkSoundEngineController_tDA6E71F8F2EE2F0842435381D67AA57A0B20F8A1 * L_3 = AkSoundEngineController_get_Instance_m552075CCC3E52A7D13DF8AA7E44B08299715F609(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53602);
-		STORE_SEQ_POINT(methodExecutionContext, 53603);
-		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53599));
+		CHECK_SEQ_POINT(methodExecutionContext, 53090);
+		STORE_SEQ_POINT(methodExecutionContext, 53091);
+		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53087));
 		AkSoundEngineController_OnDisable_m4009BEF1CC69F33D12230E7BAA8B9C2F7FAF27D5(L_3, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53603);
+		CHECK_SEQ_POINT(methodExecutionContext, 53091);
 	}
 
 IL_001b:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53600);
+		CHECK_SEQ_POINT(methodExecutionContext, 53088);
 		return;
 	}
 }
@@ -7796,19 +7796,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnDestroy_m844D7F321DCF89A05F81
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_OnDestroy_m844D7F321DCF89A05F81F9663B53A207BE94914F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53604);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53605);
+	CHECK_SEQ_POINT(methodExecutionContext, 53092);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53093);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53606);
+		CHECK_SEQ_POINT(methodExecutionContext, 53094);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53607);
+		CHECK_SEQ_POINT(methodExecutionContext, 53095);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53611);
+		STORE_SEQ_POINT(methodExecutionContext, 53099);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_0, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53611);
+		CHECK_SEQ_POINT(methodExecutionContext, 53099);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53608);
+		CHECK_SEQ_POINT(methodExecutionContext, 53096);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7817,14 +7817,14 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnDestroy_m844D7F321DCF89A05F81
 	}
 	{
 		// ms_Instance = null;
-		CHECK_SEQ_POINT(methodExecutionContext, 53609);
+		CHECK_SEQ_POINT(methodExecutionContext, 53097);
 		((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->set_ms_Instance_4((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 *)NULL);
 	}
 
 IL_0016:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53610);
+		CHECK_SEQ_POINT(methodExecutionContext, 53098);
 		return;
 	}
 }
@@ -7841,19 +7841,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnApplicationPause_mDB06971BFFB
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___pauseStatus0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_OnApplicationPause_mDB06971BFFBB3197DC9BBF7EBFCE0B23856DF30B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53612);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53613);
+	CHECK_SEQ_POINT(methodExecutionContext, 53100);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53101);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53614);
+		CHECK_SEQ_POINT(methodExecutionContext, 53102);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53615);
+		CHECK_SEQ_POINT(methodExecutionContext, 53103);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53619);
+		STORE_SEQ_POINT(methodExecutionContext, 53107);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_0, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53619);
+		CHECK_SEQ_POINT(methodExecutionContext, 53107);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53616);
+		CHECK_SEQ_POINT(methodExecutionContext, 53104);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7862,21 +7862,21 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnApplicationPause_mDB06971BFFB
 	}
 	{
 		// AkSoundEngineController.Instance.OnApplicationPause(pauseStatus);
-		CHECK_SEQ_POINT(methodExecutionContext, 53617);
-		STORE_SEQ_POINT(methodExecutionContext, 53620);
+		CHECK_SEQ_POINT(methodExecutionContext, 53105);
+		STORE_SEQ_POINT(methodExecutionContext, 53108);
 		AkSoundEngineController_tDA6E71F8F2EE2F0842435381D67AA57A0B20F8A1 * L_3 = AkSoundEngineController_get_Instance_m552075CCC3E52A7D13DF8AA7E44B08299715F609(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53620);
+		CHECK_SEQ_POINT(methodExecutionContext, 53108);
 		bool L_4 = ___pauseStatus0;
-		STORE_SEQ_POINT(methodExecutionContext, 53621);
-		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53617));
+		STORE_SEQ_POINT(methodExecutionContext, 53109);
+		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53105));
 		AkSoundEngineController_OnApplicationPause_m4CD6FA8F9F9CB3713F64B39359D3688DC6C6DBF2(L_3, L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53621);
+		CHECK_SEQ_POINT(methodExecutionContext, 53109);
 	}
 
 IL_001c:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53618);
+		CHECK_SEQ_POINT(methodExecutionContext, 53106);
 		return;
 	}
 }
@@ -7893,19 +7893,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnApplicationFocus_mA2255A38F86
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___focus0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_OnApplicationFocus_mA2255A38F862241ADE189102BB72DAB45BF384E4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53622);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53623);
+	CHECK_SEQ_POINT(methodExecutionContext, 53110);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53111);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53624);
+		CHECK_SEQ_POINT(methodExecutionContext, 53112);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53625);
+		CHECK_SEQ_POINT(methodExecutionContext, 53113);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53629);
+		STORE_SEQ_POINT(methodExecutionContext, 53117);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_0, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53629);
+		CHECK_SEQ_POINT(methodExecutionContext, 53117);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53626);
+		CHECK_SEQ_POINT(methodExecutionContext, 53114);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7914,21 +7914,21 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnApplicationFocus_mA2255A38F86
 	}
 	{
 		// AkSoundEngineController.Instance.OnApplicationFocus(focus);
-		CHECK_SEQ_POINT(methodExecutionContext, 53627);
-		STORE_SEQ_POINT(methodExecutionContext, 53630);
+		CHECK_SEQ_POINT(methodExecutionContext, 53115);
+		STORE_SEQ_POINT(methodExecutionContext, 53118);
 		AkSoundEngineController_tDA6E71F8F2EE2F0842435381D67AA57A0B20F8A1 * L_3 = AkSoundEngineController_get_Instance_m552075CCC3E52A7D13DF8AA7E44B08299715F609(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53630);
+		CHECK_SEQ_POINT(methodExecutionContext, 53118);
 		bool L_4 = ___focus0;
-		STORE_SEQ_POINT(methodExecutionContext, 53631);
-		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53627));
+		STORE_SEQ_POINT(methodExecutionContext, 53119);
+		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53115));
 		AkSoundEngineController_OnApplicationFocus_m71E25B38E0001CF11261DCCD11C5AA387920FE8F(L_3, L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53631);
+		CHECK_SEQ_POINT(methodExecutionContext, 53119);
 	}
 
 IL_001c:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53628);
+		CHECK_SEQ_POINT(methodExecutionContext, 53116);
 		return;
 	}
 }
@@ -7944,19 +7944,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnApplicationQuit_m02ADFA5CA847
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_OnApplicationQuit_m02ADFA5CA8473261567AD906E610912FFB8DF577_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53632);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53633);
+	CHECK_SEQ_POINT(methodExecutionContext, 53120);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53121);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53634);
+		CHECK_SEQ_POINT(methodExecutionContext, 53122);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53635);
+		CHECK_SEQ_POINT(methodExecutionContext, 53123);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53639);
+		STORE_SEQ_POINT(methodExecutionContext, 53127);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_0, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53639);
+		CHECK_SEQ_POINT(methodExecutionContext, 53127);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53636);
+		CHECK_SEQ_POINT(methodExecutionContext, 53124);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7965,20 +7965,20 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_OnApplicationQuit_m02ADFA5CA847
 	}
 	{
 		// AkSoundEngineController.Instance.Terminate();
-		CHECK_SEQ_POINT(methodExecutionContext, 53637);
-		STORE_SEQ_POINT(methodExecutionContext, 53640);
+		CHECK_SEQ_POINT(methodExecutionContext, 53125);
+		STORE_SEQ_POINT(methodExecutionContext, 53128);
 		AkSoundEngineController_tDA6E71F8F2EE2F0842435381D67AA57A0B20F8A1 * L_3 = AkSoundEngineController_get_Instance_m552075CCC3E52A7D13DF8AA7E44B08299715F609(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53640);
-		STORE_SEQ_POINT(methodExecutionContext, 53641);
-		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53637));
+		CHECK_SEQ_POINT(methodExecutionContext, 53128);
+		STORE_SEQ_POINT(methodExecutionContext, 53129);
+		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53125));
 		AkSoundEngineController_Terminate_mCF2F3CF6E95323539D965645209479EC3B62C622(L_3, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53641);
+		CHECK_SEQ_POINT(methodExecutionContext, 53129);
 	}
 
 IL_001b:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53638);
+		CHECK_SEQ_POINT(methodExecutionContext, 53126);
 		return;
 	}
 }
@@ -7994,19 +7994,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_LateUpdate_mE75C1B6D685B92B2977
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkInitializer_LateUpdate_mE75C1B6D685B92B2977CB84E034B791AE1965F6B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53642);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53643);
+	CHECK_SEQ_POINT(methodExecutionContext, 53130);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53131);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53644);
+		CHECK_SEQ_POINT(methodExecutionContext, 53132);
 		// if (ms_Instance == this)
-		CHECK_SEQ_POINT(methodExecutionContext, 53645);
+		CHECK_SEQ_POINT(methodExecutionContext, 53133);
 		AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70 * L_0 = ((AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_StaticFields*)il2cpp_codegen_static_fields_for(AkInitializer_t0CE03430C0F6F8FAD53E715268B08B67A074AF70_il2cpp_TypeInfo_var))->get_ms_Instance_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53649);
+		STORE_SEQ_POINT(methodExecutionContext, 53137);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_1 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_0, __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53649);
+		CHECK_SEQ_POINT(methodExecutionContext, 53137);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53646);
+		CHECK_SEQ_POINT(methodExecutionContext, 53134);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -8015,20 +8015,20 @@ extern "C" IL2CPP_METHOD_ATTR void AkInitializer_LateUpdate_mE75C1B6D685B92B2977
 	}
 	{
 		// AkSoundEngineController.Instance.LateUpdate();
-		CHECK_SEQ_POINT(methodExecutionContext, 53647);
-		STORE_SEQ_POINT(methodExecutionContext, 53650);
+		CHECK_SEQ_POINT(methodExecutionContext, 53135);
+		STORE_SEQ_POINT(methodExecutionContext, 53138);
 		AkSoundEngineController_tDA6E71F8F2EE2F0842435381D67AA57A0B20F8A1 * L_3 = AkSoundEngineController_get_Instance_m552075CCC3E52A7D13DF8AA7E44B08299715F609(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53650);
-		STORE_SEQ_POINT(methodExecutionContext, 53651);
-		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53647));
+		CHECK_SEQ_POINT(methodExecutionContext, 53138);
+		STORE_SEQ_POINT(methodExecutionContext, 53139);
+		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53135));
 		AkSoundEngineController_LateUpdate_m1AAB23671127DDBFCAFC4C57B95281D2F7EFFD26(L_3, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53651);
+		CHECK_SEQ_POINT(methodExecutionContext, 53139);
 	}
 
 IL_001b:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53648);
+		CHECK_SEQ_POINT(methodExecutionContext, 53136);
 		return;
 	}
 }
@@ -17015,15 +17015,15 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_Start_mA207C58423343645221A72
 	bool V_0 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader_Start_mA207C58423343645221A72604153C4593C02D4B8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53652);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53653);
+	CHECK_SEQ_POINT(methodExecutionContext, 53140);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53141);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53654);
+		CHECK_SEQ_POINT(methodExecutionContext, 53142);
 		// if (isLocalizedBank)
-		CHECK_SEQ_POINT(methodExecutionContext, 53655);
+		CHECK_SEQ_POINT(methodExecutionContext, 53143);
 		bool L_0 = __this->get_isLocalizedBank_8();
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, 53656);
+		CHECK_SEQ_POINT(methodExecutionContext, 53144);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -17032,28 +17032,28 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_Start_mA207C58423343645221A72
 	}
 	{
 		// LoadLocalizedBank(bankName);
-		CHECK_SEQ_POINT(methodExecutionContext, 53657);
+		CHECK_SEQ_POINT(methodExecutionContext, 53145);
 		String_t* L_2 = __this->get_bankName_7();
-		STORE_SEQ_POINT(methodExecutionContext, 53660);
+		STORE_SEQ_POINT(methodExecutionContext, 53148);
 		AkMemBankLoader_LoadLocalizedBank_m15968FAEA9FDBC40B6EE1A1956AE7DA36F4B081B(__this, L_2, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53660);
+		CHECK_SEQ_POINT(methodExecutionContext, 53148);
 		goto IL_0027;
 	}
 
 IL_001a:
 	{
 		// LoadNonLocalizedBank(bankName);
-		CHECK_SEQ_POINT(methodExecutionContext, 53658);
+		CHECK_SEQ_POINT(methodExecutionContext, 53146);
 		String_t* L_3 = __this->get_bankName_7();
-		STORE_SEQ_POINT(methodExecutionContext, 53661);
+		STORE_SEQ_POINT(methodExecutionContext, 53149);
 		AkMemBankLoader_LoadNonLocalizedBank_m79D59A79EDF65ABDED92211BF0E6B15D488BDAEC(__this, L_3, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53661);
+		CHECK_SEQ_POINT(methodExecutionContext, 53149);
 	}
 
 IL_0027:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53659);
+		CHECK_SEQ_POINT(methodExecutionContext, 53147);
 		return;
 	}
 }
@@ -17071,33 +17071,33 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_LoadNonLocalizedBank_m79D59A7
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___in_bankFilename0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader_LoadNonLocalizedBank_m79D59A79EDF65ABDED92211BF0E6B15D488BDAEC_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53662);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53663);
+	CHECK_SEQ_POINT(methodExecutionContext, 53150);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53151);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53664);
+		CHECK_SEQ_POINT(methodExecutionContext, 53152);
 		// var bankPath = "file://" + System.IO.Path.Combine(AkBasePathGetter.GetPlatformBasePath(), in_bankFilename);
-		CHECK_SEQ_POINT(methodExecutionContext, 53665);
-		STORE_SEQ_POINT(methodExecutionContext, 53668);
+		CHECK_SEQ_POINT(methodExecutionContext, 53153);
+		STORE_SEQ_POINT(methodExecutionContext, 53156);
 		IL2CPP_RUNTIME_CLASS_INIT(AkBasePathGetter_t5F7A02CE5FBA074EB34ACA0CEA74E4E6574DD780_il2cpp_TypeInfo_var);
 		String_t* L_0 = AkBasePathGetter_GetPlatformBasePath_m6E01CA0DD60E3FDD234D7ECCA4F343F05B1458B4(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53668);
+		CHECK_SEQ_POINT(methodExecutionContext, 53156);
 		String_t* L_1 = ___in_bankFilename0;
-		STORE_SEQ_POINT(methodExecutionContext, 53669);
+		STORE_SEQ_POINT(methodExecutionContext, 53157);
 		IL2CPP_RUNTIME_CLASS_INIT(Path_t0B99A4B924A6FDF08814FFA8DD4CD121ED1A0752_il2cpp_TypeInfo_var);
 		String_t* L_2 = Path_Combine_mA495A18104786EB450EC0E44EE0FB7F9040C4311(L_0, L_1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53669);
-		STORE_SEQ_POINT(methodExecutionContext, 53670);
+		CHECK_SEQ_POINT(methodExecutionContext, 53157);
+		STORE_SEQ_POINT(methodExecutionContext, 53158);
 		String_t* L_3 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteralA91E4897CA9F429677AFC57ED00D90DE8D3C7001, L_2, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53670);
+		CHECK_SEQ_POINT(methodExecutionContext, 53158);
 		V_0 = L_3;
 		// DoLoadBank(bankPath);
-		CHECK_SEQ_POINT(methodExecutionContext, 53666);
+		CHECK_SEQ_POINT(methodExecutionContext, 53154);
 		String_t* L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, 53671);
+		STORE_SEQ_POINT(methodExecutionContext, 53159);
 		AkMemBankLoader_DoLoadBank_m6406F13E7920616113BC23671423AB7C351E037C(__this, L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53671);
+		CHECK_SEQ_POINT(methodExecutionContext, 53159);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53667);
+		CHECK_SEQ_POINT(methodExecutionContext, 53155);
 		return;
 	}
 }
@@ -17115,42 +17115,42 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_LoadLocalizedBank_m15968FAEA9
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___in_bankFilename0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader_LoadLocalizedBank_m15968FAEA9FDBC40B6EE1A1956AE7DA36F4B081B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53672);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53673);
+	CHECK_SEQ_POINT(methodExecutionContext, 53160);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53161);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53674);
+		CHECK_SEQ_POINT(methodExecutionContext, 53162);
 		// var bankPath = "file://" + System.IO.Path.Combine(
 		//                    System.IO.Path.Combine(AkBasePathGetter.GetPlatformBasePath(), AkSoundEngine.GetCurrentLanguage()),
 		//                    in_bankFilename);
-		CHECK_SEQ_POINT(methodExecutionContext, 53675);
-		STORE_SEQ_POINT(methodExecutionContext, 53678);
+		CHECK_SEQ_POINT(methodExecutionContext, 53163);
+		STORE_SEQ_POINT(methodExecutionContext, 53166);
 		IL2CPP_RUNTIME_CLASS_INIT(AkBasePathGetter_t5F7A02CE5FBA074EB34ACA0CEA74E4E6574DD780_il2cpp_TypeInfo_var);
 		String_t* L_0 = AkBasePathGetter_GetPlatformBasePath_m6E01CA0DD60E3FDD234D7ECCA4F343F05B1458B4(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53678);
-		STORE_SEQ_POINT(methodExecutionContext, 53679);
+		CHECK_SEQ_POINT(methodExecutionContext, 53166);
+		STORE_SEQ_POINT(methodExecutionContext, 53167);
 		IL2CPP_RUNTIME_CLASS_INIT(AkSoundEngine_t3FE2C6399E525F0A7FCED66DF05CD14FCE76BA12_il2cpp_TypeInfo_var);
 		String_t* L_1 = AkSoundEngine_GetCurrentLanguage_mA5FEE06EC30E770E76F13B5E22E9FAF9DC41CD6A(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53679);
-		STORE_SEQ_POINT(methodExecutionContext, 53680);
+		CHECK_SEQ_POINT(methodExecutionContext, 53167);
+		STORE_SEQ_POINT(methodExecutionContext, 53168);
 		IL2CPP_RUNTIME_CLASS_INIT(Path_t0B99A4B924A6FDF08814FFA8DD4CD121ED1A0752_il2cpp_TypeInfo_var);
 		String_t* L_2 = Path_Combine_mA495A18104786EB450EC0E44EE0FB7F9040C4311(L_0, L_1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53680);
+		CHECK_SEQ_POINT(methodExecutionContext, 53168);
 		String_t* L_3 = ___in_bankFilename0;
-		STORE_SEQ_POINT(methodExecutionContext, 53681);
+		STORE_SEQ_POINT(methodExecutionContext, 53169);
 		String_t* L_4 = Path_Combine_mA495A18104786EB450EC0E44EE0FB7F9040C4311(L_2, L_3, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53681);
-		STORE_SEQ_POINT(methodExecutionContext, 53682);
+		CHECK_SEQ_POINT(methodExecutionContext, 53169);
+		STORE_SEQ_POINT(methodExecutionContext, 53170);
 		String_t* L_5 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteralA91E4897CA9F429677AFC57ED00D90DE8D3C7001, L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53682);
+		CHECK_SEQ_POINT(methodExecutionContext, 53170);
 		V_0 = L_5;
 		// DoLoadBank(bankPath);
-		CHECK_SEQ_POINT(methodExecutionContext, 53676);
+		CHECK_SEQ_POINT(methodExecutionContext, 53164);
 		String_t* L_6 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, 53683);
+		STORE_SEQ_POINT(methodExecutionContext, 53171);
 		AkMemBankLoader_DoLoadBank_m6406F13E7920616113BC23671423AB7C351E037C(__this, L_6, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53683);
+		CHECK_SEQ_POINT(methodExecutionContext, 53171);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53677);
+		CHECK_SEQ_POINT(methodExecutionContext, 53165);
 		return;
 	}
 }
@@ -17178,8 +17178,8 @@ extern "C" IL2CPP_METHOD_ATTR uint32_t AkMemBankLoader_AllocateAlignedBuffer_m88
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___data0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3), (&V_4), (&V_5), (&V_7));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader_AllocateAlignedBuffer_m88171ED15AE74981ED6F914947D98C36461D1581_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53684);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53685);
+	CHECK_SEQ_POINT(methodExecutionContext, 53172);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53173);
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -17187,9 +17187,9 @@ extern "C" IL2CPP_METHOD_ATTR uint32_t AkMemBankLoader_AllocateAlignedBuffer_m88
 	int32_t __leave_target = -1;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53686);
+		CHECK_SEQ_POINT(methodExecutionContext, 53174);
 		// uint uInMemoryBankSize = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, 53687);
+		CHECK_SEQ_POINT(methodExecutionContext, 53175);
 		V_0 = 0;
 	}
 
@@ -17197,35 +17197,35 @@ IL_0003:
 	try
 	{ // begin try (depth: 1)
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53688);
+			CHECK_SEQ_POINT(methodExecutionContext, 53176);
 			// ms_pinnedArray =
 			//     System.Runtime.InteropServices.GCHandle.Alloc(data, System.Runtime.InteropServices.GCHandleType.Pinned);
-			CHECK_SEQ_POINT(methodExecutionContext, 53689);
+			CHECK_SEQ_POINT(methodExecutionContext, 53177);
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___data0;
-			STORE_SEQ_POINT(methodExecutionContext, 53717);
+			STORE_SEQ_POINT(methodExecutionContext, 53205);
 			GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3  L_1 = GCHandle_Alloc_m30DAF14F75E3A692C594965CE6724E2454DE9A2E((RuntimeObject *)(RuntimeObject *)L_0, 3, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53717);
+			CHECK_SEQ_POINT(methodExecutionContext, 53205);
 			__this->set_ms_pinnedArray_12(L_1);
 			// ms_pInMemoryBankPtr = ms_pinnedArray.AddrOfPinnedObject();
-			CHECK_SEQ_POINT(methodExecutionContext, 53690);
+			CHECK_SEQ_POINT(methodExecutionContext, 53178);
 			GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 * L_2 = __this->get_address_of_ms_pinnedArray_12();
-			STORE_SEQ_POINT(methodExecutionContext, 53718);
+			STORE_SEQ_POINT(methodExecutionContext, 53206);
 			intptr_t L_3 = GCHandle_AddrOfPinnedObject_mA20090CB8274F28D087A6E8AD36D3230B6741EA5((GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 *)L_2, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53718);
+			CHECK_SEQ_POINT(methodExecutionContext, 53206);
 			__this->set_ms_pInMemoryBankPtr_11((intptr_t)L_3);
 			// uInMemoryBankSize = (uint)data.Length;
-			CHECK_SEQ_POINT(methodExecutionContext, 53691);
+			CHECK_SEQ_POINT(methodExecutionContext, 53179);
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_4 = ___data0;
-			NullCheck(L_4, il2cpp_codegen_get_sequence_point(53691));
+			NullCheck(L_4, il2cpp_codegen_get_sequence_point(53179));
 			V_0 = (((int32_t)((int32_t)(((RuntimeArray *)L_4)->max_length))));
 			// if ((ms_pInMemoryBankPtr.ToInt64() & AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK) != 0)
-			CHECK_SEQ_POINT(methodExecutionContext, 53692);
+			CHECK_SEQ_POINT(methodExecutionContext, 53180);
 			intptr_t* L_5 = __this->get_address_of_ms_pInMemoryBankPtr_11();
-			STORE_SEQ_POINT(methodExecutionContext, 53719);
+			STORE_SEQ_POINT(methodExecutionContext, 53207);
 			int64_t L_6 = IntPtr_ToInt64_mDD00D5F4AD380F40D31B60E9C57843CC3C12BD6B((intptr_t*)L_5, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53719);
+			CHECK_SEQ_POINT(methodExecutionContext, 53207);
 			V_1 = (bool)((!(((uint64_t)((int64_t)((int64_t)L_6&(int64_t)(((int64_t)((int64_t)((int32_t)15))))))) <= ((uint64_t)(((int64_t)((int64_t)0))))))? 1 : 0);
-			CHECK_SEQ_POINT(methodExecutionContext, 53693);
+			CHECK_SEQ_POINT(methodExecutionContext, 53181);
 			bool L_7 = V_1;
 			if (!L_7)
 			{
@@ -17235,38 +17235,38 @@ IL_0003:
 
 IL_0040:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53694);
+			CHECK_SEQ_POINT(methodExecutionContext, 53182);
 			// var alignedBytes = new byte[data.Length + AK_BANK_PLATFORM_DATA_ALIGNMENT];
-			CHECK_SEQ_POINT(methodExecutionContext, 53695);
+			CHECK_SEQ_POINT(methodExecutionContext, 53183);
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_8 = ___data0;
-			NullCheck(L_8, il2cpp_codegen_get_sequence_point(53695));
+			NullCheck(L_8, il2cpp_codegen_get_sequence_point(53183));
 			if ((int64_t)(((int64_t)il2cpp_codegen_add((int64_t)(((int64_t)((int64_t)(((int32_t)((int32_t)(((RuntimeArray *)L_8)->max_length))))))), (int64_t)(((int64_t)((int64_t)((int32_t)16))))))) > INTPTR_MAX) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), NULL, AkMemBankLoader_AllocateAlignedBuffer_m88171ED15AE74981ED6F914947D98C36461D1581_RuntimeMethod_var);
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_9 = (ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*)SZArrayNew(ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821_il2cpp_TypeInfo_var, (uint32_t)(((intptr_t)((int64_t)il2cpp_codegen_add((int64_t)(((int64_t)((int64_t)(((int32_t)((int32_t)(((RuntimeArray *)L_8)->max_length))))))), (int64_t)(((int64_t)((int64_t)((int32_t)16)))))))));
 			V_2 = L_9;
 			// var new_pinnedArray =
 			//     System.Runtime.InteropServices.GCHandle.Alloc(alignedBytes, System.Runtime.InteropServices.GCHandleType.Pinned);
-			CHECK_SEQ_POINT(methodExecutionContext, 53696);
+			CHECK_SEQ_POINT(methodExecutionContext, 53184);
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_10 = V_2;
-			STORE_SEQ_POINT(methodExecutionContext, 53720);
+			STORE_SEQ_POINT(methodExecutionContext, 53208);
 			GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3  L_11 = GCHandle_Alloc_m30DAF14F75E3A692C594965CE6724E2454DE9A2E((RuntimeObject *)(RuntimeObject *)L_10, 3, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53720);
+			CHECK_SEQ_POINT(methodExecutionContext, 53208);
 			V_3 = L_11;
 			// var new_pInMemoryBankPtr = new_pinnedArray.AddrOfPinnedObject();
-			CHECK_SEQ_POINT(methodExecutionContext, 53697);
-			STORE_SEQ_POINT(methodExecutionContext, 53721);
+			CHECK_SEQ_POINT(methodExecutionContext, 53185);
+			STORE_SEQ_POINT(methodExecutionContext, 53209);
 			intptr_t L_12 = GCHandle_AddrOfPinnedObject_mA20090CB8274F28D087A6E8AD36D3230B6741EA5((GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 *)(&V_3), /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53721);
+			CHECK_SEQ_POINT(methodExecutionContext, 53209);
 			V_4 = (intptr_t)L_12;
 			// var alignedOffset = 0;
-			CHECK_SEQ_POINT(methodExecutionContext, 53698);
+			CHECK_SEQ_POINT(methodExecutionContext, 53186);
 			V_5 = 0;
 			// if ((new_pInMemoryBankPtr.ToInt64() & AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK) != 0)
-			CHECK_SEQ_POINT(methodExecutionContext, 53699);
-			STORE_SEQ_POINT(methodExecutionContext, 53722);
+			CHECK_SEQ_POINT(methodExecutionContext, 53187);
+			STORE_SEQ_POINT(methodExecutionContext, 53210);
 			int64_t L_13 = IntPtr_ToInt64_mDD00D5F4AD380F40D31B60E9C57843CC3C12BD6B((intptr_t*)(&V_4), /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53722);
+			CHECK_SEQ_POINT(methodExecutionContext, 53210);
 			V_6 = (bool)((!(((uint64_t)((int64_t)((int64_t)L_13&(int64_t)(((int64_t)((int64_t)((int32_t)15))))))) <= ((uint64_t)(((int64_t)((int64_t)0))))))? 1 : 0);
-			CHECK_SEQ_POINT(methodExecutionContext, 53700);
+			CHECK_SEQ_POINT(methodExecutionContext, 53188);
 			bool L_14 = V_6;
 			if (!L_14)
 			{
@@ -17276,62 +17276,62 @@ IL_0040:
 
 IL_0079:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53701);
+			CHECK_SEQ_POINT(methodExecutionContext, 53189);
 			// var alignedPtr = (new_pInMemoryBankPtr.ToInt64() + AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK) &
 			//                  ~AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK;
-			CHECK_SEQ_POINT(methodExecutionContext, 53702);
-			STORE_SEQ_POINT(methodExecutionContext, 53723);
+			CHECK_SEQ_POINT(methodExecutionContext, 53190);
+			STORE_SEQ_POINT(methodExecutionContext, 53211);
 			int64_t L_15 = IntPtr_ToInt64_mDD00D5F4AD380F40D31B60E9C57843CC3C12BD6B((intptr_t*)(&V_4), /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53723);
+			CHECK_SEQ_POINT(methodExecutionContext, 53211);
 			V_7 = ((int64_t)((int64_t)((int64_t)il2cpp_codegen_add((int64_t)L_15, (int64_t)(((int64_t)((int64_t)((int32_t)15))))))&(int64_t)(((int64_t)((int64_t)((int32_t)-16))))));
 			// alignedOffset = (int)(alignedPtr - new_pInMemoryBankPtr.ToInt64());
-			CHECK_SEQ_POINT(methodExecutionContext, 53703);
+			CHECK_SEQ_POINT(methodExecutionContext, 53191);
 			int64_t L_16 = V_7;
-			STORE_SEQ_POINT(methodExecutionContext, 53724);
+			STORE_SEQ_POINT(methodExecutionContext, 53212);
 			int64_t L_17 = IntPtr_ToInt64_mDD00D5F4AD380F40D31B60E9C57843CC3C12BD6B((intptr_t*)(&V_4), /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53724);
+			CHECK_SEQ_POINT(methodExecutionContext, 53212);
 			V_5 = (((int32_t)((int32_t)((int64_t)il2cpp_codegen_subtract((int64_t)L_16, (int64_t)L_17)))));
 			// new_pInMemoryBankPtr = new System.IntPtr(alignedPtr);
-			CHECK_SEQ_POINT(methodExecutionContext, 53704);
+			CHECK_SEQ_POINT(methodExecutionContext, 53192);
 			int64_t L_18 = V_7;
-			STORE_SEQ_POINT(methodExecutionContext, 53725);
+			STORE_SEQ_POINT(methodExecutionContext, 53213);
 			IntPtr__ctor_m3C2353A241FD6B18CAE68756977D63B85F14DEBD((intptr_t*)(&V_4), L_18, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53725);
-			CHECK_SEQ_POINT(methodExecutionContext, 53705);
+			CHECK_SEQ_POINT(methodExecutionContext, 53213);
+			CHECK_SEQ_POINT(methodExecutionContext, 53193);
 		}
 
 IL_00a2:
 		{
 			// System.Array.Copy(data, 0, alignedBytes, alignedOffset, data.Length);
-			CHECK_SEQ_POINT(methodExecutionContext, 53706);
+			CHECK_SEQ_POINT(methodExecutionContext, 53194);
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_19 = ___data0;
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_20 = V_2;
 			int32_t L_21 = V_5;
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_22 = ___data0;
-			NullCheck(L_22, il2cpp_codegen_get_sequence_point(53706));
-			STORE_SEQ_POINT(methodExecutionContext, 53726);
+			NullCheck(L_22, il2cpp_codegen_get_sequence_point(53194));
+			STORE_SEQ_POINT(methodExecutionContext, 53214);
 			Array_Copy_mA10D079DD8D9700CA44721A219A934A2397653F6((RuntimeArray *)(RuntimeArray *)L_19, 0, (RuntimeArray *)(RuntimeArray *)L_20, L_21, (((int32_t)((int32_t)(((RuntimeArray *)L_22)->max_length)))), /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53726);
+			CHECK_SEQ_POINT(methodExecutionContext, 53214);
 			// ms_pInMemoryBankPtr = new_pInMemoryBankPtr;
-			CHECK_SEQ_POINT(methodExecutionContext, 53707);
+			CHECK_SEQ_POINT(methodExecutionContext, 53195);
 			intptr_t L_23 = V_4;
 			__this->set_ms_pInMemoryBankPtr_11((intptr_t)L_23);
 			// ms_pinnedArray.Free();
-			CHECK_SEQ_POINT(methodExecutionContext, 53708);
+			CHECK_SEQ_POINT(methodExecutionContext, 53196);
 			GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 * L_24 = __this->get_address_of_ms_pinnedArray_12();
-			STORE_SEQ_POINT(methodExecutionContext, 53727);
+			STORE_SEQ_POINT(methodExecutionContext, 53215);
 			GCHandle_Free_m392ECC9B1058E35A0FD5CF21A65F212873FC26F0((GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 *)L_24, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53727);
+			CHECK_SEQ_POINT(methodExecutionContext, 53215);
 			// ms_pinnedArray = new_pinnedArray;
-			CHECK_SEQ_POINT(methodExecutionContext, 53709);
+			CHECK_SEQ_POINT(methodExecutionContext, 53197);
 			GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3  L_25 = V_3;
 			__this->set_ms_pinnedArray_12(L_25);
-			CHECK_SEQ_POINT(methodExecutionContext, 53710);
+			CHECK_SEQ_POINT(methodExecutionContext, 53198);
 		}
 
 IL_00cc:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53711);
+			CHECK_SEQ_POINT(methodExecutionContext, 53199);
 			goto IL_00d4;
 		}
 	} // end try (depth: 1)
@@ -17346,16 +17346,16 @@ IL_00cc:
 CATCH_00cf:
 	{ // begin catch(System.Object)
 		// catch
-		CHECK_SEQ_POINT(methodExecutionContext, 53712);
-		CHECK_SEQ_POINT(methodExecutionContext, 53713);
-		CHECK_SEQ_POINT(methodExecutionContext, 53714);
+		CHECK_SEQ_POINT(methodExecutionContext, 53200);
+		CHECK_SEQ_POINT(methodExecutionContext, 53201);
+		CHECK_SEQ_POINT(methodExecutionContext, 53202);
 		goto IL_00d4;
 	} // end catch (depth: 1)
 
 IL_00d4:
 	{
 		// return uInMemoryBankSize;
-		CHECK_SEQ_POINT(methodExecutionContext, 53715);
+		CHECK_SEQ_POINT(methodExecutionContext, 53203);
 		uint32_t L_26 = V_0;
 		V_8 = L_26;
 		goto IL_00d9;
@@ -17364,7 +17364,7 @@ IL_00d4:
 IL_00d9:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53716);
+		CHECK_SEQ_POINT(methodExecutionContext, 53204);
 		uint32_t L_27 = V_8;
 		return L_27;
 	}
@@ -17400,24 +17400,24 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_DoLoadBank_m6406F13E792061611
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___in_bankPath0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader_DoLoadBank_m6406F13E7920616113BC23671423AB7C351E037C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53728);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53729);
+	CHECK_SEQ_POINT(methodExecutionContext, 53216);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53217);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53730);
+		CHECK_SEQ_POINT(methodExecutionContext, 53218);
 		// m_bankPath = in_bankPath;
-		CHECK_SEQ_POINT(methodExecutionContext, 53731);
+		CHECK_SEQ_POINT(methodExecutionContext, 53219);
 		String_t* L_0 = ___in_bankPath0;
 		__this->set_m_bankPath_9(L_0);
 		// StartCoroutine(LoadFile());
-		CHECK_SEQ_POINT(methodExecutionContext, 53732);
-		STORE_SEQ_POINT(methodExecutionContext, 53734);
+		CHECK_SEQ_POINT(methodExecutionContext, 53220);
+		STORE_SEQ_POINT(methodExecutionContext, 53222);
 		RuntimeObject* L_1 = AkMemBankLoader_LoadFile_m0B05B82F4ACB00781F3C8E8A8EDB3C22ED06DAB2(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53734);
-		STORE_SEQ_POINT(methodExecutionContext, 53735);
+		CHECK_SEQ_POINT(methodExecutionContext, 53222);
+		STORE_SEQ_POINT(methodExecutionContext, 53223);
 		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53735);
+		CHECK_SEQ_POINT(methodExecutionContext, 53223);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53733);
+		CHECK_SEQ_POINT(methodExecutionContext, 53221);
 		return;
 	}
 }
@@ -17436,18 +17436,18 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_OnDestroy_mB61CEFBAA505E46630
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader_OnDestroy_mB61CEFBAA505E46630199ED5CF26574976A62EA7_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53736);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53737);
+	CHECK_SEQ_POINT(methodExecutionContext, 53224);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53225);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53738);
+		CHECK_SEQ_POINT(methodExecutionContext, 53226);
 		// if (ms_pInMemoryBankPtr != System.IntPtr.Zero)
-		CHECK_SEQ_POINT(methodExecutionContext, 53739);
+		CHECK_SEQ_POINT(methodExecutionContext, 53227);
 		intptr_t L_0 = __this->get_ms_pInMemoryBankPtr_11();
-		STORE_SEQ_POINT(methodExecutionContext, 53748);
+		STORE_SEQ_POINT(methodExecutionContext, 53236);
 		bool L_1 = IntPtr_op_Inequality_mB4886A806009EA825EFCC60CD2A7F6EB8E273A61((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53748);
+		CHECK_SEQ_POINT(methodExecutionContext, 53236);
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53740);
+		CHECK_SEQ_POINT(methodExecutionContext, 53228);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -17455,21 +17455,21 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_OnDestroy_mB61CEFBAA505E46630
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53741);
+		CHECK_SEQ_POINT(methodExecutionContext, 53229);
 		// var result = AkSoundEngine.UnloadBank(ms_bankID, ms_pInMemoryBankPtr);
-		CHECK_SEQ_POINT(methodExecutionContext, 53742);
+		CHECK_SEQ_POINT(methodExecutionContext, 53230);
 		uint32_t L_3 = __this->get_ms_bankID_10();
 		intptr_t L_4 = __this->get_ms_pInMemoryBankPtr_11();
-		STORE_SEQ_POINT(methodExecutionContext, 53749);
+		STORE_SEQ_POINT(methodExecutionContext, 53237);
 		IL2CPP_RUNTIME_CLASS_INIT(AkSoundEngine_t3FE2C6399E525F0A7FCED66DF05CD14FCE76BA12_il2cpp_TypeInfo_var);
 		int32_t L_5 = AkSoundEngine_UnloadBank_m65A09B336D89579BE1C3F4C0A5C5BB3A75BF20EF(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53749);
+		CHECK_SEQ_POINT(methodExecutionContext, 53237);
 		V_1 = L_5;
 		// if (result == AKRESULT.AK_Success)
-		CHECK_SEQ_POINT(methodExecutionContext, 53743);
+		CHECK_SEQ_POINT(methodExecutionContext, 53231);
 		int32_t L_6 = V_1;
 		V_2 = (bool)((((int32_t)L_6) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 53744);
+		CHECK_SEQ_POINT(methodExecutionContext, 53232);
 		bool L_7 = V_2;
 		if (!L_7)
 		{
@@ -17478,22 +17478,22 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader_OnDestroy_mB61CEFBAA505E46630
 	}
 	{
 		// ms_pinnedArray.Free();
-		CHECK_SEQ_POINT(methodExecutionContext, 53745);
+		CHECK_SEQ_POINT(methodExecutionContext, 53233);
 		GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 * L_8 = __this->get_address_of_ms_pinnedArray_12();
-		STORE_SEQ_POINT(methodExecutionContext, 53750);
+		STORE_SEQ_POINT(methodExecutionContext, 53238);
 		GCHandle_Free_m392ECC9B1058E35A0FD5CF21A65F212873FC26F0((GCHandle_t39FAEE3EA592432C93B574A31DD83B87F1847DE3 *)L_8, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53750);
+		CHECK_SEQ_POINT(methodExecutionContext, 53238);
 	}
 
 IL_003c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53746);
+		CHECK_SEQ_POINT(methodExecutionContext, 53234);
 	}
 
 IL_003d:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53747);
+		CHECK_SEQ_POINT(methodExecutionContext, 53235);
 		return;
 	}
 }
@@ -17508,24 +17508,24 @@ extern "C" IL2CPP_METHOD_ATTR void AkMemBankLoader__ctor_m2D140D34E19822A12C0B44
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMemBankLoader__ctor_m2D140D34E19822A12C0B44E774D0FD1B4093043E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53751);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53752);
+	CHECK_SEQ_POINT(methodExecutionContext, 53239);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53240);
 	{
 		// public string bankName = "";
-		CHECK_SEQ_POINT(methodExecutionContext, 53753);
+		CHECK_SEQ_POINT(methodExecutionContext, 53241);
 		__this->set_bankName_7(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		// public bool isLocalizedBank = false;
-		CHECK_SEQ_POINT(methodExecutionContext, 53754);
+		CHECK_SEQ_POINT(methodExecutionContext, 53242);
 		__this->set_isLocalizedBank_8((bool)0);
 		// [UnityEngine.HideInInspector] public uint ms_bankID = AkSoundEngine.AK_INVALID_BANK_ID;
-		CHECK_SEQ_POINT(methodExecutionContext, 53755);
+		CHECK_SEQ_POINT(methodExecutionContext, 53243);
 		__this->set_ms_bankID_10(0);
 		// private System.IntPtr ms_pInMemoryBankPtr = System.IntPtr.Zero;
-		CHECK_SEQ_POINT(methodExecutionContext, 53756);
+		CHECK_SEQ_POINT(methodExecutionContext, 53244);
 		__this->set_ms_pInMemoryBankPtr_11((intptr_t)(0));
-		STORE_SEQ_POINT(methodExecutionContext, 53757);
+		STORE_SEQ_POINT(methodExecutionContext, 53245);
 		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53757);
+		CHECK_SEQ_POINT(methodExecutionContext, 53245);
 		return;
 	}
 }
@@ -17569,10 +17569,10 @@ extern "C" IL2CPP_METHOD_ATTR bool U3CLoadFileU3Ed__14_MoveNext_m0E9BFB12C2D74E0
 	bool V_1 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CLoadFileU3Ed__14_MoveNext_m0E9BFB12C2D74E0512C3777D19DF6EF4E348A8C7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53758);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53759);
+	CHECK_SEQ_POINT(methodExecutionContext, 53246);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53247);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53760);
+		CHECK_SEQ_POINT(methodExecutionContext, 53248);
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -17615,27 +17615,27 @@ IL_0016:
 IL_0018:
 	{
 		__this->set_U3CU3E1__state_0((-1));
-		CHECK_SEQ_POINT(methodExecutionContext, 53761);
+		CHECK_SEQ_POINT(methodExecutionContext, 53249);
 		// ms_www = UnityEngine.Networking.UnityWebRequest.Get(m_bankPath);
-		CHECK_SEQ_POINT(methodExecutionContext, 53762);
+		CHECK_SEQ_POINT(methodExecutionContext, 53250);
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_3 = __this->get_U3CU3E4__this_2();
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_4 = __this->get_U3CU3E4__this_2();
-		NullCheck(L_4, il2cpp_codegen_get_sequence_point(53762));
+		NullCheck(L_4, il2cpp_codegen_get_sequence_point(53250));
 		String_t* L_5 = L_4->get_m_bankPath_9();
-		STORE_SEQ_POINT(methodExecutionContext, 53771);
+		STORE_SEQ_POINT(methodExecutionContext, 53259);
 		UnityWebRequest_t9120F5A2C7D43B936B49C0B7E4CA54C822689129 * L_6 = UnityWebRequest_Get_mF4E12AA47AAF25221AD738B434B0EA8D40659B18(L_5, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53771);
-		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53762));
+		CHECK_SEQ_POINT(methodExecutionContext, 53259);
+		NullCheck(L_3, il2cpp_codegen_get_sequence_point(53250));
 		L_3->set_ms_www_13(L_6);
 		// yield return ms_www.SendWebRequest();
-		CHECK_SEQ_POINT(methodExecutionContext, 53763);
+		CHECK_SEQ_POINT(methodExecutionContext, 53251);
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_7 = __this->get_U3CU3E4__this_2();
-		NullCheck(L_7, il2cpp_codegen_get_sequence_point(53763));
+		NullCheck(L_7, il2cpp_codegen_get_sequence_point(53251));
 		UnityWebRequest_t9120F5A2C7D43B936B49C0B7E4CA54C822689129 * L_8 = L_7->get_ms_www_13();
-		STORE_SEQ_POINT(methodExecutionContext, 53772);
-		NullCheck(L_8, il2cpp_codegen_get_sequence_point(53763));
+		STORE_SEQ_POINT(methodExecutionContext, 53260);
+		NullCheck(L_8, il2cpp_codegen_get_sequence_point(53251));
 		UnityWebRequestAsyncOperation_t726E134F16701A2671D40BEBE22110DC57156353 * L_9 = UnityWebRequest_SendWebRequest_mF536CB2A0A39354A54B555B66B017816C5833EBD(L_8, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53772);
+		CHECK_SEQ_POINT(methodExecutionContext, 53260);
 		__this->set_U3CU3E2__current_1(L_9);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
@@ -17643,46 +17643,46 @@ IL_0018:
 
 IL_005a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53764);
+		CHECK_SEQ_POINT(methodExecutionContext, 53252);
 		__this->set_U3CU3E1__state_0((-1));
 		// uint uInMemoryBankSize = AllocateAlignedBuffer(ms_www.downloadHandler.data);
-		CHECK_SEQ_POINT(methodExecutionContext, 53765);
+		CHECK_SEQ_POINT(methodExecutionContext, 53253);
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_10 = __this->get_U3CU3E4__this_2();
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_11 = __this->get_U3CU3E4__this_2();
-		NullCheck(L_11, il2cpp_codegen_get_sequence_point(53765));
+		NullCheck(L_11, il2cpp_codegen_get_sequence_point(53253));
 		UnityWebRequest_t9120F5A2C7D43B936B49C0B7E4CA54C822689129 * L_12 = L_11->get_ms_www_13();
-		STORE_SEQ_POINT(methodExecutionContext, 53773);
-		NullCheck(L_12, il2cpp_codegen_get_sequence_point(53765));
+		STORE_SEQ_POINT(methodExecutionContext, 53261);
+		NullCheck(L_12, il2cpp_codegen_get_sequence_point(53253));
 		DownloadHandler_t4A7802ADC97024B469C87FA454B6973951980EE9 * L_13 = UnityWebRequest_get_downloadHandler_m83044026479E6B4B2739DCE9EEA8A0FAE7D9AF41(L_12, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53773);
-		STORE_SEQ_POINT(methodExecutionContext, 53774);
-		NullCheck(L_13, il2cpp_codegen_get_sequence_point(53765));
+		CHECK_SEQ_POINT(methodExecutionContext, 53261);
+		STORE_SEQ_POINT(methodExecutionContext, 53262);
+		NullCheck(L_13, il2cpp_codegen_get_sequence_point(53253));
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_14 = DownloadHandler_get_data_m4AE4E3764FBE186ABA89B5F3A7F91048EE5E38FB(L_13, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53774);
-		STORE_SEQ_POINT(methodExecutionContext, 53775);
-		NullCheck(L_10, il2cpp_codegen_get_sequence_point(53765));
+		CHECK_SEQ_POINT(methodExecutionContext, 53262);
+		STORE_SEQ_POINT(methodExecutionContext, 53263);
+		NullCheck(L_10, il2cpp_codegen_get_sequence_point(53253));
 		uint32_t L_15 = AkMemBankLoader_AllocateAlignedBuffer_m88171ED15AE74981ED6F914947D98C36461D1581(L_10, L_14, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53775);
+		CHECK_SEQ_POINT(methodExecutionContext, 53263);
 		__this->set_U3CuInMemoryBankSizeU3E5__1_3(L_15);
 		// var result = AkSoundEngine.LoadBank(ms_pInMemoryBankPtr, uInMemoryBankSize, out ms_bankID);
-		CHECK_SEQ_POINT(methodExecutionContext, 53766);
+		CHECK_SEQ_POINT(methodExecutionContext, 53254);
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_16 = __this->get_U3CU3E4__this_2();
-		NullCheck(L_16, il2cpp_codegen_get_sequence_point(53766));
+		NullCheck(L_16, il2cpp_codegen_get_sequence_point(53254));
 		intptr_t L_17 = L_16->get_ms_pInMemoryBankPtr_11();
 		uint32_t L_18 = __this->get_U3CuInMemoryBankSizeU3E5__1_3();
 		AkMemBankLoader_t6160F823F6102C22C9A34E0A020FC38E87516231 * L_19 = __this->get_U3CU3E4__this_2();
-		NullCheck(L_19, il2cpp_codegen_get_sequence_point(53766));
+		NullCheck(L_19, il2cpp_codegen_get_sequence_point(53254));
 		uint32_t* L_20 = L_19->get_address_of_ms_bankID_10();
-		STORE_SEQ_POINT(methodExecutionContext, 53776);
+		STORE_SEQ_POINT(methodExecutionContext, 53264);
 		IL2CPP_RUNTIME_CLASS_INIT(AkSoundEngine_t3FE2C6399E525F0A7FCED66DF05CD14FCE76BA12_il2cpp_TypeInfo_var);
 		int32_t L_21 = AkSoundEngine_LoadBank_m02692C4C24016379E0BB957B483E0F46F2E0A3F6((intptr_t)L_17, L_18, (uint32_t*)L_20, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53776);
+		CHECK_SEQ_POINT(methodExecutionContext, 53264);
 		__this->set_U3CresultU3E5__2_4(L_21);
 		// if (result != AKRESULT.AK_Success)
-		CHECK_SEQ_POINT(methodExecutionContext, 53767);
+		CHECK_SEQ_POINT(methodExecutionContext, 53255);
 		int32_t L_22 = __this->get_U3CresultU3E5__2_4();
 		V_1 = (bool)((((int32_t)((((int32_t)L_22) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 53768);
+		CHECK_SEQ_POINT(methodExecutionContext, 53256);
 		bool L_23 = V_1;
 		if (!L_23)
 		{
@@ -17691,23 +17691,23 @@ IL_005a:
 	}
 	{
 		// UnityEngine.Debug.LogError("WwiseUnity: AkMemBankLoader: bank loading failed with result " + result);
-		CHECK_SEQ_POINT(methodExecutionContext, 53769);
+		CHECK_SEQ_POINT(methodExecutionContext, 53257);
 		int32_t L_24 = __this->get_U3CresultU3E5__2_4();
 		int32_t L_25 = L_24;
 		RuntimeObject * L_26 = Box(AKRESULT_tE8FB91A58AD397BB7B04A2AA4FCFC126D906A2F7_il2cpp_TypeInfo_var, &L_25);
-		STORE_SEQ_POINT(methodExecutionContext, 53777);
+		STORE_SEQ_POINT(methodExecutionContext, 53265);
 		String_t* L_27 = String_Concat_mBB19C73816BDD1C3519F248E1ADC8E11A6FDB495(_stringLiteral25321EA9090539DA3594CFEA92982B160A739512, L_26, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53777);
-		STORE_SEQ_POINT(methodExecutionContext, 53778);
+		CHECK_SEQ_POINT(methodExecutionContext, 53265);
+		STORE_SEQ_POINT(methodExecutionContext, 53266);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
 		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_27, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53778);
+		CHECK_SEQ_POINT(methodExecutionContext, 53266);
 	}
 
 IL_00d9:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53770);
+		CHECK_SEQ_POINT(methodExecutionContext, 53258);
 		return (bool)0;
 	}
 }
@@ -18842,15 +18842,15 @@ extern "C" IL2CPP_METHOD_ATTR void AkMultiPosEvent_FinishedPlaying_m711C2F5F8E8A
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___in_cookie0), (&___in_type1), (&___in_info2));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMultiPosEvent_FinishedPlaying_m711C2F5F8E8A31B87CFF7182ACC6A4FF8C70DA0B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 51707);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 51708);
+	CHECK_SEQ_POINT(methodExecutionContext, 51195);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 51196);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 51709);
+		CHECK_SEQ_POINT(methodExecutionContext, 51197);
 		// eventIsPlaying = false;
-		CHECK_SEQ_POINT(methodExecutionContext, 51710);
+		CHECK_SEQ_POINT(methodExecutionContext, 51198);
 		__this->set_eventIsPlaying_0((bool)0);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 51711);
+		CHECK_SEQ_POINT(methodExecutionContext, 51199);
 		return;
 	}
 }
@@ -18865,19 +18865,19 @@ extern "C" IL2CPP_METHOD_ATTR void AkMultiPosEvent__ctor_mD3009AAC8720B678B19CD2
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkMultiPosEvent__ctor_mD3009AAC8720B678B19CD2E93713704A7B8EDB66_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 51712);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 51713);
+	CHECK_SEQ_POINT(methodExecutionContext, 51200);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 51201);
 	{
 		// public System.Collections.Generic.List<AkAmbient> list = new System.Collections.Generic.List<AkAmbient>();
-		CHECK_SEQ_POINT(methodExecutionContext, 51714);
-		STORE_SEQ_POINT(methodExecutionContext, 51715);
+		CHECK_SEQ_POINT(methodExecutionContext, 51202);
+		STORE_SEQ_POINT(methodExecutionContext, 51203);
 		List_1_t58B3C8E0EDAB18DABE6BC3944E4EF4F495B449E6 * L_0 = (List_1_t58B3C8E0EDAB18DABE6BC3944E4EF4F495B449E6 *)il2cpp_codegen_object_new(List_1_t58B3C8E0EDAB18DABE6BC3944E4EF4F495B449E6_il2cpp_TypeInfo_var);
 		List_1__ctor_mC7AE5143EA896F9D29EC9DBF3B928362B0CB846A(L_0, /*hidden argument*/List_1__ctor_mC7AE5143EA896F9D29EC9DBF3B928362B0CB846A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 51715);
+		CHECK_SEQ_POINT(methodExecutionContext, 51203);
 		__this->set_list_1(L_0);
-		STORE_SEQ_POINT(methodExecutionContext, 51716);
+		STORE_SEQ_POINT(methodExecutionContext, 51204);
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 51716);
+		CHECK_SEQ_POINT(methodExecutionContext, 51204);
 		return;
 	}
 }
@@ -21485,23 +21485,23 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_InitIntervalsAndFadeRa
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkObstructionOcclusion_InitIntervalsAndFadeRates_m550BE9C2AC538C9B1DE802F545EC0F817D346A18_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53779);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53780);
+	CHECK_SEQ_POINT(methodExecutionContext, 53267);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53268);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53781);
+		CHECK_SEQ_POINT(methodExecutionContext, 53269);
 		// refreshTime = UnityEngine.Random.Range(0.0f, refreshInterval);
-		CHECK_SEQ_POINT(methodExecutionContext, 53782);
+		CHECK_SEQ_POINT(methodExecutionContext, 53270);
 		float L_0 = __this->get_refreshInterval_11();
-		STORE_SEQ_POINT(methodExecutionContext, 53785);
+		STORE_SEQ_POINT(methodExecutionContext, 53273);
 		float L_1 = Random_Range_m2844A4A71C86BDF83A12D97FC6DD95278E87E384((0.0f), L_0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53785);
+		CHECK_SEQ_POINT(methodExecutionContext, 53273);
 		__this->set_refreshTime_12(L_1);
 		// fadeRate = 1 / fadeTime;
-		CHECK_SEQ_POINT(methodExecutionContext, 53783);
+		CHECK_SEQ_POINT(methodExecutionContext, 53271);
 		float L_2 = __this->get_fadeTime_8();
 		__this->set_fadeRate_7(((float)((float)(1.0f)/(float)L_2)));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53784);
+		CHECK_SEQ_POINT(methodExecutionContext, 53272);
 		return;
 	}
 }
@@ -21527,8 +21527,8 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_UpdateObstructionOcclu
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_4), (&V_6));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkObstructionOcclusion_UpdateObstructionOcclusionValues_mA1A90CE3541152C396EC979B9505AF994826952C_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53786);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53787);
+	CHECK_SEQ_POINT(methodExecutionContext, 53274);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53275);
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -21536,32 +21536,32 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_UpdateObstructionOcclu
 	int32_t __leave_target = -1;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53788);
+		CHECK_SEQ_POINT(methodExecutionContext, 53276);
 		// for (var i = 0; i < currentListenerList.Count; ++i)
-		CHECK_SEQ_POINT(methodExecutionContext, 53789);
+		CHECK_SEQ_POINT(methodExecutionContext, 53277);
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, 53790);
+		CHECK_SEQ_POINT(methodExecutionContext, 53278);
 		goto IL_0046;
 	}
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53791);
+		CHECK_SEQ_POINT(methodExecutionContext, 53279);
 		// if (!ObstructionOcclusionValues.ContainsKey(currentListenerList[i]))
-		CHECK_SEQ_POINT(methodExecutionContext, 53792);
+		CHECK_SEQ_POINT(methodExecutionContext, 53280);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_0 = __this->get_ObstructionOcclusionValues_6();
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_1 = __this->get_currentListenerList_5();
 		int32_t L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, 53817);
-		NullCheck(L_1, il2cpp_codegen_get_sequence_point(53792));
+		STORE_SEQ_POINT(methodExecutionContext, 53305);
+		NullCheck(L_1, il2cpp_codegen_get_sequence_point(53280));
 		AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_3 = List_1_get_Item_m9FE077E3F9F9F45D8A558E2EDE41FC7B92E368C2(L_1, L_2, /*hidden argument*/List_1_get_Item_m9FE077E3F9F9F45D8A558E2EDE41FC7B92E368C2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53817);
-		STORE_SEQ_POINT(methodExecutionContext, 53818);
-		NullCheck(L_0, il2cpp_codegen_get_sequence_point(53792));
+		CHECK_SEQ_POINT(methodExecutionContext, 53305);
+		STORE_SEQ_POINT(methodExecutionContext, 53306);
+		NullCheck(L_0, il2cpp_codegen_get_sequence_point(53280));
 		bool L_4 = Dictionary_2_ContainsKey_m319508D6966B00F6C39923FA5B1D3F3109EA491D(L_0, L_3, /*hidden argument*/Dictionary_2_ContainsKey_m319508D6966B00F6C39923FA5B1D3F3109EA491D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53818);
+		CHECK_SEQ_POINT(methodExecutionContext, 53306);
 		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 53793);
+		CHECK_SEQ_POINT(methodExecutionContext, 53281);
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -21570,29 +21570,29 @@ IL_0005:
 	}
 	{
 		// ObstructionOcclusionValues.Add(currentListenerList[i], new ObstructionOcclusionValue());
-		CHECK_SEQ_POINT(methodExecutionContext, 53794);
+		CHECK_SEQ_POINT(methodExecutionContext, 53282);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_6 = __this->get_ObstructionOcclusionValues_6();
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_7 = __this->get_currentListenerList_5();
 		int32_t L_8 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, 53819);
-		NullCheck(L_7, il2cpp_codegen_get_sequence_point(53794));
+		STORE_SEQ_POINT(methodExecutionContext, 53307);
+		NullCheck(L_7, il2cpp_codegen_get_sequence_point(53282));
 		AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_9 = List_1_get_Item_m9FE077E3F9F9F45D8A558E2EDE41FC7B92E368C2(L_7, L_8, /*hidden argument*/List_1_get_Item_m9FE077E3F9F9F45D8A558E2EDE41FC7B92E368C2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53819);
-		STORE_SEQ_POINT(methodExecutionContext, 53820);
+		CHECK_SEQ_POINT(methodExecutionContext, 53307);
+		STORE_SEQ_POINT(methodExecutionContext, 53308);
 		ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * L_10 = (ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 *)il2cpp_codegen_object_new(ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12_il2cpp_TypeInfo_var);
 		ObstructionOcclusionValue__ctor_mE4EBC1F5E7B974FD9D925BF0FFA16552E7D2CDBE(L_10, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53820);
-		STORE_SEQ_POINT(methodExecutionContext, 53821);
-		NullCheck(L_6, il2cpp_codegen_get_sequence_point(53794));
+		CHECK_SEQ_POINT(methodExecutionContext, 53308);
+		STORE_SEQ_POINT(methodExecutionContext, 53309);
+		NullCheck(L_6, il2cpp_codegen_get_sequence_point(53282));
 		Dictionary_2_Add_mA583E927074E93417099364F9EC1D18BF768B755(L_6, L_9, L_10, /*hidden argument*/Dictionary_2_Add_mA583E927074E93417099364F9EC1D18BF768B755_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53821);
+		CHECK_SEQ_POINT(methodExecutionContext, 53309);
 	}
 
 IL_0041:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53795);
+		CHECK_SEQ_POINT(methodExecutionContext, 53283);
 		// for (var i = 0; i < currentListenerList.Count; ++i)
-		CHECK_SEQ_POINT(methodExecutionContext, 53796);
+		CHECK_SEQ_POINT(methodExecutionContext, 53284);
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1));
 	}
@@ -21600,15 +21600,15 @@ IL_0041:
 IL_0046:
 	{
 		// for (var i = 0; i < currentListenerList.Count; ++i)
-		CHECK_SEQ_POINT(methodExecutionContext, 53797);
+		CHECK_SEQ_POINT(methodExecutionContext, 53285);
 		int32_t L_12 = V_0;
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_13 = __this->get_currentListenerList_5();
-		STORE_SEQ_POINT(methodExecutionContext, 53822);
-		NullCheck(L_13, il2cpp_codegen_get_sequence_point(53797));
+		STORE_SEQ_POINT(methodExecutionContext, 53310);
+		NullCheck(L_13, il2cpp_codegen_get_sequence_point(53285));
 		int32_t L_14 = List_1_get_Count_m2DE32C9A9A5DC9E9FCDC8E222CA260DB9C6598F2(L_13, /*hidden argument*/List_1_get_Count_m2DE32C9A9A5DC9E9FCDC8E222CA260DB9C6598F2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53822);
+		CHECK_SEQ_POINT(methodExecutionContext, 53310);
 		V_2 = (bool)((((int32_t)L_12) < ((int32_t)L_14))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 53798);
+		CHECK_SEQ_POINT(methodExecutionContext, 53286);
 		bool L_15 = V_2;
 		if (L_15)
 		{
@@ -21616,14 +21616,14 @@ IL_0046:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53799);
+		CHECK_SEQ_POINT(methodExecutionContext, 53287);
 		// foreach (var ObsOccPair in ObstructionOcclusionValues)
-		CHECK_SEQ_POINT(methodExecutionContext, 53800);
+		CHECK_SEQ_POINT(methodExecutionContext, 53288);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_16 = __this->get_ObstructionOcclusionValues_6();
-		STORE_SEQ_POINT(methodExecutionContext, 53823);
-		NullCheck(L_16, il2cpp_codegen_get_sequence_point(53800));
+		STORE_SEQ_POINT(methodExecutionContext, 53311);
+		NullCheck(L_16, il2cpp_codegen_get_sequence_point(53288));
 		Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28  L_17 = Dictionary_2_GetEnumerator_m3B0D4F8B5225A7FCFB4A58145EFC8A55B110183B(L_16, /*hidden argument*/Dictionary_2_GetEnumerator_m3B0D4F8B5225A7FCFB4A58145EFC8A55B110183B_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53823);
+		CHECK_SEQ_POINT(methodExecutionContext, 53311);
 		V_3 = L_17;
 	}
 
@@ -21631,31 +21631,31 @@ IL_0065:
 	try
 	{ // begin try (depth: 1)
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53801);
+			CHECK_SEQ_POINT(methodExecutionContext, 53289);
 			goto IL_00a0;
 		}
 
 IL_0067:
 		{
 			// foreach (var ObsOccPair in ObstructionOcclusionValues)
-			CHECK_SEQ_POINT(methodExecutionContext, 53802);
-			STORE_SEQ_POINT(methodExecutionContext, 53824);
+			CHECK_SEQ_POINT(methodExecutionContext, 53290);
+			STORE_SEQ_POINT(methodExecutionContext, 53312);
 			KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259  L_18 = Enumerator_get_Current_mC34C145927C1BE45D1A95020B3BE38FA3EEE2318((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_3), /*hidden argument*/Enumerator_get_Current_mC34C145927C1BE45D1A95020B3BE38FA3EEE2318_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53824);
+			CHECK_SEQ_POINT(methodExecutionContext, 53312);
 			V_4 = L_18;
-			CHECK_SEQ_POINT(methodExecutionContext, 53803);
+			CHECK_SEQ_POINT(methodExecutionContext, 53291);
 			// if (!currentListenerList.Contains(ObsOccPair.Key))
-			CHECK_SEQ_POINT(methodExecutionContext, 53804);
+			CHECK_SEQ_POINT(methodExecutionContext, 53292);
 			List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_19 = __this->get_currentListenerList_5();
-			STORE_SEQ_POINT(methodExecutionContext, 53825);
+			STORE_SEQ_POINT(methodExecutionContext, 53313);
 			AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_20 = KeyValuePair_2_get_Key_mB0CE1728EAABB7EA9241E052F4853F0ABEDB6740((KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259 *)(&V_4), /*hidden argument*/KeyValuePair_2_get_Key_mB0CE1728EAABB7EA9241E052F4853F0ABEDB6740_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53825);
-			STORE_SEQ_POINT(methodExecutionContext, 53826);
-			NullCheck(L_19, il2cpp_codegen_get_sequence_point(53804));
+			CHECK_SEQ_POINT(methodExecutionContext, 53313);
+			STORE_SEQ_POINT(methodExecutionContext, 53314);
+			NullCheck(L_19, il2cpp_codegen_get_sequence_point(53292));
 			bool L_21 = List_1_Contains_m42F3040DBB683684ACC167A62039BB13105EBB56(L_19, L_20, /*hidden argument*/List_1_Contains_m42F3040DBB683684ACC167A62039BB13105EBB56_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53826);
+			CHECK_SEQ_POINT(methodExecutionContext, 53314);
 			V_5 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
-			CHECK_SEQ_POINT(methodExecutionContext, 53805);
+			CHECK_SEQ_POINT(methodExecutionContext, 53293);
 			bool L_22 = V_5;
 			if (!L_22)
 			{
@@ -21666,29 +21666,29 @@ IL_0067:
 IL_008c:
 		{
 			// listenersToRemove.Add(ObsOccPair.Key);
-			CHECK_SEQ_POINT(methodExecutionContext, 53806);
+			CHECK_SEQ_POINT(methodExecutionContext, 53294);
 			List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_23 = __this->get_listenersToRemove_4();
-			STORE_SEQ_POINT(methodExecutionContext, 53827);
+			STORE_SEQ_POINT(methodExecutionContext, 53315);
 			AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_24 = KeyValuePair_2_get_Key_mB0CE1728EAABB7EA9241E052F4853F0ABEDB6740((KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259 *)(&V_4), /*hidden argument*/KeyValuePair_2_get_Key_mB0CE1728EAABB7EA9241E052F4853F0ABEDB6740_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53827);
-			STORE_SEQ_POINT(methodExecutionContext, 53828);
-			NullCheck(L_23, il2cpp_codegen_get_sequence_point(53806));
+			CHECK_SEQ_POINT(methodExecutionContext, 53315);
+			STORE_SEQ_POINT(methodExecutionContext, 53316);
+			NullCheck(L_23, il2cpp_codegen_get_sequence_point(53294));
 			List_1_Add_m372FE8B8FFCD5CB0F835F460D9FC29DAFEB6BFD7(L_23, L_24, /*hidden argument*/List_1_Add_m372FE8B8FFCD5CB0F835F460D9FC29DAFEB6BFD7_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53828);
+			CHECK_SEQ_POINT(methodExecutionContext, 53316);
 		}
 
 IL_009f:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53807);
+			CHECK_SEQ_POINT(methodExecutionContext, 53295);
 		}
 
 IL_00a0:
 		{
 			// foreach (var ObsOccPair in ObstructionOcclusionValues)
-			CHECK_SEQ_POINT(methodExecutionContext, 53808);
-			STORE_SEQ_POINT(methodExecutionContext, 53829);
+			CHECK_SEQ_POINT(methodExecutionContext, 53296);
+			STORE_SEQ_POINT(methodExecutionContext, 53317);
 			bool L_25 = Enumerator_MoveNext_mCF3F8CDDB6A5233D2E6D77F3AB8863D5588978A3((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_3), /*hidden argument*/Enumerator_MoveNext_mCF3F8CDDB6A5233D2E6D77F3AB8863D5588978A3_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53829);
+			CHECK_SEQ_POINT(methodExecutionContext, 53317);
 			if (L_25)
 			{
 				goto IL_0067;
@@ -21708,10 +21708,10 @@ IL_00a9:
 
 FINALLY_00ab:
 	{ // begin finally (depth: 1)
-		CHECK_SEQ_POINT(methodExecutionContext, 53809);
-		STORE_SEQ_POINT(methodExecutionContext, 53830);
+		CHECK_SEQ_POINT(methodExecutionContext, 53297);
+		STORE_SEQ_POINT(methodExecutionContext, 53318);
 		Enumerator_Dispose_m92CA3C1904D485D82322C8D4F1B34BE8BF37598D((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_3), /*hidden argument*/Enumerator_Dispose_m92CA3C1904D485D82322C8D4F1B34BE8BF37598D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53830);
+		CHECK_SEQ_POINT(methodExecutionContext, 53318);
 		IL2CPP_RESET_LEAVE(0xBA);
 		IL2CPP_END_FINALLY(171)
 	} // end finally (depth: 1)
@@ -21724,29 +21724,29 @@ FINALLY_00ab:
 IL_00ba:
 	{
 		// for (var i = 0; i < listenersToRemove.Count; ++i)
-		CHECK_SEQ_POINT(methodExecutionContext, 53810);
+		CHECK_SEQ_POINT(methodExecutionContext, 53298);
 		V_6 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, 53811);
+		CHECK_SEQ_POINT(methodExecutionContext, 53299);
 		goto IL_00de;
 	}
 
 IL_00bf:
 	{
 		// ObstructionOcclusionValues.Remove(listenersToRemove[i]);
-		CHECK_SEQ_POINT(methodExecutionContext, 53812);
+		CHECK_SEQ_POINT(methodExecutionContext, 53300);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_26 = __this->get_ObstructionOcclusionValues_6();
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_27 = __this->get_listenersToRemove_4();
 		int32_t L_28 = V_6;
-		STORE_SEQ_POINT(methodExecutionContext, 53831);
-		NullCheck(L_27, il2cpp_codegen_get_sequence_point(53812));
+		STORE_SEQ_POINT(methodExecutionContext, 53319);
+		NullCheck(L_27, il2cpp_codegen_get_sequence_point(53300));
 		AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_29 = List_1_get_Item_m9FE077E3F9F9F45D8A558E2EDE41FC7B92E368C2(L_27, L_28, /*hidden argument*/List_1_get_Item_m9FE077E3F9F9F45D8A558E2EDE41FC7B92E368C2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53831);
-		STORE_SEQ_POINT(methodExecutionContext, 53832);
-		NullCheck(L_26, il2cpp_codegen_get_sequence_point(53812));
+		CHECK_SEQ_POINT(methodExecutionContext, 53319);
+		STORE_SEQ_POINT(methodExecutionContext, 53320);
+		NullCheck(L_26, il2cpp_codegen_get_sequence_point(53300));
 		Dictionary_2_Remove_mE8EC883A72C958BEA9CDC160B739F14ABE8CDB7A(L_26, L_29, /*hidden argument*/Dictionary_2_Remove_mE8EC883A72C958BEA9CDC160B739F14ABE8CDB7A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53832);
+		CHECK_SEQ_POINT(methodExecutionContext, 53320);
 		// for (var i = 0; i < listenersToRemove.Count; ++i)
-		CHECK_SEQ_POINT(methodExecutionContext, 53813);
+		CHECK_SEQ_POINT(methodExecutionContext, 53301);
 		int32_t L_30 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add((int32_t)L_30, (int32_t)1));
 	}
@@ -21754,15 +21754,15 @@ IL_00bf:
 IL_00de:
 	{
 		// for (var i = 0; i < listenersToRemove.Count; ++i)
-		CHECK_SEQ_POINT(methodExecutionContext, 53814);
+		CHECK_SEQ_POINT(methodExecutionContext, 53302);
 		int32_t L_31 = V_6;
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_32 = __this->get_listenersToRemove_4();
-		STORE_SEQ_POINT(methodExecutionContext, 53833);
-		NullCheck(L_32, il2cpp_codegen_get_sequence_point(53814));
+		STORE_SEQ_POINT(methodExecutionContext, 53321);
+		NullCheck(L_32, il2cpp_codegen_get_sequence_point(53302));
 		int32_t L_33 = List_1_get_Count_m2DE32C9A9A5DC9E9FCDC8E222CA260DB9C6598F2(L_32, /*hidden argument*/List_1_get_Count_m2DE32C9A9A5DC9E9FCDC8E222CA260DB9C6598F2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53833);
+		CHECK_SEQ_POINT(methodExecutionContext, 53321);
 		V_7 = (bool)((((int32_t)L_31) < ((int32_t)L_33))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 53815);
+		CHECK_SEQ_POINT(methodExecutionContext, 53303);
 		bool L_34 = V_7;
 		if (L_34)
 		{
@@ -21771,7 +21771,7 @@ IL_00de:
 	}
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53816);
+		CHECK_SEQ_POINT(methodExecutionContext, 53304);
 		return;
 	}
 }
@@ -21798,8 +21798,8 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_CastRays_m451E735C7B82
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_2), (&V_3), (&V_4), (&V_5), (&V_6));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkObstructionOcclusion_CastRays_m451E735C7B8251E80B165C8B3ACEECE9479E2368_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53834);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53835);
+	CHECK_SEQ_POINT(methodExecutionContext, 53322);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53323);
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -21812,13 +21812,13 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_CastRays_m451E735C7B82
 	float G_B11_0 = 0.0f;
 	ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * G_B11_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53836);
+		CHECK_SEQ_POINT(methodExecutionContext, 53324);
 		// if (refreshTime > refreshInterval)
-		CHECK_SEQ_POINT(methodExecutionContext, 53837);
+		CHECK_SEQ_POINT(methodExecutionContext, 53325);
 		float L_0 = __this->get_refreshTime_12();
 		float L_1 = __this->get_refreshInterval_11();
 		V_0 = (bool)((((float)L_0) > ((float)L_1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, 53838);
+		CHECK_SEQ_POINT(methodExecutionContext, 53326);
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -21826,20 +21826,20 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_CastRays_m451E735C7B82
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53839);
+		CHECK_SEQ_POINT(methodExecutionContext, 53327);
 		// refreshTime -= refreshInterval;
-		CHECK_SEQ_POINT(methodExecutionContext, 53840);
+		CHECK_SEQ_POINT(methodExecutionContext, 53328);
 		float L_3 = __this->get_refreshTime_12();
 		float L_4 = __this->get_refreshInterval_11();
 		__this->set_refreshTime_12(((float)il2cpp_codegen_subtract((float)L_3, (float)L_4)));
-		CHECK_SEQ_POINT(methodExecutionContext, 53841);
+		CHECK_SEQ_POINT(methodExecutionContext, 53329);
 		// foreach (var ObsOccPair in ObstructionOcclusionValues)
-		CHECK_SEQ_POINT(methodExecutionContext, 53842);
+		CHECK_SEQ_POINT(methodExecutionContext, 53330);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_5 = __this->get_ObstructionOcclusionValues_6();
-		STORE_SEQ_POINT(methodExecutionContext, 53862);
-		NullCheck(L_5, il2cpp_codegen_get_sequence_point(53842));
+		STORE_SEQ_POINT(methodExecutionContext, 53350);
+		NullCheck(L_5, il2cpp_codegen_get_sequence_point(53330));
 		Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28  L_6 = Dictionary_2_GetEnumerator_m3B0D4F8B5225A7FCFB4A58145EFC8A55B110183B(L_5, /*hidden argument*/Dictionary_2_GetEnumerator_m3B0D4F8B5225A7FCFB4A58145EFC8A55B110183B_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53862);
+		CHECK_SEQ_POINT(methodExecutionContext, 53350);
 		V_1 = L_6;
 	}
 
@@ -21847,62 +21847,62 @@ IL_0037:
 	try
 	{ // begin try (depth: 1)
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53843);
+			CHECK_SEQ_POINT(methodExecutionContext, 53331);
 			goto IL_00ea;
 		}
 
 IL_003c:
 		{
 			// foreach (var ObsOccPair in ObstructionOcclusionValues)
-			CHECK_SEQ_POINT(methodExecutionContext, 53844);
-			STORE_SEQ_POINT(methodExecutionContext, 53863);
+			CHECK_SEQ_POINT(methodExecutionContext, 53332);
+			STORE_SEQ_POINT(methodExecutionContext, 53351);
 			KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259  L_7 = Enumerator_get_Current_mC34C145927C1BE45D1A95020B3BE38FA3EEE2318((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_1), /*hidden argument*/Enumerator_get_Current_mC34C145927C1BE45D1A95020B3BE38FA3EEE2318_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53863);
+			CHECK_SEQ_POINT(methodExecutionContext, 53351);
 			V_2 = L_7;
-			CHECK_SEQ_POINT(methodExecutionContext, 53845);
+			CHECK_SEQ_POINT(methodExecutionContext, 53333);
 			// var listener = ObsOccPair.Key;
-			CHECK_SEQ_POINT(methodExecutionContext, 53846);
-			STORE_SEQ_POINT(methodExecutionContext, 53864);
+			CHECK_SEQ_POINT(methodExecutionContext, 53334);
+			STORE_SEQ_POINT(methodExecutionContext, 53352);
 			AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_8 = KeyValuePair_2_get_Key_mB0CE1728EAABB7EA9241E052F4853F0ABEDB6740((KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259 *)(&V_2), /*hidden argument*/KeyValuePair_2_get_Key_mB0CE1728EAABB7EA9241E052F4853F0ABEDB6740_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53864);
+			CHECK_SEQ_POINT(methodExecutionContext, 53352);
 			V_3 = L_8;
 			// var ObsOccValue = ObsOccPair.Value;
-			CHECK_SEQ_POINT(methodExecutionContext, 53847);
-			STORE_SEQ_POINT(methodExecutionContext, 53865);
+			CHECK_SEQ_POINT(methodExecutionContext, 53335);
+			STORE_SEQ_POINT(methodExecutionContext, 53353);
 			ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * L_9 = KeyValuePair_2_get_Value_m7C22D7DC4E5812B74C0507486FD31A212641E4F9((KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259 *)(&V_2), /*hidden argument*/KeyValuePair_2_get_Value_m7C22D7DC4E5812B74C0507486FD31A212641E4F9_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53865);
+			CHECK_SEQ_POINT(methodExecutionContext, 53353);
 			V_4 = L_9;
 			// var difference = listener.transform.position - transform.position;
-			CHECK_SEQ_POINT(methodExecutionContext, 53848);
+			CHECK_SEQ_POINT(methodExecutionContext, 53336);
 			AkAudioListener_t36BCFFE94B7948B0836C12382D73F807D1F5CDFE * L_10 = V_3;
-			STORE_SEQ_POINT(methodExecutionContext, 53866);
-			NullCheck(L_10, il2cpp_codegen_get_sequence_point(53848));
+			STORE_SEQ_POINT(methodExecutionContext, 53354);
+			NullCheck(L_10, il2cpp_codegen_get_sequence_point(53336));
 			Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_11 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(L_10, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53866);
-			STORE_SEQ_POINT(methodExecutionContext, 53867);
-			NullCheck(L_11, il2cpp_codegen_get_sequence_point(53848));
+			CHECK_SEQ_POINT(methodExecutionContext, 53354);
+			STORE_SEQ_POINT(methodExecutionContext, 53355);
+			NullCheck(L_11, il2cpp_codegen_get_sequence_point(53336));
 			Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_12 = Transform_get_position_mF54C3A064F7C8E24F1C56EE128728B2E4485E294(L_11, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53867);
-			STORE_SEQ_POINT(methodExecutionContext, 53868);
+			CHECK_SEQ_POINT(methodExecutionContext, 53355);
+			STORE_SEQ_POINT(methodExecutionContext, 53356);
 			Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_13 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(__this, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53868);
-			STORE_SEQ_POINT(methodExecutionContext, 53869);
-			NullCheck(L_13, il2cpp_codegen_get_sequence_point(53848));
+			CHECK_SEQ_POINT(methodExecutionContext, 53356);
+			STORE_SEQ_POINT(methodExecutionContext, 53357);
+			NullCheck(L_13, il2cpp_codegen_get_sequence_point(53336));
 			Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_14 = Transform_get_position_mF54C3A064F7C8E24F1C56EE128728B2E4485E294(L_13, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53869);
-			STORE_SEQ_POINT(methodExecutionContext, 53870);
+			CHECK_SEQ_POINT(methodExecutionContext, 53357);
+			STORE_SEQ_POINT(methodExecutionContext, 53358);
 			IL2CPP_RUNTIME_CLASS_INIT(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var);
 			Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_15 = Vector3_op_Subtraction_mF9846B723A5034F8B9F5F5DCB78E3D67649143D3(L_12, L_14, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53870);
+			CHECK_SEQ_POINT(methodExecutionContext, 53358);
 			V_5 = L_15;
 			// var magnitude = difference.magnitude;
-			CHECK_SEQ_POINT(methodExecutionContext, 53849);
-			STORE_SEQ_POINT(methodExecutionContext, 53871);
+			CHECK_SEQ_POINT(methodExecutionContext, 53337);
+			STORE_SEQ_POINT(methodExecutionContext, 53359);
 			float L_16 = Vector3_get_magnitude_m9A750659B60C5FE0C30438A7F9681775D5DB1274((Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&V_5), /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53871);
+			CHECK_SEQ_POINT(methodExecutionContext, 53359);
 			V_6 = L_16;
 			// if (maxDistance > 0 && magnitude > maxDistance)
-			CHECK_SEQ_POINT(methodExecutionContext, 53850);
+			CHECK_SEQ_POINT(methodExecutionContext, 53338);
 			float L_17 = __this->get_maxDistance_10();
 			if ((!(((float)L_17) > ((float)(0.0f)))))
 			{
@@ -21926,7 +21926,7 @@ IL_0095:
 IL_0096:
 		{
 			V_7 = (bool)G_B6_0;
-			CHECK_SEQ_POINT(methodExecutionContext, 53851);
+			CHECK_SEQ_POINT(methodExecutionContext, 53339);
 			bool L_20 = V_7;
 			if (!L_20)
 			{
@@ -21937,44 +21937,44 @@ IL_0096:
 IL_009c:
 		{
 			// ObsOccValue.targetValue = ObsOccValue.currentValue;
-			CHECK_SEQ_POINT(methodExecutionContext, 53852);
+			CHECK_SEQ_POINT(methodExecutionContext, 53340);
 			ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * L_21 = V_4;
 			ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * L_22 = V_4;
-			NullCheck(L_22, il2cpp_codegen_get_sequence_point(53852));
+			NullCheck(L_22, il2cpp_codegen_get_sequence_point(53340));
 			float L_23 = L_22->get_currentValue_0();
-			NullCheck(L_21, il2cpp_codegen_get_sequence_point(53852));
+			NullCheck(L_21, il2cpp_codegen_get_sequence_point(53340));
 			L_21->set_targetValue_1(L_23);
 			goto IL_00e9;
 		}
 
 IL_00ac:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53853);
+			CHECK_SEQ_POINT(methodExecutionContext, 53341);
 			// ObsOccValue.targetValue =
 			//     UnityEngine.Physics.Raycast(transform.position, difference / magnitude, magnitude, LayerMask.value) ? 1.0f : 0.0f;
-			CHECK_SEQ_POINT(methodExecutionContext, 53854);
+			CHECK_SEQ_POINT(methodExecutionContext, 53342);
 			ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * L_24 = V_4;
-			STORE_SEQ_POINT(methodExecutionContext, 53872);
+			STORE_SEQ_POINT(methodExecutionContext, 53360);
 			Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_25 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(__this, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53872);
-			STORE_SEQ_POINT(methodExecutionContext, 53873);
-			NullCheck(L_25, il2cpp_codegen_get_sequence_point(53854));
+			CHECK_SEQ_POINT(methodExecutionContext, 53360);
+			STORE_SEQ_POINT(methodExecutionContext, 53361);
+			NullCheck(L_25, il2cpp_codegen_get_sequence_point(53342));
 			Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_26 = Transform_get_position_mF54C3A064F7C8E24F1C56EE128728B2E4485E294(L_25, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53873);
+			CHECK_SEQ_POINT(methodExecutionContext, 53361);
 			Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_27 = V_5;
 			float L_28 = V_6;
-			STORE_SEQ_POINT(methodExecutionContext, 53874);
+			STORE_SEQ_POINT(methodExecutionContext, 53362);
 			IL2CPP_RUNTIME_CLASS_INIT(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var);
 			Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_29 = Vector3_op_Division_mDF34F1CC445981B4D1137765BC6277419E561624(L_27, L_28, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53874);
+			CHECK_SEQ_POINT(methodExecutionContext, 53362);
 			float L_30 = V_6;
 			LayerMask_tBB9173D8B6939D476E67E849280AC9F4EC4D93B0 * L_31 = __this->get_address_of_LayerMask_9();
-			STORE_SEQ_POINT(methodExecutionContext, 53875);
+			STORE_SEQ_POINT(methodExecutionContext, 53363);
 			int32_t L_32 = LayerMask_get_value_m682288E860BBE36F5668DCDBC59245DE6319E537((LayerMask_tBB9173D8B6939D476E67E849280AC9F4EC4D93B0 *)L_31, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53875);
-			STORE_SEQ_POINT(methodExecutionContext, 53876);
+			CHECK_SEQ_POINT(methodExecutionContext, 53363);
+			STORE_SEQ_POINT(methodExecutionContext, 53364);
 			bool L_33 = Physics_Raycast_mC87F52EDC44BBBAFFED0D9DC92B37B11C6E07BEA(L_26, L_29, L_30, L_32, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53876);
+			CHECK_SEQ_POINT(methodExecutionContext, 53364);
 			G_B9_0 = L_24;
 			if (L_33)
 			{
@@ -21998,23 +21998,23 @@ IL_00de:
 
 IL_00e3:
 		{
-			NullCheck(G_B11_1, il2cpp_codegen_get_sequence_point(53854));
+			NullCheck(G_B11_1, il2cpp_codegen_get_sequence_point(53342));
 			G_B11_1->set_targetValue_1(G_B11_0);
-			CHECK_SEQ_POINT(methodExecutionContext, 53855);
+			CHECK_SEQ_POINT(methodExecutionContext, 53343);
 		}
 
 IL_00e9:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53856);
+			CHECK_SEQ_POINT(methodExecutionContext, 53344);
 		}
 
 IL_00ea:
 		{
 			// foreach (var ObsOccPair in ObstructionOcclusionValues)
-			CHECK_SEQ_POINT(methodExecutionContext, 53857);
-			STORE_SEQ_POINT(methodExecutionContext, 53877);
+			CHECK_SEQ_POINT(methodExecutionContext, 53345);
+			STORE_SEQ_POINT(methodExecutionContext, 53365);
 			bool L_34 = Enumerator_MoveNext_mCF3F8CDDB6A5233D2E6D77F3AB8863D5588978A3((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_1), /*hidden argument*/Enumerator_MoveNext_mCF3F8CDDB6A5233D2E6D77F3AB8863D5588978A3_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53877);
+			CHECK_SEQ_POINT(methodExecutionContext, 53365);
 			if (L_34)
 			{
 				goto IL_003c;
@@ -22034,10 +22034,10 @@ IL_00f6:
 
 FINALLY_00f8:
 	{ // begin finally (depth: 1)
-		CHECK_SEQ_POINT(methodExecutionContext, 53858);
-		STORE_SEQ_POINT(methodExecutionContext, 53878);
+		CHECK_SEQ_POINT(methodExecutionContext, 53346);
+		STORE_SEQ_POINT(methodExecutionContext, 53366);
 		Enumerator_Dispose_m92CA3C1904D485D82322C8D4F1B34BE8BF37598D((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_1), /*hidden argument*/Enumerator_Dispose_m92CA3C1904D485D82322C8D4F1B34BE8BF37598D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53878);
+		CHECK_SEQ_POINT(methodExecutionContext, 53366);
 		IL2CPP_RESET_LEAVE(0x107);
 		IL2CPP_END_FINALLY(248)
 	} // end finally (depth: 1)
@@ -22049,20 +22049,20 @@ FINALLY_00f8:
 
 IL_0107:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53859);
+		CHECK_SEQ_POINT(methodExecutionContext, 53347);
 	}
 
 IL_0108:
 	{
 		// refreshTime += UnityEngine.Time.deltaTime;
-		CHECK_SEQ_POINT(methodExecutionContext, 53860);
+		CHECK_SEQ_POINT(methodExecutionContext, 53348);
 		float L_35 = __this->get_refreshTime_12();
-		STORE_SEQ_POINT(methodExecutionContext, 53879);
+		STORE_SEQ_POINT(methodExecutionContext, 53367);
 		float L_36 = Time_get_deltaTime_m16F98FC9BA931581236008C288E3B25CBCB7C81E(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53879);
+		CHECK_SEQ_POINT(methodExecutionContext, 53367);
 		__this->set_refreshTime_12(((float)il2cpp_codegen_add((float)L_35, (float)L_36)));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53861);
+		CHECK_SEQ_POINT(methodExecutionContext, 53349);
 		return;
 	}
 }
@@ -22083,8 +22083,8 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_Update_m4A45BAE6A40AE2
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkObstructionOcclusion_Update_m4A45BAE6A40AE2F796B44A4A551D7A159C069BAE_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_SEQ_POINT(methodExecutionContext, 53880);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53881);
+	CHECK_SEQ_POINT(methodExecutionContext, 53368);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53369);
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -22092,37 +22092,37 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion_Update_m4A45BAE6A40AE2
 	int32_t __leave_target = -1;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53882);
+		CHECK_SEQ_POINT(methodExecutionContext, 53370);
 		// currentListenerList.Clear();
-		CHECK_SEQ_POINT(methodExecutionContext, 53883);
+		CHECK_SEQ_POINT(methodExecutionContext, 53371);
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_0 = __this->get_currentListenerList_5();
-		STORE_SEQ_POINT(methodExecutionContext, 53899);
-		NullCheck(L_0, il2cpp_codegen_get_sequence_point(53883));
+		STORE_SEQ_POINT(methodExecutionContext, 53387);
+		NullCheck(L_0, il2cpp_codegen_get_sequence_point(53371));
 		List_1_Clear_mE436A9BE5B5746A50C15D47D5951E29EBA280413(L_0, /*hidden argument*/List_1_Clear_mE436A9BE5B5746A50C15D47D5951E29EBA280413_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53899);
+		CHECK_SEQ_POINT(methodExecutionContext, 53387);
 		// UpdateCurrentListenerList();
-		CHECK_SEQ_POINT(methodExecutionContext, 53884);
-		STORE_SEQ_POINT(methodExecutionContext, 53900);
+		CHECK_SEQ_POINT(methodExecutionContext, 53372);
+		STORE_SEQ_POINT(methodExecutionContext, 53388);
 		VirtActionInvoker0::Invoke(4 /* System.Void AkObstructionOcclusion::UpdateCurrentListenerList() */, __this);
-		CHECK_SEQ_POINT(methodExecutionContext, 53900);
+		CHECK_SEQ_POINT(methodExecutionContext, 53388);
 		// UpdateObstructionOcclusionValues();
-		CHECK_SEQ_POINT(methodExecutionContext, 53885);
-		STORE_SEQ_POINT(methodExecutionContext, 53901);
+		CHECK_SEQ_POINT(methodExecutionContext, 53373);
+		STORE_SEQ_POINT(methodExecutionContext, 53389);
 		AkObstructionOcclusion_UpdateObstructionOcclusionValues_mA1A90CE3541152C396EC979B9505AF994826952C(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53901);
+		CHECK_SEQ_POINT(methodExecutionContext, 53389);
 		// CastRays();
-		CHECK_SEQ_POINT(methodExecutionContext, 53886);
-		STORE_SEQ_POINT(methodExecutionContext, 53902);
+		CHECK_SEQ_POINT(methodExecutionContext, 53374);
+		STORE_SEQ_POINT(methodExecutionContext, 53390);
 		AkObstructionOcclusion_CastRays_m451E735C7B8251E80B165C8B3ACEECE9479E2368(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53902);
-		CHECK_SEQ_POINT(methodExecutionContext, 53887);
+		CHECK_SEQ_POINT(methodExecutionContext, 53390);
+		CHECK_SEQ_POINT(methodExecutionContext, 53375);
 		// foreach (var ObsOccPair in ObstructionOcclusionValues)
-		CHECK_SEQ_POINT(methodExecutionContext, 53888);
+		CHECK_SEQ_POINT(methodExecutionContext, 53376);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_1 = __this->get_ObstructionOcclusionValues_6();
-		STORE_SEQ_POINT(methodExecutionContext, 53903);
-		NullCheck(L_1, il2cpp_codegen_get_sequence_point(53888));
+		STORE_SEQ_POINT(methodExecutionContext, 53391);
+		NullCheck(L_1, il2cpp_codegen_get_sequence_point(53376));
 		Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28  L_2 = Dictionary_2_GetEnumerator_m3B0D4F8B5225A7FCFB4A58145EFC8A55B110183B(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m3B0D4F8B5225A7FCFB4A58145EFC8A55B110183B_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53903);
+		CHECK_SEQ_POINT(methodExecutionContext, 53391);
 		V_0 = L_2;
 	}
 
@@ -22130,31 +22130,31 @@ IL_002f:
 	try
 	{ // begin try (depth: 1)
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53889);
+			CHECK_SEQ_POINT(methodExecutionContext, 53377);
 			goto IL_0059;
 		}
 
 IL_0031:
 		{
 			// foreach (var ObsOccPair in ObstructionOcclusionValues)
-			CHECK_SEQ_POINT(methodExecutionContext, 53890);
-			STORE_SEQ_POINT(methodExecutionContext, 53904);
+			CHECK_SEQ_POINT(methodExecutionContext, 53378);
+			STORE_SEQ_POINT(methodExecutionContext, 53392);
 			KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259  L_3 = Enumerator_get_Current_mC34C145927C1BE45D1A95020B3BE38FA3EEE2318((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_0), /*hidden argument*/Enumerator_get_Current_mC34C145927C1BE45D1A95020B3BE38FA3EEE2318_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53904);
+			CHECK_SEQ_POINT(methodExecutionContext, 53392);
 			V_1 = L_3;
-			CHECK_SEQ_POINT(methodExecutionContext, 53891);
+			CHECK_SEQ_POINT(methodExecutionContext, 53379);
 			// if (ObsOccPair.Value.Update(fadeRate))
-			CHECK_SEQ_POINT(methodExecutionContext, 53892);
-			STORE_SEQ_POINT(methodExecutionContext, 53905);
+			CHECK_SEQ_POINT(methodExecutionContext, 53380);
+			STORE_SEQ_POINT(methodExecutionContext, 53393);
 			ObstructionOcclusionValue_tFE2C2085C1E5EE3C1E84EFB95C39785687806E12 * L_4 = KeyValuePair_2_get_Value_m7C22D7DC4E5812B74C0507486FD31A212641E4F9((KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259 *)(&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m7C22D7DC4E5812B74C0507486FD31A212641E4F9_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53905);
+			CHECK_SEQ_POINT(methodExecutionContext, 53393);
 			float L_5 = __this->get_fadeRate_7();
-			STORE_SEQ_POINT(methodExecutionContext, 53906);
-			NullCheck(L_4, il2cpp_codegen_get_sequence_point(53892));
+			STORE_SEQ_POINT(methodExecutionContext, 53394);
+			NullCheck(L_4, il2cpp_codegen_get_sequence_point(53380));
 			bool L_6 = ObstructionOcclusionValue_Update_mA3EDB373B5661193E3645AEAADB4BB1B883C0CA3(L_4, L_5, /*hidden argument*/NULL);
-			CHECK_SEQ_POINT(methodExecutionContext, 53906);
+			CHECK_SEQ_POINT(methodExecutionContext, 53394);
 			V_2 = L_6;
-			CHECK_SEQ_POINT(methodExecutionContext, 53893);
+			CHECK_SEQ_POINT(methodExecutionContext, 53381);
 			bool L_7 = V_2;
 			if (!L_7)
 			{
@@ -22165,25 +22165,25 @@ IL_0031:
 IL_0050:
 		{
 			// SetObstructionOcclusion(ObsOccPair);
-			CHECK_SEQ_POINT(methodExecutionContext, 53894);
+			CHECK_SEQ_POINT(methodExecutionContext, 53382);
 			KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259  L_8 = V_1;
-			STORE_SEQ_POINT(methodExecutionContext, 53907);
+			STORE_SEQ_POINT(methodExecutionContext, 53395);
 			VirtActionInvoker1< KeyValuePair_2_tE8494CB42930C9CE41F191BA41E11743AB799259  >::Invoke(5 /* System.Void AkObstructionOcclusion::SetObstructionOcclusion(System.Collections.Generic.KeyValuePair`2<AkAudioListener,AkObstructionOcclusion/ObstructionOcclusionValue>) */, __this, L_8);
-			CHECK_SEQ_POINT(methodExecutionContext, 53907);
+			CHECK_SEQ_POINT(methodExecutionContext, 53395);
 		}
 
 IL_0058:
 		{
-			CHECK_SEQ_POINT(methodExecutionContext, 53895);
+			CHECK_SEQ_POINT(methodExecutionContext, 53383);
 		}
 
 IL_0059:
 		{
 			// foreach (var ObsOccPair in ObstructionOcclusionValues)
-			CHECK_SEQ_POINT(methodExecutionContext, 53896);
-			STORE_SEQ_POINT(methodExecutionContext, 53908);
+			CHECK_SEQ_POINT(methodExecutionContext, 53384);
+			STORE_SEQ_POINT(methodExecutionContext, 53396);
 			bool L_9 = Enumerator_MoveNext_mCF3F8CDDB6A5233D2E6D77F3AB8863D5588978A3((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_0), /*hidden argument*/Enumerator_MoveNext_mCF3F8CDDB6A5233D2E6D77F3AB8863D5588978A3_RuntimeMethod_var);
-			CHECK_SEQ_POINT(methodExecutionContext, 53908);
+			CHECK_SEQ_POINT(methodExecutionContext, 53396);
 			if (L_9)
 			{
 				goto IL_0031;
@@ -22203,10 +22203,10 @@ IL_0062:
 
 FINALLY_0064:
 	{ // begin finally (depth: 1)
-		CHECK_SEQ_POINT(methodExecutionContext, 53897);
-		STORE_SEQ_POINT(methodExecutionContext, 53909);
+		CHECK_SEQ_POINT(methodExecutionContext, 53385);
+		STORE_SEQ_POINT(methodExecutionContext, 53397);
 		Enumerator_Dispose_m92CA3C1904D485D82322C8D4F1B34BE8BF37598D((Enumerator_t67CFBF946CC2D4117750CF65EB6122F0D5FB0C28 *)(&V_0), /*hidden argument*/Enumerator_Dispose_m92CA3C1904D485D82322C8D4F1B34BE8BF37598D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53909);
+		CHECK_SEQ_POINT(methodExecutionContext, 53397);
 		IL2CPP_RESET_LEAVE(0x73);
 		IL2CPP_END_FINALLY(100)
 	} // end finally (depth: 1)
@@ -22219,7 +22219,7 @@ FINALLY_0064:
 IL_0073:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53898);
+		CHECK_SEQ_POINT(methodExecutionContext, 53386);
 		return;
 	}
 }
@@ -22234,50 +22234,50 @@ extern "C" IL2CPP_METHOD_ATTR void AkObstructionOcclusion__ctor_mA1EDC66EF3B0F7F
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AkObstructionOcclusion__ctor_mA1EDC66EF3B0F7FD2C3C3B243F2745672195B434_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53910);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53911);
+	CHECK_SEQ_POINT(methodExecutionContext, 53398);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53399);
 	{
 		// private readonly System.Collections.Generic.List<AkAudioListener> listenersToRemove =
 		//     new System.Collections.Generic.List<AkAudioListener>();
-		CHECK_SEQ_POINT(methodExecutionContext, 53912);
-		STORE_SEQ_POINT(methodExecutionContext, 53919);
+		CHECK_SEQ_POINT(methodExecutionContext, 53400);
+		STORE_SEQ_POINT(methodExecutionContext, 53407);
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_0 = (List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D *)il2cpp_codegen_object_new(List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D_il2cpp_TypeInfo_var);
 		List_1__ctor_m2E8BE8804904FC48FC19E24A0004255F69FB4E1E(L_0, /*hidden argument*/List_1__ctor_m2E8BE8804904FC48FC19E24A0004255F69FB4E1E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53919);
+		CHECK_SEQ_POINT(methodExecutionContext, 53407);
 		__this->set_listenersToRemove_4(L_0);
 		// protected readonly System.Collections.Generic.List<AkAudioListener> currentListenerList = new System.Collections.Generic.List<AkAudioListener>();
-		CHECK_SEQ_POINT(methodExecutionContext, 53913);
-		STORE_SEQ_POINT(methodExecutionContext, 53920);
+		CHECK_SEQ_POINT(methodExecutionContext, 53401);
+		STORE_SEQ_POINT(methodExecutionContext, 53408);
 		List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D * L_1 = (List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D *)il2cpp_codegen_object_new(List_1_t9A448DCF17765C9515DD80C772A2E466061BCD5D_il2cpp_TypeInfo_var);
 		List_1__ctor_m2E8BE8804904FC48FC19E24A0004255F69FB4E1E(L_1, /*hidden argument*/List_1__ctor_m2E8BE8804904FC48FC19E24A0004255F69FB4E1E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53920);
+		CHECK_SEQ_POINT(methodExecutionContext, 53408);
 		__this->set_currentListenerList_5(L_1);
 		// private readonly System.Collections.Generic.Dictionary<AkAudioListener, ObstructionOcclusionValue>
 		//     ObstructionOcclusionValues = new System.Collections.Generic.Dictionary<AkAudioListener, ObstructionOcclusionValue>();
-		CHECK_SEQ_POINT(methodExecutionContext, 53914);
-		STORE_SEQ_POINT(methodExecutionContext, 53921);
+		CHECK_SEQ_POINT(methodExecutionContext, 53402);
+		STORE_SEQ_POINT(methodExecutionContext, 53409);
 		Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D * L_2 = (Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D *)il2cpp_codegen_object_new(Dictionary_2_tF078CE38B178E441F33BA2A6906CEC6AFBCC178D_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m00BB27A5178DBF0B07B5662C64B9C47E8A24E270(L_2, /*hidden argument*/Dictionary_2__ctor_m00BB27A5178DBF0B07B5662C64B9C47E8A24E270_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, 53921);
+		CHECK_SEQ_POINT(methodExecutionContext, 53409);
 		__this->set_ObstructionOcclusionValues_6(L_2);
 		// public float fadeTime = 0.5f;
-		CHECK_SEQ_POINT(methodExecutionContext, 53915);
+		CHECK_SEQ_POINT(methodExecutionContext, 53403);
 		__this->set_fadeTime_8((0.5f));
 		// public UnityEngine.LayerMask LayerMask = -1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53916);
-		STORE_SEQ_POINT(methodExecutionContext, 53922);
+		CHECK_SEQ_POINT(methodExecutionContext, 53404);
+		STORE_SEQ_POINT(methodExecutionContext, 53410);
 		LayerMask_tBB9173D8B6939D476E67E849280AC9F4EC4D93B0  L_3 = LayerMask_op_Implicit_m3F256A7D96C66548F5B62C4621B9725301850300((-1), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53922);
+		CHECK_SEQ_POINT(methodExecutionContext, 53410);
 		__this->set_LayerMask_9(L_3);
 		// public float maxDistance = -1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, 53917);
+		CHECK_SEQ_POINT(methodExecutionContext, 53405);
 		__this->set_maxDistance_10((-1.0f));
 		// public float refreshInterval = 1;
-		CHECK_SEQ_POINT(methodExecutionContext, 53918);
+		CHECK_SEQ_POINT(methodExecutionContext, 53406);
 		__this->set_refreshInterval_11((1.0f));
-		STORE_SEQ_POINT(methodExecutionContext, 53923);
+		STORE_SEQ_POINT(methodExecutionContext, 53411);
 		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53923);
+		CHECK_SEQ_POINT(methodExecutionContext, 53411);
 		return;
 	}
 }
@@ -22303,20 +22303,20 @@ extern "C" IL2CPP_METHOD_ATTR bool ObstructionOcclusionValue_Update_mA3EDB373B56
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___fadeRate0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ObstructionOcclusionValue_Update_mA3EDB373B5661193E3645AEAADB4BB1B883C0CA3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_SEQ_POINT(methodExecutionContext, 53924);
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53925);
+	CHECK_SEQ_POINT(methodExecutionContext, 53412);
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, 53413);
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, 53926);
+		CHECK_SEQ_POINT(methodExecutionContext, 53414);
 		// if (UnityEngine.Mathf.Approximately(targetValue, currentValue))
-		CHECK_SEQ_POINT(methodExecutionContext, 53927);
+		CHECK_SEQ_POINT(methodExecutionContext, 53415);
 		float L_0 = __this->get_targetValue_1();
 		float L_1 = __this->get_currentValue_0();
-		STORE_SEQ_POINT(methodExecutionContext, 53934);
+		STORE_SEQ_POINT(methodExecutionContext, 53422);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_tFBDE6467D269BFE410605C7D806FD9991D4A89CB_il2cpp_TypeInfo_var);
 		bool L_2 = Mathf_Approximately_m91AF00403E0D2DEA1AAE68601AD218CFAD70DF7E(L_0, L_1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53934);
+		CHECK_SEQ_POINT(methodExecutionContext, 53422);
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, 53928);
+		CHECK_SEQ_POINT(methodExecutionContext, 53416);
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -22325,7 +22325,7 @@ extern "C" IL2CPP_METHOD_ATTR bool ObstructionOcclusionValue_Update_mA3EDB373B56
 	}
 	{
 		// return false;
-		CHECK_SEQ_POINT(methodExecutionContext, 53929);
+		CHECK_SEQ_POINT(methodExecutionContext, 53417);
 		V_1 = (bool)0;
 		goto IL_0060;
 	}
@@ -22333,28 +22333,28 @@ extern "C" IL2CPP_METHOD_ATTR bool ObstructionOcclusionValue_Update_mA3EDB373B56
 IL_001a:
 	{
 		// currentValue += fadeRate * UnityEngine.Mathf.Sign(targetValue - currentValue) * UnityEngine.Time.deltaTime;
-		CHECK_SEQ_POINT(methodExecutionContext, 53930);
+		CHECK_SEQ_POINT(methodExecutionContext, 53418);
 		float L_4 = __this->get_currentValue_0();
 		float L_5 = ___fadeRate0;
 		float L_6 = __this->get_targetValue_1();
 		float L_7 = __this->get_currentValue_0();
-		STORE_SEQ_POINT(methodExecutionContext, 53935);
+		STORE_SEQ_POINT(methodExecutionContext, 53423);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_tFBDE6467D269BFE410605C7D806FD9991D4A89CB_il2cpp_TypeInfo_var);
 		float L_8 = Mathf_Sign_m6FA1D12786BEE0419D4B9426E5E4955F286BC8D3(((float)il2cpp_codegen_subtract((float)L_6, (float)L_7)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53935);
-		STORE_SEQ_POINT(methodExecutionContext, 53936);
+		CHECK_SEQ_POINT(methodExecutionContext, 53423);
+		STORE_SEQ_POINT(methodExecutionContext, 53424);
 		float L_9 = Time_get_deltaTime_m16F98FC9BA931581236008C288E3B25CBCB7C81E(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53936);
+		CHECK_SEQ_POINT(methodExecutionContext, 53424);
 		__this->set_currentValue_0(((float)il2cpp_codegen_add((float)L_4, (float)((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_multiply((float)L_5, (float)L_8)), (float)L_9)))));
 		// currentValue = UnityEngine.Mathf.Clamp(currentValue, 0.0f, 1.0f);
-		CHECK_SEQ_POINT(methodExecutionContext, 53931);
+		CHECK_SEQ_POINT(methodExecutionContext, 53419);
 		float L_10 = __this->get_currentValue_0();
-		STORE_SEQ_POINT(methodExecutionContext, 53937);
+		STORE_SEQ_POINT(methodExecutionContext, 53425);
 		float L_11 = Mathf_Clamp_m033DD894F89E6DCCDAFC580091053059C86A4507(L_10, (0.0f), (1.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, 53937);
+		CHECK_SEQ_POINT(methodExecutionContext, 53425);
 		__this->set_currentValue_0(L_11);
 		// return true;
-		CHECK_SEQ_POINT(methodExecutionContext, 53932);
+		CHECK_SEQ_POINT(methodExecutionContext, 53420);
 		V_1 = (bool)1;
 		goto IL_0060;
 	}
@@ -22362,7 +22362,7 @@ IL_001a:
 IL_0060:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, 53933);
+		CHECK_SEQ_POINT(methodExecutionContext, 53421);
 		bool L_12 = V_1;
 		return L_12;
 	}

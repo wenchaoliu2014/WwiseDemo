@@ -6703,8 +6703,8 @@ extern "C" void HashSet_1_SetCapacity_mD47F4E837F35A1404FFC66E7177AD4872FD5901C_
 extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_mCAB0ED5F6105E6E060978E662E6C2D2AC0AF6912_gshared ();
 extern "C" void HashSet_1_TrimExcess_m872B86875F20D5E186A902DD4A092F60138454F1_gshared ();
 extern "C" void HashSet_1_UnionWith_mE6FBDAEC86305BDFC8D26BA56369538F46EDC464_gshared ();
-extern "C" void ICollectionDebugView_1__ctor_m727ABA182C4F8EFA07147DE8DE432CF5B8D66416_gshared ();
 extern "C" void ICollectionDebugView_1__ctor_m990F49947C51DA47EF294A1F331764884F3F3DE8_gshared ();
+extern "C" void ICollectionDebugView_1__ctor_m727ABA182C4F8EFA07147DE8DE432CF5B8D66416_gshared ();
 extern "C" void IDictionaryDebugView_2__ctor_mDB379FC8D814608C93D2F57027636B0ED11AD6FC_gshared ();
 extern "C" void KeyValuePair_2__ctor_m766B6EFB9AF0770F9A7595E435CBB25527DB84EA_AdjustorThunk ();
 extern "C" void KeyValuePair_2__ctor_mDE04093EC61BE2A8488E791E66598DE871AA96AF_AdjustorThunk ();

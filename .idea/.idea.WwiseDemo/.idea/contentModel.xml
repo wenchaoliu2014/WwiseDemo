@@ -20,7 +20,6 @@
             <e p="API" t="Include">
               <e p="Generated" t="Include">
                 <e p="Android" t="Include">
-                  <e p="AkAudioAPI_Android.cs" t="Include" />
                   <e p="AkCommunicationSettings_Android.cs" t="Include" />
                   <e p="AkMemPoolAttributes_Android.cs" t="Include" />
                   <e p="AkPlatformInitSettings_Android.cs" t="Include" />
@@ -183,12 +182,6 @@
                     <e p="AkSourceSettingsArray.cs" t="Include" />
                     <e p="AkTriangleArray.cs" t="Include" />
                     <e p="AkVertexArray.cs" t="Include" />
-                  </e>
-                  <e p="Timeline" t="Include">
-                    <e p="AkTimelineEventPlayable.cs" t="Include" />
-                    <e p="AkTimelineEventTrack.cs" t="Include" />
-                    <e p="AkTimelineRtpcPlayable.cs" t="Include" />
-                    <e p="AkTimelineRtpcTrack.cs" t="Include" />
                   </e>
                   <e p="WwiseObjects" t="Include">
                     <e p="WwiseAcousticTextureReference.cs" t="Include" />
