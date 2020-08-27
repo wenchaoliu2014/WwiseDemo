@@ -695,9 +695,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="HeartBeat" ID="{7F808330-5D2C-4052-92D4-31B59EB82A62}" ShortID="431239901">
+										<AudioFileSource Name="HeartBeat" ID="{39549BFA-DEDA-424A-B833-5836AA3C4CD0}" ShortID="70060461">
 											<Language>SFX</Language>
 											<AudioFile>HeartBeat.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="431239901"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
@@ -722,7 +725,7 @@
 										</CustomStateList>
 									</StateInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="HeartBeat" ID="{7F808330-5D2C-4052-92D4-31B59EB82A62}" Platform="Linked"/>
+										<ActiveSource Name="HeartBeat" ID="{39549BFA-DEDA-424A-B833-5836AA3C4CD0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

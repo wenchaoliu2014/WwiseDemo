@@ -57,7 +57,7 @@ MonoBehaviour:
   - AdvancedSettings.m_SpatialAudioSettings.m_DiffractionShadowAttenuationFactor
   - AdvancedSettings.m_SpatialAudioSettings.m_DiffractionShadowDegrees
   UserSettings:
-    m_BasePath: Audio\GeneratedSoundBanks
+    m_BasePath: Audio/GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_PreparePoolSize: 0
     m_CallbackManagerBufferSize: 4096
@@ -98,9 +98,13 @@ MonoBehaviour:
     m_MonitorPoolSize: 262144
     m_MonitorQueuePoolSize: 65536
     m_MaximumHardwareTimeoutMs: 1000
+    m_DebugOutOfRangeCheckEnabled: 0
+    m_DebugOutOfRangeLimit: 16
     m_SpatialAudioSettings:
       m_DiffractionShadowAttenuationFactor: 2
       m_DiffractionShadowDegrees: 30
+    m_RenderDuringFocusLoss: 0
+    m_UseAsyncOpen: 0
     m_AudioSessionCategory: 1
     m_AudioSessionCategoryOptions: 2
     m_AudioSessionMode: 0

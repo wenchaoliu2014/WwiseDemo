@@ -410,7 +410,7 @@ public class AudioManager : MonoBehaviour
     public void SetVoiceVolume(float volume)
     {
         volume = Mathf.Clamp(volume, minVolume, maxVolume);
-        AkSoundEngine.SetRTPCValue(VolumeParam.VoiceVolume, volume);
+        AKRESULT result = AkSoundEngine.SetRTPCValue(VolumeParam.VoiceVolume, volume);
     }
     public void SetMusicVolume(float volume)
     {
