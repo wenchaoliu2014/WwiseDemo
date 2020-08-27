@@ -4,10 +4,32 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public void test()
+    {
+        Debug.Log("PPP");
+    }
+
     public static AudioManager Instance;
 
-    GameObject mGlobalObject;
-    AkAudioListener mListener;
+    public GameObject mGlobalObject;
+    private bool pause;
+    public void SendPost()
+    {
+//        AkSoundEngine.ExecuteActionOnEvent("SFX_BG",AkActionOnEventType.AkActionOnEventType_Pause, mMusicEmitter, 0,
+//            AkCurveInterpolation.AkCurveInterpolation_Linear);
+//        GetComponent<AkAmbient>().data.Post(mGlobalObject);
+        GetComponent<AkAmbient>().data.ExecuteAction(mMusicEmitter,pause?AkActionOnEventType.AkActionOnEventType_Pause:AkActionOnEventType.AkActionOnEventType_Resume,0,AkCurveInterpolation.AkCurveInterpolation_Linear);
+        pause = !pause;
+//        GetComponent<AkAmbient>().
+//        GetComponent<AkAmbient>().data.ExecuteAction(mGlobalObject, actionOnEventType, (int)transitionDuration * 1000, curveInterpolation);
+    }
+
+    public void TestTrigger()
+    {
+        mMusicEmitter.GetComponent<TriggerOnGunHit1>().Hit();
+    }
+
+AkAudioListener mListener;
     List<string> mLoadBankList = new List<string>();
     Dictionary<string, string> mBankInfoDict = new Dictionary<string, string>();
 
@@ -481,4 +503,8 @@ public class AudioManager : MonoBehaviour
     {
         AkSoundEngine.Term();
     }
+
+    
 }
+
+

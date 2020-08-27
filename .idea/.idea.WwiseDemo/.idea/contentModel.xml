@@ -15,6 +15,8 @@
           <e p="UIEventSounds.cs" t="Include" />
           <e p="UISoundTest.cs" t="Include" />
         </e>
+        <e p="TriggerOnGunHit1.cs" t="Include" />
+        <e p="ttt.cs" t="Include" />
         <e p="Wwise" t="Include">
           <e p="Deployment" t="Include">
             <e p="API" t="Include">

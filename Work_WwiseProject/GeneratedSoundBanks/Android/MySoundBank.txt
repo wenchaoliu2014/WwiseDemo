@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	58272245	SFX_UI_Button_Down			\UI\Generic\SFX_UI_Button_Down	
 	125802325	SFX_Button			\Default Work Unit\SFX_Button	
 	3036093774	SFX_Shoot			\TPS\SFX_Shoot	
 	3364658470	SFX_Footsteps			\TPS\Foley\SFX_Footsteps	
@@ -7,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4230043762	SFX_MixSound			\TPS\SFX_MixSound	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	134829341	BtnSound1	Z:\Volumes\work\wwisedemo\WwiseDemo\Work_WwiseProject\.cache\Android\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\ButtonSound\BtnSound1		345428
 	444465678	FootStepStone1	Z:\Volumes\work\wwisedemo\WwiseDemo\Work_WwiseProject\.cache\Android\SFX\Footsteps\FootStepStone1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TPS\Footsteps\FootStepStone1		54924
 	467311986	ZomBear Hurt	Z:\Volumes\work\wwisedemo\WwiseDemo\Work_WwiseProject\.cache\Android\SFX\ZomBear Hurt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TPS\ZomBear Hurt		68340
 	507378951	Player GunShot	Z:\Volumes\work\wwisedemo\WwiseDemo\Work_WwiseProject\.cache\Android\SFX\Player GunShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TPS\Player GunShot		248712

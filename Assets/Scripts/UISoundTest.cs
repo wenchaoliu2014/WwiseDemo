@@ -120,16 +120,24 @@ public class UISoundTest : MonoBehaviour
         });
         WoodSolidButton.onClick.AddListener(() =>
         {
-            PlayFootSteps(WoodSolidButton.GetComponentInChildren<Text>().text);
+//            PlayFootSteps(WoodSolidButton.GetComponentInChildren<Text>().text);
+            AudioManager.Instance.TestTrigger();
         });
         DeadAliveButton.onClick.AddListener(() =>
         {
-            var result = AudioManager.Instance.SetState("PlayerLife", dead?"Dead":"Alive");
-            dead = !dead;
+//            var result = AudioManager.Instance.SetState("PlayerLife", dead?"Dead":"Alive");
+//            dead = !dead;
 //            uint id = AudioManager.Instance.PlaySound("Player_HeartBeat", AudioManager.Instance.GetEmitterGameObject(EAudioType.Sound));
+//            AudioManager.Instance.PlaySound("");
+//            OnPointerDownSound.Post(gameObject);
+//            AkSoundEngine.PostEvent();
+            AudioManager.Instance.SendPost();
         });
+        AudioManager.Instance.PlaySound("SFX_BG", AudioManager.Instance.GetEmitterGameObject(EAudioType.Music));
+//        AudioManager.Instance.SendPost();
         //打开心跳声
         AudioManager.Instance.PlaySound("Player_HeartBeat", AudioManager.Instance.GetEmitterGameObject(EAudioType.Sound));
+//        AkAmbient a = globa
     }
 
     private bool dead;

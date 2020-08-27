@@ -139,8 +139,13 @@
 				<Event Id="4230043762" Name="SFX_MixSound" ObjectPath="\Events\TPS\SFX_MixSound" DurationType="OneShot" DurationMin="1.409569" DurationMax="1.409569"/>
 				<Event Id="3036093774" Name="SFX_Shoot" ObjectPath="\Events\TPS\SFX_Shoot" DurationType="OneShot" DurationMin="1.409569" DurationMax="1.409569"/>
 				<Event Id="4040424632" Name="SFX_StopBG" ObjectPath="\Events\TPS\SFX_StopBG" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="58272245" Name="SFX_UI_Button_Down" ObjectPath="\Events\UI\Generic\SFX_UI_Button_Down" DurationType="OneShot" DurationMin="0.235102" DurationMax="1.798771"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="134829341" Language="SFX">
+					<ShortName>BAS_Button_Teleport.wav</ShortName>
+					<Path>SFX/BAS_Button_Teleport_10C4C929.wem</Path>
+				</File>
 				<File Id="444465678" Language="SFX">
 					<ShortName>Footsteps\FootStepStone1.wav</ShortName>
 					<Path>SFX/Footsteps/FootStepStone1_10C4C929.wem</Path>
