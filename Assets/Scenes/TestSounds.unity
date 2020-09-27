@@ -431,8 +431,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 265.2, y: -278}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 215.4, y: -278}
+  m_SizeDelta: {x: 43, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87613331
 MonoBehaviour:
@@ -2523,6 +2523,7 @@ GameObject:
   - component: {fileID: 900479852}
   - component: {fileID: 900479854}
   - component: {fileID: 900479853}
+  - component: {fileID: 900479855}
   m_Layer: 0
   m_Name: MusicEmitter
   m_TagString: Untagged
@@ -2605,6 +2606,18 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &900479855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900479851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da0fe7676a0b4b6296e43cb94e503c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &939359410
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,8 +4830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 88.3, y: -278.6}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 16.9, y: -278.6}
+  m_SizeDelta: {x: 10.9, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683865223
 MonoBehaviour:

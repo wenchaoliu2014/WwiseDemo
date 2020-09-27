@@ -22,6 +22,8 @@
 
 // System.Byte[]
 struct ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821;
+// WwiseEventReference
+struct WwiseEventReference_tE0899C3A9B12F9694293E3ED48594497184671BB;
 // WwiseRtpcReference
 struct WwiseRtpcReference_tC46D47EFDF249B8565336FEC01CB4C3DBCC37FD7;
 // WwiseStateReference
@@ -88,6 +90,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // BASETYPE_T7E94BB5BC6463B45BA76B2C7BD51C8FEE4739953_H
+#ifndef CALLBACKFLAGS_T3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852_H
+#define CALLBACKFLAGS_T3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// AK.Wwise.CallbackFlags
+struct  CallbackFlags_t3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852  : public RuntimeObject
+{
+public:
+	// System.UInt32 AK.Wwise.CallbackFlags::value
+	uint32_t ___value_0;
+
+public:
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(CallbackFlags_t3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852, ___value_0)); }
+	inline uint32_t get_value_0() const { return ___value_0; }
+	inline uint32_t* get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(uint32_t value)
+	{
+		___value_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CALLBACKFLAGS_T3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852_H
 #ifndef BASEGROUPTYPE_TC2CAA22B764C02A5DE52E33769BDEAC25E435975_H
 #define BASEGROUPTYPE_TC2CAA22B764C02A5DE52E33769BDEAC25E435975_H
 #ifdef __clang__
@@ -128,6 +159,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // BASEGROUPTYPE_TC2CAA22B764C02A5DE52E33769BDEAC25E435975_H
+#ifndef EVENT_TDA879A25C5C74BA4D5E90AF04E2D2398D9015056_H
+#define EVENT_TDA879A25C5C74BA4D5E90AF04E2D2398D9015056_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// AK.Wwise.Event
+struct  Event_tDA879A25C5C74BA4D5E90AF04E2D2398D9015056  : public BaseType_t7E94BB5BC6463B45BA76B2C7BD51C8FEE4739953
+{
+public:
+	// WwiseEventReference AK.Wwise.Event::WwiseObjectReference
+	WwiseEventReference_tE0899C3A9B12F9694293E3ED48594497184671BB * ___WwiseObjectReference_2;
+
+public:
+	inline static int32_t get_offset_of_WwiseObjectReference_2() { return static_cast<int32_t>(offsetof(Event_tDA879A25C5C74BA4D5E90AF04E2D2398D9015056, ___WwiseObjectReference_2)); }
+	inline WwiseEventReference_tE0899C3A9B12F9694293E3ED48594497184671BB * get_WwiseObjectReference_2() const { return ___WwiseObjectReference_2; }
+	inline WwiseEventReference_tE0899C3A9B12F9694293E3ED48594497184671BB ** get_address_of_WwiseObjectReference_2() { return &___WwiseObjectReference_2; }
+	inline void set_WwiseObjectReference_2(WwiseEventReference_tE0899C3A9B12F9694293E3ED48594497184671BB * value)
+	{
+		___WwiseObjectReference_2 = value;
+		Il2CppCodeGenWriteBarrier((&___WwiseObjectReference_2), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EVENT_TDA879A25C5C74BA4D5E90AF04E2D2398D9015056_H
 #ifndef RTPC_T9A6D7B736865B90AFC601FB61CD5059C77A8CD19_H
 #define RTPC_T9A6D7B736865B90AFC601FB61CD5059C77A8CD19_H
 #ifdef __clang__
@@ -258,23 +319,33 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3600 = { sizeof (RTPC_t9A6D7B736865B90AFC601FB61CD5059C77A8CD19), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3600 = { sizeof (CallbackFlags_t3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3600[1] = 
+{
+	CallbackFlags_t3F63C7C64FD2C1E7591A25C90ECA2FEB52B8D852::get_offset_of_value_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3601 = { sizeof (Event_tDA879A25C5C74BA4D5E90AF04E2D2398D9015056), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3601[1] = 
+{
+	Event_tDA879A25C5C74BA4D5E90AF04E2D2398D9015056::get_offset_of_WwiseObjectReference_2(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3602 = { sizeof (RTPC_t9A6D7B736865B90AFC601FB61CD5059C77A8CD19), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3602[1] = 
 {
 	RTPC_t9A6D7B736865B90AFC601FB61CD5059C77A8CD19::get_offset_of_WwiseObjectReference_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3601 = { sizeof (State_t13E0D69F517BC418BBFA14E640F615D7C42D5E6F), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3601[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3603 = { sizeof (State_t13E0D69F517BC418BBFA14E640F615D7C42D5E6F), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3603[1] = 
 {
 	State_t13E0D69F517BC418BBFA14E640F615D7C42D5E6F::get_offset_of_WwiseObjectReference_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3602 = { sizeof (Switch_t1BBF4BC2833FF88A923276C7512D10921F9D74AE), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3602[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3604 = { sizeof (Switch_t1BBF4BC2833FF88A923276C7512D10921F9D74AE), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3604[1] = 
 {
 	Switch_t1BBF4BC2833FF88A923276C7512D10921F9D74AE::get_offset_of_WwiseObjectReference_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3603 = { sizeof (Trigger_t87CDAEF18A1B8D61343D5D84B37BE805BB521860), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3603[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3605 = { sizeof (Trigger_t87CDAEF18A1B8D61343D5D84B37BE805BB521860), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3605[1] = 
 {
 	Trigger_t87CDAEF18A1B8D61343D5D84B37BE805BB521860::get_offset_of_WwiseObjectReference_2(),
 };

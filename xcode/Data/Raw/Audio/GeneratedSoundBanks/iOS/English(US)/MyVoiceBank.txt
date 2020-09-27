@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1324836884	VO_OYe			\TPS\VO_OYe	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3538560642	Voice_Volume			\Default Work Unit\Voice_Volume	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	781902733	VOMain_001	Z:\Volumes\work\wwisedemo\WwiseDemo\Work_WwiseProject\.cache\iOS\Voices\English(US)\VOMain_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TPS\Voices\VOMain_001		688192
 

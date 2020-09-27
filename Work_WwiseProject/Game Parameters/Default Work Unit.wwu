@@ -8,6 +8,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Voice_Volume" ID="{DBD38D04-EA4C-41BA-A436-A28A37B1FA81}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

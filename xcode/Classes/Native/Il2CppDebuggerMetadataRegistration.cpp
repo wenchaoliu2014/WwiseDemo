@@ -35,10 +35,10 @@ extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistration =
 (Il2CppMethodScope*)g_methodScopes,
 (Il2CppMethodHeaderInfo*)g_methodHeaderInfos,
 (Il2CppSequencePointSourceFile*)g_sequencePointSourceFiles,
-55558,
+55657,
 (Il2CppSequencePointIndex*)g_sequencePointIndexes,
 (Il2CppSequencePoint**)g_sequencePoints,
-356,
+358,
 (Il2CppTypeSourceFilePair*)g_typeSourceFiles,
 (const char**)g_methodExecutionContextInfoStrings
 };

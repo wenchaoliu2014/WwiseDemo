@@ -179,6 +179,34 @@
 						<Sound Name="VOMain_001" ID="{C19CB75A-0B8B-423E-B689-5B2AA7CD40C7}" ShortID="744366054">
 							<PropertyList>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{07890C4B-B39D-44A5-B2D1-AF5A7FC62137}" ShortID="654476701">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Voice_Volume" ID="{DBD38D04-EA4C-41BA-A436-A28A37B1FA81}" WorkUnitID="{0E9CBD81-335A-425B-9F9D-8ED0D95F3978}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{99A95527-E269-466B-AE7A-D2D93952198E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -714,7 +742,7 @@
 												<StateRef Name="Dead" ID="{844B9825-07A0-435E-9392-91E8675D2385}"/>
 												<CustomState Name="" ID="{D6D9A5AE-B1FF-45A6-AAB7-C532FE6ACCBA}" ShortID="457099995">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-90"/>
+														<Property Name="Volume" Type="Real64" Value="-85"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
